@@ -20,7 +20,6 @@ json_s = script.string[start:end]
 
 json_obj = json.load(json_s)
 
-print(json_str)
 
 print('done')
 
