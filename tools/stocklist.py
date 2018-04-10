@@ -6,7 +6,6 @@ from io import open
 import requests
 from bs4 import BeautifulSoup
 
-from os import path
 from define import *
 import json
 import csv
@@ -57,5 +56,6 @@ class StockListHolder:
         StockListHolder.__save_data(data_type, datas)
 
 if __name__ == '__main__':
-    StockListHolder.get_list(MarketType.TSE, True)
+    StockListHolder.get_list(MarketType.TSE)
+    StockListHolder.get_list(MarketType.OTC)
 

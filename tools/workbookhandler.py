@@ -4,17 +4,23 @@
 import os
 import openpyxl
 import csv
+import pandas as pd
+import numpy as np
 from define import *
 
 class WorkBookHandler:
     @staticmethod
     def load_workbook(src):       
-        if not os.path.isfile(src):
-            print("File {} is not exist.".format(src))
+        try:
+            if not os.path.isfile(src):
+                print("File {} is not exist.".format(src))
+                return None
+            wb = openpyxl.load_workbook(src)
+            wb.suject = src
+            return  wb
+        except IOError:
+            print('File is opened by other process, close it.')
             return None
-        wb = openpyxl.load_workbook(src)
-        wb.suject = src
-        return  wb
 
     @staticmethod
     def remove_sheet(wb, sheet_name):   
@@ -69,18 +75,31 @@ class WorkBookHandler:
             countRow += 1
 
 if __name__ == '__main__':
-    wb = WorkBookHandler.load_workbook(Define.XLS_PATH)
-    WorkBookHandler.remove_sheet(wb, Define.STOCK_LIST_SHEET_NAME)
-   
-    #load list2.csv
-    #copy csv values
-    #paste
-    #load list4.csv
-    #copy csv values
-    #paste
+    try:
+        print('Begin update')
+        #open workbook
+        wb = WorkBookHandler.load_workbook(Define.XLS_PATH)
 
-    arr = [[1,2,3],[4,5,6]]
-    print('create sheet')
-    WorkBookHandler.create_sheet(wb, Define.STOCK_LIST_SHEET_NAME, arr, 1, 1, len(arr[0]), len(arr))
-    #In this case, save file twice will throw error, just keep this action at the end.
-    wb.save(Define.XLS_PATH)
+        #remove list id sheet
+        WorkBookHandler.remove_sheet(wb, Define.STOCK_LIST_SHEET_NAME)
+
+        #load csv files
+        df2 =pd.read_csv(Define.get_list_path(MarketType.TSE), encoding='utf-8', header=None)
+        df4 =pd.read_csv(Define.get_list_path(MarketType.OTC), encoding='utf-8', header=None)  
+
+        #delete title key
+        nd2=np.delete(df2.values, np.argwhere(df2.values == 'id')[0][0], axis=0) 
+        nd4=np.delete(df4.values, np.argwhere(df4.values == 'id')[0][0], axis=0) 
+
+        #combine stock id list 
+        arr = np.concatenate((nd2, nd4), axis=0)        
+    
+        #create new list id sheet
+        print('Create sheet')
+        WorkBookHandler.create_sheet(wb, Define.STOCK_LIST_SHEET_NAME, arr, 1, 1, len(arr[0]), len(arr))
+        
+        #In this case, save file twice will throw error, just keep this action at the end.
+        wb.save(Define.XLS_PATH)
+        wb.close()
+    except PermissionError:
+         print('File is opened by other process, close it.')

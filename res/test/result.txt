@@ -1,0 +1,1485 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Content-Language" content="zh-tw"/>
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="keywords" content="微星 (2377)主力券商, 券商進出查詢, 券商分點買賣超排行, 券商籌碼分析" />
+<meta property="og:title" content="微星 (2377)券商分點買賣日報" />
+<meta name="description" property="og:description" content="微星 (2377)券商買張, 券商賣張, 券商買賣均價, 券商分點買賣超排行, 券商分點買賣超統計資料" />
+<meta name="application-name" content="HiStock嗨投資理財社群"/>
+<title>微星 (2377)券商分點買賣日報 - HiStock嗨投資理財社群</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/090AC488-D1F9-2E41-A722-E4DE32472486/main.js" charset="UTF-8"></script><script id="jsJquery" type="text/javascript" src="/JScript/JQueryHeader/jquery.min.js?v20180329"></script>
+<script id="jsMenu" type="text/javascript" src="/JScript/jquery.mmenu.all.min.js?v20180329"></script>
+<script id="jsSuperSlide" type="text/javascript" src="/JScript/jquery.SuperSlide.2.1.1.js?v20180329"></script>
+<script id="jsHistock" type="text/javascript" src="/JScript/histock.min-0.01.js?v20180329"></script>
+<script id="jsHistock2017" type="text/javascript" src="/JScript/histock2017.js?v20180329"></script>
+<script id="jsFlipsnap" type="text/javascript" src="/JScript/flipsnap.js?v20180329"></script>
+<script id="jsJqueryUI" type="text/javascript" src="/JScript/JQueryHeader/jquery-ui.min.js?v20180329"></script>
+<script id="jsMigrate" type="text/javascript" src="/JScript/JQueryHeader/jquery-migrate.min.js?v20180329"></script>
+<link id="cssJqueryUI" rel="stylesheet" type="text/css" href="/JScript/JQueryHeader/jquery-ui.css?v20180329"/>
+<link id="cssFonts" rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Lato:300,400" />
+<link id="cssHistock2017e" rel="stylesheet" type="text/css" media="all" href="/styles/histock2017e.css?v20180329"/>
+<link id="cssMobile" rel="stylesheet" type="text/css" media="all" href="/styles/histock2017mobile.css?v20180329"/>
+<link id="cssMenu" rel="stylesheet" type="text/css" media="all" href="/styles/m-menu.css?v20180329"/>
+
+<link rel="canonical" href="https://histock.tw/stock/branch.aspx?no=2377" />
+<link rel="publisher" href="https://plus.google.com/117304986276805831256" />
+<link rel="icon" href="/images/ico-927-1.png" />
+<script src="/jscript/jquery.ui.datepicker-zh-TW.js"></script>
+
+    <link type="text/css" media="all" href="/styles/stock2017.css?v20180131" rel="stylesheet" />
+    <link type="text/css" media="all" href="/styles/kchart.css" rel="stylesheet" />
+    <script type="text/javascript" src='/JScript/stock/2017/stock.js'></script>
+    <script src="/JScript/highstock-1.3.7/highstock.js"></script>
+    <script type="text/javascript" src='/JScript/autocomplete/jquery.autocomplete.js'></script>
+
+    <style>
+        .grid .row-group {padding:10px;}
+    </style>
+<script>
+    function goToPage(key) {
+        var url, test = '',
+            m = getParameterByName("m"),
+            stockNo = getParameterByName("no");
+        //if (location.href.indexOf('test.') > -1 || location.href.indexOf('localhost') > -1) {
+        //    test = '2017'; //測試網站
+        //}
+
+        switch (key) {
+            case '三大法人': case '三大法人買賣超':
+                url = '/stock/chips' + test + '.aspx?no=' + stockNo;
+                break;
+            case '融資融券':
+                url = '/stock/chips' + test + '.aspx?no=' + stockNo + '&m=mg';
+                break;
+            case '八大官股': case '八大官股買賣超':
+                url = '/stock/broker.aspx?no=' + stockNo;
+                break;
+            case '主力籌碼集中度':
+                url = '/stock/large.aspx?no=' + stockNo;
+                break;
+            case '主力籌碼分析': case '主力進出籌碼分析':
+                url = '/stock/main.aspx?no=' + stockNo;
+                break;
+            case '券商分點買賣': case '券商分點買賣日報':
+                url = '/stock/branch.aspx?no=' + stockNo;
+                break;
+            case '券商分點績效':
+                url = '/stock/mainprofit.aspx?no=' + stockNo;
+                break;
+        }
+        window.location.href = url;
+    }
+    </script>
+</head>
+<body>
+    <form method="post" action="./branch.aspx?no=2377" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTM4NzA4MTQ3MA9kFgJmD2QWAgIDD2QWEAIDD2QWBgIBD2QWAgIDDw8WAh4HVmlzaWJsZWdkZAIDD2QWAgIDDw8WAh4EVGV4dAUP5YiH5o+b6Zu76IWm54mIZGQCBQ9kFhACAQ8PFgIfAWVkZAICDw8WAh8BBTNodHRwczovL2hpc3RvY2sudHcvdGFsay9saXZlLmFzcHg/bmFtZT1ndGFsayZpZD0zNzBkZAIDDw8WAh8BBQgyMDE4MDQxMGRkAgQPDxYCHwEFCemYv+W4g+azomRkAgUPDxYCHwFkZGQCBg8PFgIfAWRkZAIHDw8WAh8BZWRkAggPDxYCHwFkZGQCBw8WAh8BBVM8YSBocmVmPSIvc3RvY2svMjM3NyI+5b6u5pifPC9hPiDCuyDnsYznorznm7jpl5wgwrsgPGI+5Yi45ZWG5YiG6bue6LK36LOj5pel5aCxPC9iPmQCCQ9kFgRmD2QWFGYPFgIfAQUG5b6u5pifZAIBDxYCHwEFBDIzNzdkAgIPFgIfAQUP5Y+v54++6IKh55W25rKWZAIFDw8WAh8BBSA8c3BhbiBjbGFzcz0iY2xyLWdyIj45OC42PC9zcGFuPmRkAgYPDxYCHwEFIjxzcGFuIGNsYXNzPSJjbHItZ3IiPuKWvDAuNzwvc3Bhbj5kZAIHDw8WAh8BBTo8c3BhbiBjbGFzcz0iY2xyLWdyIiBzdHlsZT0iZm9udC1zaXplOjEzcHg7Ij4tMC43MCU8L3NwYW4+ZGQCCA8PFgIfAQUfPHNwYW4gY2xhc3M9InAxMyI+MTAsMjUwPC9zcGFuPmRkAgkPDxYCHwEFGeS4iuW4giDpm7vohabpgLHpgorpoZ7ogqFkZAIKDw8WAh8BBSg8c3BhbiBjbGFzcz0icHJpY2UtZG93biI+4pa8MC40NCU8L3NwYW4+ZGQCCw8PFgIfAQUdMTQ6MzU8c3Bhbj4o5bey5pS255ukKTwvc3Bhbj5kZAICD2QWFGYPFgIfAQUG5b6u5pifZAIBDxYCHwEFBDIzNzdkAgIPFgIfAQUP5Y+v54++6IKh55W25rKWZAIDDw8WAh8BBSA8c3BhbiBjbGFzcz0iY2xyLWdyIj45OC42PC9zcGFuPmRkAgQPDxYCHwEFIjxzcGFuIGNsYXNzPSJjbHItZ3IiPuKWvDAuNzwvc3Bhbj5kZAIFDw8WAh8BBTo8c3BhbiBjbGFzcz0iY2xyLWdyIiBzdHlsZT0iZm9udC1zaXplOjEzcHg7Ij4tMC43MCU8L3NwYW4+ZGQCBg8PFgIfAQUfPHNwYW4gY2xhc3M9InAxMyI+MTAsMjUwPC9zcGFuPmRkAgcPDxYCHwEFGeS4iuW4giDpm7vohabpgLHpgorpoZ7ogqFkZAIIDw8WAh8BBSg8c3BhbiBjbGFzcz0icHJpY2UtZG93biI+4pa8MC40NCU8L3NwYW4+ZGQCCg8PFgIfAQUdMTQ6MzU8c3Bhbj4o5bey5pS255ukKTwvc3Bhbj5kZAILD2QWAmYPZBYGZg8WAh8AZxYYAgEPDxYCHgtOYXZpZ2F0ZVVybAUaL3N0b2NrL2JyYW5jaC5hc3B4P25vPTIzNzdkZAICDw8WAh8CBSAvc3RvY2svYnJhbmNoLmFzcHg/bm89MjM3NyZkYXk9N2RkAgMPDxYCHwIFIS9zdG9jay9icmFuY2guYXNweD9ubz0yMzc3JmRheT0xNGRkAgQPDxYCHwIFIS9zdG9jay9icmFuY2guYXNweD9ubz0yMzc3JmRheT0zMGRkAgUPDxYCHwIFIS9zdG9jay9icmFuY2guYXNweD9ubz0yMzc3JmRheT02MGRkAgYPDxYCHwIFIS9zdG9jay9icmFuY2guYXNweD9ubz0yMzc3JmRheT05MGRkAgcPDxYCHwIFIi9zdG9jay9icmFuY2guYXNweD9ubz0yMzc3JmRheT0xODBkZAIIDw8WAh8CBSIvc3RvY2svYnJhbmNoLmFzcHg/bm89MjM3NyZkYXk9MjcwZGQCCQ8PFgIfAgUiL3N0b2NrL2JyYW5jaC5hc3B4P25vPTIzNzcmZGF5PTM2NWRkAhAPDxYCHwIFNC9zdG9jay9icmFuY2guYXNweD9ubz0yMzc3JmZyb209MjAxODA0MDgmdG89MjAxODA0MDhkZAISDxYCHwEFCjIwMTgvMDQvMDlkAhQPDxYCHwIFNC9zdG9jay9icmFuY2guYXNweD9ubz0yMzc3JmZyb209MjAxODA0MTAmdG89MjAxODA0MTBkZAIBDxYCHwEFoys8dHIgY2xhc3M9ImFsdC1yb3ciPjx0ZD48YSBocmVmPSIvc3RvY2svYnJva2VydHJhY2UuYXNweD9ibm89MTUyMCZubz0yMzc3IiB0YXJnZXQ9Il9ibGFuayI+55Ge5aOr5L+h6LK4PC9hPjwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+MjU3PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4yLDI1NDwvdGQ+PHRkPi0xLDk5NzwvdGQ+PHRkPjEwMC4xPC90ZD48dGQ+PGEgaHJlZj0iL3N0b2NrL2Jyb2tlcnRyYWNlLmFzcHg/Ym5vPTE0NzAmbm89MjM3NyIgdGFyZ2V0PSJfYmxhbmsiPuWPsOeBo+aRqeagueWjq+S4ueWIqTwvYT48L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjIsMzgyPC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj41MjU8L3RkPjx0ZD4xLDg1NzwvdGQ+PHRkPjEwMC4yNjwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz0xNDgwJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7nvo7llYbpq5jnm5s8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4yMDU8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjEsNzA3PC90ZD48dGQ+LTEsNTAyPC90ZD48dGQ+MTAwLjAyPC90ZD48dGQ+PGEgaHJlZj0iL3N0b2NrL2Jyb2tlcnRyYWNlLmFzcHg/Ym5vPTEzNjAmbm89MjM3NyIgdGFyZ2V0PSJfYmxhbmsiPua4r+WVhum6peagvOeQhjwvYT48L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjEsMTk1PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4zMDE8L3RkPjx0ZD44OTQ8L3RkPjx0ZD4xMDAuNzE8L3RkPjwvdHI+PHRyIGNsYXNzPSJhbHQtcm93Ij48dGQ+PGEgaHJlZj0iL3N0b2NrL2Jyb2tlcnRyYWNlLmFzcHg/Ym5vPTE0NDAmbm89MjM3NyIgdGFyZ2V0PSJfYmxhbmsiPue+juaelzwvYT48L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjg0NDwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+MiwxNTc8L3RkPjx0ZD4tMSwzMTM8L3RkPjx0ZD4xMDAuMDE8L3RkPjx0ZD48YSBocmVmPSIvc3RvY2svYnJva2VydHJhY2UuYXNweD9ibm89OTYwMCZubz0yMzc3IiB0YXJnZXQ9Il9ibGFuayI+5a+M6YKmPC9hPjwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+MSwwMTQ8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjMwMDwvdGQ+PHRkPjcxNDwvdGQ+PHRkPjEwMC4zNjwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz01ODUwJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7ntbHkuIA8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4zMjk8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjEsMTU5PC90ZD48dGQ+LTgzMDwvdGQ+PHRkPjEwMC4yNjwvdGQ+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz04NDQwJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7mkanmoLnlpKfpgJo8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj41MDI8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjU3PC90ZD48dGQ+NDQ1PC90ZD48dGQ+MTAwLjMzPC90ZD48L3RyPjx0ciBjbGFzcz0iYWx0LXJvdyI+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz0xMTYwJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7ml6Xnm5s8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj45MzwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+Nzk4PC90ZD48dGQ+LTcwNTwvdGQ+PHRkPjEwMC4zOTwvdGQ+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz05NjM2Jm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7lr4zpgqYt5Lit5aOiPC9hPjwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+MzUzPC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4xPC90ZD48dGQ+MzUyPC90ZD48dGQ+MTAxLjUxPC90ZD48L3RyPjx0cj48dGQ+PGEgaHJlZj0iL3N0b2NrL2Jyb2tlcnRyYWNlLmFzcHg/Ym5vPTcwMDAmbm89MjM3NyIgdGFyZ2V0PSJfYmxhbmsiPuWFhuixkDwvYT48L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjI8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjcwMDwvdGQ+PHRkPi02OTg8L3RkPjx0ZD4xMDAuNDwvdGQ+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz05MTAwJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7nvqTnm4rph5HpvI48L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4yNDg8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjgyPC90ZD48dGQ+MTY2PC90ZD48dGQ+OTkuOTc8L3RkPjwvdHI+PHRyIGNsYXNzPSJhbHQtcm93Ij48dGQ+PGEgaHJlZj0iL3N0b2NrL2Jyb2tlcnRyYWNlLmFzcHg/Ym5vPTU4NWMmbm89MjM3NyIgdGFyZ2V0PSJfYmxhbmsiPue1seS4gC3ku4HmhJs8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj48L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjE0MDwvdGQ+PHRkPi0xNDA8L3RkPjx0ZD4xMDIuNTg8L3RkPjx0ZD48YSBocmVmPSIvc3RvY2svYnJva2VydHJhY2UuYXNweD9ibm89OTY5MiZubz0yMzc3IiB0YXJnZXQ9Il9ibGFuayI+5a+M6YKmLeWYiee+qTwvYT48L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjE3MzwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+MTE8L3RkPjx0ZD4xNjI8L3RkPjx0ZD45OS43NDwvdGQ+PC90cj48dHI+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz05ODlCJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7lhYPlpKct5Y+w5Lit5Lit5rivPC9hPjwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+MzwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+NzA8L3RkPjx0ZD4tNjc8L3RkPjx0ZD45OS40NzwvdGQ+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz04NTYwJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7mlrDlhYk8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4yNDg8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjExNDwvdGQ+PHRkPjEzNDwvdGQ+PHRkPjEwMC4zNTwvdGQ+PC90cj48dHIgY2xhc3M9ImFsdC1yb3ciPjx0ZD48YSBocmVmPSIvc3RvY2svYnJva2VydHJhY2UuYXNweD9ibm89MTY1MCZubz0yMzc3IiB0YXJnZXQ9Il9ibGFuayI+5paw5Yqg5Z2h5ZWG55Ge6YqAPC9hPjwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+NjE8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjEyMzwvdGQ+PHRkPi02MTwvdGQ+PHRkPjEwMC43NjwvdGQ+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz05NjUxJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7lr4zpgqYt5rCR55SfPC9hPjwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+MTA0PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4xPC90ZD48dGQ+MTAzPC90ZD48dGQ+OTkuNDE8L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSIvc3RvY2svYnJva2VydHJhY2UuYXNweD9ibm89OUE5QyZubz0yMzc3IiB0YXJnZXQ9Il9ibGFuayI+5rC46LGQ6YeRLeWToeaelzwvYT48L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjE8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjU2PC90ZD48dGQ+LTU1PC90ZD48dGQ+MTAxLjk8L3RkPjx0ZD48YSBocmVmPSIvc3RvY2svYnJva2VydHJhY2UuYXNweD9ibm89NTM4VyZubz0yMzc3IiB0YXJnZXQ9Il9ibGFuayI+56ys5LiA6YeRLeiPr+axnzwvYT48L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjEwMzwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+MzwvdGQ+PHRkPjEwMDwvdGQ+PHRkPjk5Ljc3PC90ZD48L3RyPjx0ciBjbGFzcz0iYWx0LXJvdyI+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz05Mjg3Jm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7lh7Hln7ot5YWn5rmWPC9hPjwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj41MDwvdGQ+PHRkPi01MDwvdGQ+PHRkPjk5Ljc4PC90ZD48dGQ+PGEgaHJlZj0iL3N0b2NrL2Jyb2tlcnRyYWNlLmFzcHg/Ym5vPTEyNkwmbm89MjM3NyIgdGFyZ2V0PSJfYmxhbmsiPuWuj+mBoC3lj7DkuK08L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4xMjU8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjMwPC90ZD48dGQ+OTU8L3RkPjx0ZD4xMDAuOTg8L3RkPjwvdHI+PHRyPjx0ZD48YSBocmVmPSIvc3RvY2svYnJva2VydHJhY2UuYXNweD9ibm89ODc3MCZubz0yMzc3IiB0YXJnZXQ9Il9ibGFuayI+5aSn6byOPC9hPjwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj41MDwvdGQ+PHRkPi01MDwvdGQ+PHRkPjEwMzwvdGQ+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz05MTMxJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7nvqTnm4rph5HpvI4t5rCR5qyKPC9hPjwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+MTAzPC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4yNDwvdGQ+PHRkPjc5PC90ZD48dGQ+MTAwLjg3PC90ZD48L3RyPjx0ciBjbGFzcz0iYWx0LXJvdyI+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz02OTEwJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7lvrfkv6E8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4yPC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj41MTwvdGQ+PHRkPi00OTwvdGQ+PHRkPjEwMi44NDwvdGQ+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz01ODVVJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7ntbHkuIAt5Y2X5LqsPC9hPjwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+MTMxPC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj41MzwvdGQ+PHRkPjc4PC90ZD48dGQ+MTAwLjM0PC90ZD48L3RyPjx0cj48dGQ+PGEgaHJlZj0iL3N0b2NrL2Jyb2tlcnRyYWNlLmFzcHg/Ym5vPTU4NU0mbm89MjM3NyIgdGFyZ2V0PSJfYmxhbmsiPue1seS4gC3lo6vmnpc8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4xPC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj40ODwvdGQ+PHRkPi00NzwvdGQ+PHRkPjEwMC44NDwvdGQ+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz0xNTMwJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7muK/llYblvrfmhI/lv5c8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj43NzwvdGQ+PHRkIGNsYXNzPSJoaWRlY2VsbCI+NDwvdGQ+PHRkPjczPC90ZD48dGQ+MTAwLjM2PC90ZD48L3RyPjx0ciBjbGFzcz0iYWx0LXJvdyI+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz05ODAwJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7lhYPlpKc8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4yMTY8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjI1NzwvdGQ+PHRkPi00MTwvdGQ+PHRkPjEwMC40MTwvdGQ+PHRkPjxhIGhyZWY9Ii9zdG9jay9icm9rZXJ0cmFjZS5hc3B4P2Jubz0xNTkwJm5vPTIzNzciIHRhcmdldD0iX2JsYW5rIj7oirHml5fnkrDnkIM8L2E+PC90ZD48dGQgY2xhc3M9ImhpZGVjZWxsIj4xNDU8L3RkPjx0ZCBjbGFzcz0iaGlkZWNlbGwiPjc5PC90ZD48dGQ+NjY8L3RkPjx0ZD4xMDIuMDc8L3RkPjwvdHI+ZAIEDxYEHwEFF+abtOaWsOaZgumWkzoyMDE4LjA0LjA5HwBoZAIND2QWBAIBDxYCHwEFohc8ZGl2IGNsYXNzPSJncmlkLWl0ZW0gdzEwMHAgbWIxMCI+PGRpdiBjbGFzcz0iZ3JpZC1oZHIgaGFuZGxlIj48ZGl2IGNsYXNzPSJjdG1hcmsgY3RtYXJrMiI+PC9kaXY+PGRpdiBjbGFzcz0iY3RuYW1lIj48YiBjbGFzcz0idGl0bGUiPuaMluekpuaXj+e+pCDpppblraPnh5/pgYvlhanmqKPmg4U8L2I+PHNwYW4gY2xhc3M9ImZyb213ZWIiPlVETuiBr+WQiOaWsOiBnue2sjwvc3Bhbj48c3BhbiBjbGFzcz0idGltZSI+77yNMuaZguWJjTwvc3Bhbj48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJncmlkLWJvZHkiPjxkaXYgY2xhc3M9Im5ld3NUYWciPjx1bD48bGk+PGEgaHJlZj0iL3N0b2NrLzIzNzciIHRhcmdldD0iX2JsYW5rIj7lvq7mmJ88L2E+PC9saT48bGk+PGEgaHJlZj0iL3N0b2NrLzI0NjUiIHRhcmdldD0iX2JsYW5rIj7pupfoh7o8L2E+PC9saT48bGk+PGEgaHJlZj0iL3N0b2NrLzUzODYiIHRhcmdldD0iX2JsYW5rIj7pnZLpm7I8L2E+PC9saT48bGk+PGEgaHJlZj0iL3N0b2NrLzYyMjIiIHRhcmdldD0iX2JsYW5rIj7kuIrmj5o8L2E+PC9saT48L3VsPjwvZGl2PjxhIGhyZWY9Imh0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzcyNTMvMzA3ODEwNiIgdGFyZ2V0PSJfYmxhbmsiPjxkaXYgY2xhc3M9Im5ld3NUZXh0IG10MTAiPuiZm+aTrOiyqOW5o+OAjOaMluekpuOAjeamguW/teiCoeeHn+mBi+WHuuePvuWFqeaoo+aDhe+8jOS6jOS4iee3mumhr+WNoeOAgeadv+WNoeW7oOm6l+iHuu+8iDI0NjXvvInjgIHpnZLpm7LvvIg1Mzg277yJ6L+R5pyf54ef6YGL5L2O5pa85biC5aC06aCQ5pyf77yM5bCO6Ie05LuK77yIMTDvvInml6Xnm6TkuK3ogqHlg7npm5npm5nmiZPlhaXot4zlgZzvvIzmg5/kuIDnt5rlpKflu6Dlvq7mmJ/vvIgyMzc377yJ57mz5Ye65Zau5pyI54ef5pS25bm05aKe5LiJ5oiQ5L2z57i+77yM6aGv56S66Kmy5peP576k6IKh5YO55YuV5ZCR5q2j6YCQ5ry45Zue5q2454ef6YGL5Z+65pys6Z2i44CC6Jmb5pOs6LKo5bmj44CM5oyW56Sm44CN5qaC5b+16IKh54ef6YGL5Ye654++5YWp5qij5oOF77yM5LqM5LiJ57ea6aGv5Y2h44CB5p2/5Y2h5bug6bqX6Ie677yIMjQ2Ne+8ieOAgemdkumbsu+8iDUzODbvvInov5HmnJ/nh5/pgYvkvY7mlrzluILloLTpoJDmnJ/vvIzlsI7oh7Tku4o8c3BhbiBjbGFzcz0iZGV0YWlsIj4uLi7oqbPlhajmloc8L3NwYW4+PGRpdj48L2Rpdj48L2Rpdj48L2E+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0iZ3JpZC1pdGVtIHcxMDBwIG1iMTAiPjxkaXYgY2xhc3M9ImdyaWQtaGRyIGhhbmRsZSI+PGRpdiBjbGFzcz0iY3RtYXJrIGN0bWFyazIiPjwvZGl2PjxkaXYgY2xhc3M9ImN0bmFtZSI+PGIgY2xhc3M9InRpdGxlIj7lkITmk4HliKnlpJog5b6u5pif5YSS6bS75qyK6K2J5aiB6aKoPC9iPjxzcGFuIGNsYXNzPSJmcm9td2ViIj7kuK3mmYLpm7vlrZDloLE8L3NwYW4+PHNwYW4gY2xhc3M9InRpbWUiPu+8jTEy5pmC5YmNPC9zcGFuPjwvZGl2PjwvZGl2PjxkaXYgY2xhc3M9ImdyaWQtYm9keSI+PGRpdiBjbGFzcz0ibmV3c1RhZyI+PHVsPjxsaT48YSBocmVmPSIvc3RvY2svMjM3NyIgdGFyZ2V0PSJfYmxhbmsiPuW+ruaYnzwvYT48L2xpPjwvdWw+PC9kaXY+PGEgaHJlZj0iaHR0cDovL3d3dy5jaGluYXRpbWVzLmNvbS9uZXdzcGFwZXJzLzIwMTgwNDEwMDAwNTEzLTI2MDIwNiIgdGFyZ2V0PSJfYmxhbmsiPjxkaXYgY2xhc3M9Im5ld3NUZXh0IG10MTAiPuOAgOmaqOiRl+mbu+ertueUoualreiTrOWLg+eZvOWxle+8jOmbu+ertuethumbu+m+jemgreW+ruaYn++8iDIzNzfvvInmlrDlk4Hnm6Hlh7rvvIzku6XnrKblkIjluILloLTpnIDmsYLvvIzkuKbmjqjljYfogqHlg7notbDmj5rvvIzmioDooZPpnaI8c3BhbiBjbGFzcz0iZGV0YWlsIj4uLi7oqbPlhajmloc8L3NwYW4+PGRpdj48L2Rpdj48L2Rpdj48L2E+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0iZ3JpZC1pdGVtIHcxMDBwIG1iMTAiPjxkaXYgY2xhc3M9ImdyaWQtaGRyIGhhbmRsZSI+PGRpdiBjbGFzcz0iY3RtYXJrIGN0bWFyazIiPjwvZGl2PjxkaXYgY2xhc3M9ImN0bmFtZSI+PGIgY2xhc3M9InRpdGxlIj7lvq7mmJ8rMjclIOS4ieeUouWTgeeGsemKtzwvYj48c3BhbiBjbGFzcz0iZnJvbXdlYiI+VURO6IGv5ZCI5paw6IGe57ayPC9zcGFuPjxzcGFuIGNsYXNzPSJ0aW1lIj7vvI0xNuaZguWJjTwvc3Bhbj48L2Rpdj48L2Rpdj48ZGl2IGNsYXNzPSJncmlkLWJvZHkiPjxkaXYgY2xhc3M9Im5ld3NUYWciPjx1bD48bGk+PGEgaHJlZj0iL3N0b2NrLzIzNzciIHRhcmdldD0iX2JsYW5rIj7lvq7mmJ88L2E+PC9saT48bGk+PGEgaHJlZj0iL3N0b2NrLzYyMjIiIHRhcmdldD0iX2JsYW5rIj7kuIrmj5o8L2E+PC9saT48L3VsPjwvZGl2PjxhIGhyZWY9Imh0dHBzOi8vdWRuLmNvbS9uZXdzL3N0b3J5LzcyNTMvMzA3Njk4NyIgdGFyZ2V0PSJfYmxhbmsiPjxkaXYgY2xhc3M9Im5ld3NUZXh0IG10MTAiPuW+ruaYn++8iDIzNzfvvInmmKjvvIg577yJ5pel5YWs5biDM+aciOeHn+aUtueCujExNy4yOeWEhOWFg++8jOWJteS4ieW5tOWkmuS+huaWsOmrmO+8jOaciOWinjI3LjEl77yM5bm05aKeMzMuNCXjgILlvq7mmJ/ku4rlubTlj5fmg6DmjJbnpKbjgIHpm7vnq7boiIfkuLvmqZ/mnb/nrYnkuInlpKfkuLvlipvnlKLlk4HnhrHpirfluLbli5XkuIvvvIzku4rlubTnh5/pgYvlsZXmnJvnnIvlpb3jgILlvq7mmJ/vvIgyMzc377yJ5pio77yIOe+8ieaXpeWFrOW4gzPmnIjnh5/mlLbngroxMTcuMjnlhITlhYPvvIzlibXkuInlubTlpJrkvobmlrDpq5jvvIzmnIjlop4yNy4xJe+8jOW5tOWinjMzLjQl44CC5b6u5pif5LuK5bm05Y+X5oOg5oyW56Sm44CB6Zu756u26IiH5Li75qmf5p2/562J5LiJ5aSn5Li75Yqb55Si5ZOB54ax6Yq35bi25YuV5LiL77yM5LuK5bm054ef6YGL5bGV5pyb55yL5aW944CCPHNwYW4gY2xhc3M9ImRldGFpbCI+Li4u6Kmz5YWo5paHPC9zcGFuPjxkaXY+PC9kaXY+PC9kaXY+PC9hPjwvZGl2PjwvZGl2PmQCAw9kFgJmDxYCHwEFFjx1bCBjbGFzcz0ibmV3MiI+PC91bD5kAhEPZBYGZg8PFgIeCEltYWdlVXJsBS9odHRwczovL2hpc3RvY2sudHcvaW1hZ2VzLzIwMTdlL3N0b2NrL21hcms1LnBuZ2RkAgEPFgIfAQUW5b6u5pifICAg55u46Zec5paH56ugIGQCAg9kFgJmDw8WAh8CBQUvYmxvZ2RkAhMPZBYGZg8PFgIfAwUvaHR0cHM6Ly9oaXN0b2NrLnR3L2ltYWdlcy8yMDE3ZS9zdG9jay9tYXJrNS5wbmdkZAIBDxYCHwEFFuW+ruaYnyAgIOebuOmXnOW9semfsyBkAgIPZBYCZg8PFgIfAgUSL3RhbGsvYWxsdGFsay5hc3B4ZGQCFQ9kFgRmDw8WAh8BBQ/liIfmj5vpm7vohabniYhkZAIDDxYCHwEFEzIwMTgtMDQtMTAgMTY6NTM6MjBkZO2bcXY2eFGGk7llPwHygaNAVmkkOYUnd+PYr/+gvoFm" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C5523004" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAgbbAJAL87/yk7l3E3UJG+fNrLEukvZnuMjVK2U+p8fJ+0/rIcZJ5eGfkUHgisrzEr94ogPnvXNEQPoz/92LmeZIconowlXVPyZigCfHuPeW12SYir7H0kP/ARGW8SzRW/UHgXx6e2z/R9i3iJx8iEwKTLwO5pWTr/2BsMkLlFDB+mr0t0kkX24TfJQzJTXqg3vUiydlfLMx8JF5qHMe9l6" />
+</div>
+        
+
+<script type="text/javascript" src="/JScript/tabs.js?20180201"></script>
+
+<!--(電腦版)置頂導航按鈕列 開始-->
+<div class="topnav">
+    <nav class="navbar nav-width nav-bg-b">
+        <ul id="nav-main" class="nav navbar-nav">
+        <li class="nav-item navitem-rt w-mod"><span class="nav-spare"></span><a class="nav-link" title="聯繫客服" href="/member/messages.aspx?m=post&no=1" onmouseover="movepic('service','/images/2017e/service-h.png')" onmouseout="movepic('service','/images/2017e/service.png')"><img alt="聯繫客服" id="service" src="/images/2017e/service.png" style="width:18px;height:19px;" /></a></li>
+        <li class="nav-item navitem-rt w-mod"><span class="nav-spare"></span><a class="nav-link" title="自選股" href="/member/mystocks.aspx" onmouseover="movepic('mystock','/images/2017e/mystock-h.png')" onmouseout="movepic('mystock','/images/2017e/mystock.png')"><img alt="自選股" id="mystock" src="/images/2017e/mystock.png" style="width:22px;height:17px;" /></a></li>
+        <li class="nav-item navitem-rt w-mod"><span class="nav-spare"></span><a class="nav-link" title="站內信" href="/member/messages.aspx" onmouseover="movepic('mail','/images/2017e/mail-h.png')" onmouseout="movepic('mail','/images/2017e/mail.png')"><img alt="站內信" id="mail" src="/images/2017e/mail.png" style="width:22px;height:17px;" /></a></li>
+          
+        <li class="nav-item navitem-rt"><a id="state" class="nav-link" href="/signup">快速註冊</a></li>
+        <li class="nav-item navitem-rt"><a id="login" class="nav-link" href="/login"><span class="icon-login"></span>登入</a></li>
+ 
+        <li id="headTabMain" class="nav-item"><a class="nav-link nav-logo" href="/"><h3 title="HiStock嗨投資理財社群"></h3>首頁</a></li>
+        <li id="headTabGlobal" class="nav-item dpli"><a class="nav-link dpl" href="/index" title="最專業即時的國際股市指數報價">國際指數</a>
+            
+        </li>
+        <li id="headTabIndex" class="nav-item dpli" style="display:none;"><a class="nav-link dpl" href="/global/marketclassall.aspx" title="台灣/美國/大陸/香港/日本/韓國股市">分類</a></li>
+        <li id="headTabStock" class="nav-item dpli"><a class="nav-link dpl" href="/tw" title="台股大盤-加權指數">台股</a></li>
+        <li id="headTabSearch" class="nav-item dpli"><a class="nav-link dpl" href="/search" title="智慧選股">選股</a></li>
+        <li id="headTabMarket" class="nav-item dpli"><a class="nav-link dpl" href="/market" title="嗨聖杯-熱門選股工具">聖杯</a></li>
+        <li id="headTabBlog" class="nav-item dpli"><a class="nav-link dpl" href="/blog" title="部落格">部落格</a></li>
+        <li id="headTabTalk" class="nav-item dpli"><a class="nav-link dpl" href="/talk/alltalk.aspx" title="哈拉版">哈啦</a></li>
+        <li id="headTabQA" class="nav-item dpli"><a class="nav-link dpl" href="/question" title="嗨問答-盤勢分析與股票期貨">問答</a></li>
+        <li id="headTabSchool" class="nav-item dpli"><a class="nav-link dpl" href="/school" title="理財學院-投資理財教學">學院</a>
+            <ul class="sub" style="display:none;">
+				<li><a href="/school/index.aspx?c=1">何毅里長伯>>實戰控盤轉折術</a></li>
+				<li><a href="/school/index.aspx?c=2">紫殺>>天譴部隊</a></li>
+				<li><a href="/school/index.aspx?c=4">俠客盟>>多空戰技研究院</a></li>
+				
+				
+				
+                <li><a href="/school/index.aspx?c=7">呂佳霖>>箱波均控盤戰法</a></li>
+                <li><a href="/school/index.aspx?c=12">名諭爸>>股票權證實戰夢想室</a></li>
+                <li><a href="/school/index.aspx?c=14">Cash>>外匯智能交易學院</a></li>
+                
+                
+			</ul>
+        </li>
+        <li id="headTabClass" class="nav-item dpli"><a class="nav-link dpl" href="/eclass.aspx" title="線上財經投資課程">課程</a></li>
+        <li id="headTabMall" class="nav-item dpli"><a class="nav-link dpl" href="/mall" title="商城購物">購物</a></li>
+        </ul>
+    </nav>
+<script id="jsID" type="text/javascript"> //驅動superslide
+    var ary = location.href.split("&");
+    jQuery("ul#nav-main").slide({ type: "menu", titCell: ".nav-item", targetCell: ".sub", effect: ary[1], delayTime: ary[2], triggerTime: ary[3], defaultPlay: ary[4], returnDefault: ary[5], easing: ary[6] });
+
+    $(function () {
+        setHeaderTab();
+    });
+</script>
+</div>
+<!--置頂導航按鈕列 結束-->
+
+
+<div class="mp-content">
+    <div class="hdr">
+        <div class="hdr-cnt">
+            <!--頁面內主頁籤 開始-->
+            
+<div class="hdr">
+    <div class="hdr-cnt">
+        <div class="link-blk">
+            <div class="rgn">
+                <input type="text" value="搜尋股票/文章" id="txtTopSearch1" onfocus="if (this.value == '搜尋股票/文章') this.value = ''" onblur="if(this.value=='')this.value='搜尋股票/文章'" autocomplete="off" />
+                <a class="btn-srch" href="#" onclick="tosearch('1'); return false;">
+                    <img src="/images/2017e/btn-search.png" /></a>
+                <ul style="margin-top:10px;">
+                <li style="margin-left: 15px;"><a href="/signup" title="免費註冊">
+                    <img alt="免費註冊" src="/images/2017e/register.png" width="35" height="35" /></a></li>
+                <li style="margin-left: 15px;"><a href="https://line.me/ti/p/%40hsk1574p" title="加入官方line@">
+                    <img alt="加入官方line@" src="/images/2017e/line@.png" width="35" height="35" /></a></li>
+                <li style="margin-left: 15px;"><a href="https://www.facebook.com/histock.fans" title="加入FB粉絲團">
+                    <img alt="加入FB粉絲團" src="/images/2017e/facebook.png" width="35" height="35" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="ad-panel" style="width: 728px; height: 90px; display: inline-block !important; margin-top: 0px; margin-left: 20px;">
+            <div>        
+                
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+<div id="logo2017_App1_ad_header_768x901_pnlAD1">
+	
+<!-- histock_全站Head_728x90v2 -->
+<ins class="adsbygoogle"
+     google_ad_region = "test"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9078187384251073"
+     data-ad-slot="8330578148"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</div>
+
+ 
+            </div>
+        </div>
+        <div class="logo">
+            <a href="/" title="HiStock嗨投資首頁">
+                <img alt="嗨投資投資理財社群" src="/images/2017e/logoW.png" style="width: 180px; margin-top: 15px;"></a>
+            <script type="application/ld+json">
+                    { "@context" : "http://schema.org",
+                    "@type" : "Organization",
+                    "name" : "嗨投資 HiStock",
+                    "url" : "https://histock.tw",
+                    "logo": "https://histock.tw/images/131128500.png",
+                    "sameAs" : [ "https://www.facebook.com/histock.fans",
+                    "https://www.youtube.com/channel/UC7OFNL9vONhOqutrC5D9i9Q",
+                    "https://plus.google.com/+HistockTw"] 
+                    }
+            </script>
+        </div>
+    </div>
+</div>
+
+ <!--手機用導航按鈕列-->
+
+<script type="text/javascript">
+    $(function () {
+        var url = location.href.toLowerCase();
+        //隱藏國際股市第二層Tab下的锚點連結
+        if (url.indexOf('histock.tw/index') == -1 && url.indexOf('globals.aspx') == -1) {
+            if ($('#fixarea')) { $('#fixarea').hide(); }//手機用 頁面內次頁籤
+        } else {
+            //if ($('#fixarea')) { $('#fixarea').show(); }//手機用 頁面內次頁籤
+        }
+         
+        //loadMySchoolForMenu();
+    });
+</script>
+<style>
+    .mm-opened {display:block !important;}
+</style>
+<!--(手機版)手機用區塊 開始-->
+        <div class="m-hdr">
+            <div class="logo">
+
+                <!--手機用導航按鈕列 開始-->
+                <a class="m-sidetab" href="#menu"></a>
+                <nav id="menu" style="display:none;">
+				    <ul>
+					    <li><a href="/">首頁</a></li>
+                        <li><a href="/index">國際指數</a>
+                            <ul>
+							    <li><a href="/index">國際股市</a></li>
+                                <li><a href="/global/marketclassall.aspx">分類</a></li>
+                                <li><a href="/stock/etf.aspx">ETF</a></li>
+                                <li><a href="/stock/taiexproportion.aspx">加權指數成份股</a></li>
+                                <li><a href="/stock/mscitaiwan.aspx">摩台指成份股</a></li>
+                                <li><a href="/globalfocus.aspx">重點股市</a></li>
+                                <li><a href="/stock/mscis.aspx">MSCI</a></li>
+                                <li><a href="/rate">匯率</a></li>
+                                <li><a href="/holiday">股市休市</a></li>
+                                <li><a href="/calendar.aspx">財經日曆</a></li>
+						    </ul>
+                        </li>
+                        
+                        <li><a href="/tw">台股</a></li>
+                        <li><a href="/search">選股</a>
+                            <ul>
+							    <li><a href="/search">智慧選股</a></li>
+                                <li><a href="/app/notice.aspx">進出場通知</a></li>
+                                <li><a href="/app/searchnotice.aspx">飆股雷達</a></li>
+                                <li><a href="/app/table.aspx">嗨投資精選</a></li>
+                                <li><a href="/app/index.aspx">智慧指標</a></li>
+                                <li><a href="/app/profit.aspx">績效回溯分析</a></li>
+						    </ul>
+                        </li>
+                        <li><a href="/market">聖杯</a></li>
+                        <li><a href="/blog">部落格</a></li>
+                        <li><a href="/talk/alltalk.aspx">哈啦</a></li>
+                        <li><a href="/question">問答</a></li>
+					    <li><a href="/school">學院</a>
+						    <ul>
+							    <li><a href="/school/index.aspx?c=1">何毅里長伯</a></li>
+							    <li><a href="/school/index.aspx?c=2">紫殺</a></li>
+							    <li><a href="/school/index.aspx?c=4">阿布波</a></li>
+                                
+                                
+                                
+                                <li><a href="/school/index.aspx?c=7">呂佳霖</a></li>
+                                <li><a href="/school/index.aspx?c=12">名諭爸</a></li>
+                                <li><a href="/school/index.aspx?c=14">Cash</a></li>
+                                
+                                
+						    </ul>
+					    </li>
+                        <li><a href="/eclass.aspx">課程</a>
+                        <li><a href="/mall">購物</a>
+					
+                        <li class="clr2"><a id="state2" href="/login">登入</a></li>
+                        <li class="clr2"><a id="login2" href="/signup">免費註冊</a></li>
+                        <li class="clr2"><a href="https://line.me/ti/p/%40hsk1574p">加入Line@</a></li>
+                        <li class="clr2"><a id="logo2017_App1_menu1_btnIsUseMobile" href="javascript:__doPostBack(&#39;ctl00$logo2017_App1$menu1$btnIsUseMobile&#39;,&#39;&#39;)">切換電腦版</a></li>
+				    </ul>
+			    </nav>
+                <!--手機用導航按鈕列 結束-->
+
+                <!--手機用logo--><div class="m-logo"><a href="/" title="HiStock嗨投資首頁"><img class="mm-logo" alt="嗨投資投資理財社群" src="/images/2017e/logo.png"></a></div>
+                
+                <!--手機用搜尋列-->
+                <div class="m-rgn">
+                    <input type="text" value="搜尋股票/文章" id="txtTopSearch2" onfocus="if (this.value == '搜尋股票/文章') this.value = ''" onblur="if(this.value=='')this.value='搜尋股票/文章'" autocomplete="off" />
+                <a class="btn-srch" href="#" onclick="tosearch('2'); return false;"><img src="/images/2017e/btn-search.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <!--手機用 頁面內次頁籤-->
+        <div class="m-kw" id="fixarea">
+            <div class="flipsnap" style="transition-property: transform; transition-timing-function: cubic-bezier(0, 0, 0.25, 1); transition-duration: 350ms; transform: translate3d(0px, 0px, 0px);">
+				<div class="item"><a href="#id1">重點即時</a></div>
+				<div class="item"><a href="#id2">美洲即時</a></div>
+				<div class="item"><a href="#id3">歐洲即時</a></div>
+                <div class="item"><a href="#id4">亞洲即時</a></div>
+                <div class="item"><a href="#id5">風險指數</a></div>
+                <div class="item"><a href="#id6">台灣企業ADR</a></div>
+                <div class="item"><a href="#id7">台灣期貨次月</a></div>
+                <div class="item"><a href="#id10">台灣指數</a></div>
+                <div class="item"><a href="#id11">匯率</a></div>
+                <div class="item"><a href="#id12">波羅的海航運</a></div>
+                <div class="item"><a href="#id13">MSCI</a></div>
+                <div class="item"><a href="#id8">國際期貨</a></div>
+                <div class="item"><a href="#id9">能源</a></div>
+                <div class="item"><a href="#id14">農產品</a></div>
+                <div class="item"><a href="#id15">貴金屬</a></div>
+                <span class="clearfix"></span>
+			</div>
+        </div>
+        <!--手機用區塊 結束-->
+<script type="text/javascript">
+    $("#txtTopSearch2").keyup(function (event) {
+        if (event.keyCode == 13) {
+            tosearch('2');
+        }
+    });
+</script>
+
+ 
+<!--關鍵字廣告 開始-->
+<div id="tbadword">
+    <ul class="keywords">
+        <li><a id="topRotatorAd1" href="#" target="_blank">&nbsp;</a></li>
+        <li><a id="topRotatorAd2" href="#" target="_blank">&nbsp;</a></li>
+        <li><a id="topRotatorAd3" href="#" target="_blank">&nbsp;</a></li>
+        <li><a id="topRotatorAd4" href="#" target="_blank">&nbsp;</a></li>
+    </ul><span class="clearfix"></span>
+</div>
+<!--關鍵字廣告 結束-->
+
+<div id="dvglobalad" style="display:none;">
+    <div style="width:100%;text-align:center;margin-top:20px;">
+        <a id="adslink" href="/" class="globalADlink" target="_blank"></a>
+    </div>
+</div>
+
+<div class="no-show">
+    <span id="logo2017_App1_kwAD1_liveyoutubeid"></span>
+    <span id="logo2017_App1_kwAD1_liveurl">https://histock.tw/talk/live.aspx?name=gtalk&id=370</span>
+    <span id="logo2017_App1_kwAD1_livetimenum">20180410</span>
+    <span id="logo2017_App1_kwAD1_liveteacher">阿布波</span>
+    <span id="logo2017_App1_kwAD1_stockyoutubeid"></span>
+    <span id="logo2017_App1_kwAD1_stockurl"></span>
+    <span id="logo2017_App1_kwAD1_stocktimenum"></span>
+    <span id="logo2017_App1_kwAD1_stockteacher"></span>
+</div>
+
+<script type="text/javascript" src="/JScript/liveedm.js?v20180410"></script>
+ 
+<script type="text/javascript">
+    $("#txtTopSearch1").keyup(function (event) {
+        if (event.keyCode == 13) {
+            tosearch('1');
+        }
+    });
+
+    function tosearch(index) {
+        var txt = document.getElementById('txtTopSearch' + index).value;
+        if (txt.indexOf('搜尋文章/股票') == -1) {
+            var url = '/searchresults.aspx?q=' + txt.toString();
+            window.location.replace(url);
+        }
+    }
+</script>
+
+        </div>
+
+
+    </div>
+<!--頁面上方共同區塊 結束-->
+         <!--頁面內主頁籤 開始-->
+        
+
+
+<meta name="viewport" content="" />
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        setStockTab2();
+
+        //移除mobile css
+        try {
+            $("#cssMobile").attr("href", "");
+        } catch (e) { console.log(e); }
+        try {
+            document.getElementsByTagName('meta')['viewport'].content = '';
+        } catch (e) { console.log(e); }
+    });
+</script>
+
+<span class="clearfix"></span>
+<div class="hdr tabbk">
+    <div class="hdr-cnt">
+        <div class="sub-nav">
+            <nav class="navbar nav-width">
+                <ul class="nav navbar-nav sectabs">
+                    <li class="nav-item"><a class="btn-s" href="/tw">大盤</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/stock/2330">個股</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/twstock">分類</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/stock/warrant.aspx">股票(權證/期貨)</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/futures/mainfutures.aspx">期貨選擇權</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/stock/dividend.aspx">股東會股利</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/stock/public.aspx">股票申購</a></li>
+                </ul>
+            </nav>
+            <span class="clearfix"></span>
+        </div>
+    </div>
+</div>
+
+
+    <!--網頁主要內容區域 開始-->
+    <div class="main mainBG pb10">
+        <div class="index-main">
+            <div class="mp-main">
+                <div class="mp-main-cnt">
+                    <div class="guide">
+                        <p class="school-guide">台股 » 個股 » <a href="/stock/2377">微星</a> » 籌碼相關 » <b>券商分點買賣日報</b></p>
+                    </div>
+
+                    
+
+
+<div class="sbk info h53">
+    <div class="info-left w200">
+        <div>
+            <h3 style="font-size: 22px; font-weight: 200; color: #000000; display: inline-block;">
+                微星</h3>
+            <span style="font-size: 16px; color: #757575;">(2377)</span>
+            <div><span style="font-size: 16px; color: #607d8b;">可現股當沖</span></div>
+        </div>
+    </div>
+    <div class="info-right ftR">
+        <div>
+            <ul class="priceinfo">
+                <li class="deal"><b>股價</b><br />
+                    <span class="fwbig">
+                        <span id="Price1_lbTPrice2"><span class="clr-gr">98.6</span></span></span></li>
+                <li class="change"><b>漲跌</b><br />
+                    <span class="fwbig price-up">
+                        <span id="Price1_lbTChange2"><span class="clr-gr">▼0.7</span></span></span></li>
+                <li class="rise"><b>漲幅</b><br />
+                    <span class="fwbig">
+                        <span id="Price1_lbTPercent2"><span class="clr-gr" style="font-size:13px;">-0.70%</span></span></span></li>
+                <li class="volume"><b>成交量</b><br />
+                    <span class="fwbig">
+                        <span id="Price1_lbTVolume2"><span class="p13">10,250</span></span>張</span></li>
+                <li class="sectors"><b>產業</b><br />
+                    <span class="fwsmall">
+                        <span id="Price1_lbStockClass2">上市 電腦週邊類股</span><span id="Price1_lbClassChangeRatio2"><span class="price-down">▼0.44%</span></span></span></li>
+                <li class="track">
+                        <div style="margin-top:-12px">
+
+
+    <p style="margin-top:10px;"><span style="color: #f57c00;">197</span>人加入追蹤</p>
+    <p style="margin-top:0px;"><a id="addStock2" class="addstock">立即追蹤</a></p>
+
+<script type="text/javascript">
+    $(function () {
+        $("#addStock1").button().click(function () {
+            addMyStock();
+        });
+        $("#addStock2").button().click(function () {
+            addMyStock();
+        });
+    });
+    function addMyStock() {
+        var $this = $(this);
+        var horizontalPadding = 25;
+        var verticalPadding = 0;
+        var no = '';
+        if ('2377' == '') { no = '0000'; }
+            else { no = '2377'; }
+
+            $('<iframe src="/stock/add.aspx?no=' + no + '" />').dialog({
+                autoOpen: true,
+                width: 635,
+                height: 200,
+                modal: true,
+                resizable: false,
+                autoResize: false,
+                overlay: {
+                    opacity: 0.5,
+                    background: "black"
+                },
+                title: "我的追蹤",
+                close: function (event, ui) {
+                    window.location.href = window.location.href;
+                    window.location.reload;
+                }
+            }).width(635 - horizontalPadding).height(300 - verticalPadding);
+    }
+</script></div>
+                </li>
+                <li class="track">
+                    <p class="txtR">本地時間:<span id="Price1_lbLocalTime2">14:35<span>(已收盤)</span></span></p>
+                    <input name="ctl00$Price1$tbxStock2" type="text" value="個股查詢" id="Price1_tbxStock2" class="fdstocktxt2" onfocus="if (this.value == &#39;個股查詢&#39;) this.value = &#39;&#39;" onblur="if(this.value==&#39;&#39;)this.value=&#39;個股查詢&#39;" /><a id="Price1_btnGo2" class="fdstockbtn2" href="javascript:__doPostBack(&#39;ctl00$Price1$btnGo2&#39;,&#39;&#39;)">&nbsp;</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        setupFindStock($("#Price1_tbxStock2"), 'ctl00$Price1$btnGo2', '');
+    });
+ </script>
+
+ 
+                </div>
+            </div>
+        </div>
+
+        <div class="index-main">
+            <div class="mp-main-left">
+        
+    <ul class="tab-three mt10 mb10">
+    <li id="tab_a1" onclick='goToPage("三大法人")'><a title="三大法人">三大法人</a></li>
+    <li id="tab_a2" onclick='goToPage("融資融券")'><a title="融資融券">融資融券</a></li>
+    <li id="tab_a3" onclick='goToPage("八大官股")'><a title="八大官股">八大官股</a></li>
+    <li id="tab_a4" onclick='goToPage("主力籌碼集中度")'><a title="主力籌碼集中度">主力籌碼集中度</a></li>
+    <li id="tab_a5" onclick='goToPage("主力籌碼分析")'><a title="主力籌碼分析">主力籌碼分析</a></li>
+    <li id="tab_a6" onclick='goToPage("券商分點買賣")' class="act"><a title="券商分點買賣">券商分點買賣</a></li>
+    <li id="tab_a7" onclick='goToPage("券商分點績效")'><a title="券商分點績效">券商分點績效</a></li>
+</ul>
+    <div class="grid mt10">
+        <div class="grid-item w100p">
+            <div class="grid-hdr handle">
+                <div class="ctmark ctmark1"></div>
+                <div class="ctname">微星 (2377)籌碼相關－券商分點買賣日報</div>
+            </div>
+            <div class="grid-body">
+                 
+
+<div class="grid-body">
+    
+    <div class="row-stock pl10">
+        <a id="CPHB1_Branch1_hlDay1" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377">一日</a><a id="CPHB1_Branch1_hlDay7" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377&amp;day=7">一周</a><a id="CPHB1_Branch1_hlDay14" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377&amp;day=14">兩周</a><a id="CPHB1_Branch1_hlDay30" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377&amp;day=30">一月</a><a id="CPHB1_Branch1_hlDay60" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377&amp;day=60">二月</a><a id="CPHB1_Branch1_hlDay90" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377&amp;day=90">三月</a><a id="CPHB1_Branch1_hlDay180" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377&amp;day=180">六月</a><a id="CPHB1_Branch1_hlDay270" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377&amp;day=270">九月</a><a id="CPHB1_Branch1_hlDay365" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377&amp;day=365">一年</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="ctl00$CPHB1$Branch1$tbxStartDate" type="text" value="2018/04/09" maxlength="10" id="CPHB1_Branch1_tbxStartDate" class="inputDay" style="width:90px;" />
+            ~ 
+        <input name="ctl00$CPHB1$Branch1$tbxEndDate" type="text" value="2018/04/09" maxlength="10" id="CPHB1_Branch1_tbxEndDate" class="inputDay" style="width:90px;" /><input type="submit" name="ctl00$CPHB1$Branch1$btnSearch" value="查詢" id="CPHB1_Branch1_btnSearch" class="btnSearch" />  
+    </div>
+    <div class="row-stock txtC">
+            <a id="CPHB1_Branch1_hlDayPre" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377&amp;from=20180408&amp;to=20180408">«前一日</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;2018/04/09&nbsp;&nbsp;&nbsp;&nbsp;
+            <a id="CPHB1_Branch1_hlDayNext" class="btn btn-info" rel="nofollow" href="/stock/branch.aspx?no=2377&amp;from=20180410&amp;to=20180410">後一日»</a>
+    </div>
+    
+
+    <div class="cbchart" style="margin-top: 5px;">
+        <div id="chart_BrokerBranch" class="mainchart w100p" style="height: 358px;"></div>
+        
+    </div>
+</div>
+<div class="card-foot grid-foot">
+    <table class="tb-stock tbChip tbHide" style="margin-top: -20px;">
+        <tr>
+            <th class="w1 w90 chsell">券商名稱</th>
+            <th class="w1 w70 chsell hidecell">買張</th>
+            <th class="w1 w70 chsell hidecell">賣張</th>
+            <th class="w1 w70 chsell">賣超</th>
+            <th class="w1 w70 chsell">均價</th>
+            <th class="w1 w90 chbuy">券商名稱</th>
+            <th class="w1 w70 chbuy hidecell">買張</th>
+            <th class="w1 w70 chbuy hidecell">賣張</th>
+            <th class="w1 w70 chbuy">買超</th>
+            <th class="w1 w70 chbuy">均價</th>
+        </tr>
+        <tr class="alt-row"><td><a href="/stock/brokertrace.aspx?bno=1520&no=2377" target="_blank">瑞士信貸</a></td><td class="hidecell">257</td><td class="hidecell">2,254</td><td>-1,997</td><td>100.1</td><td><a href="/stock/brokertrace.aspx?bno=1470&no=2377" target="_blank">台灣摩根士丹利</a></td><td class="hidecell">2,382</td><td class="hidecell">525</td><td>1,857</td><td>100.26</td></tr><tr><td><a href="/stock/brokertrace.aspx?bno=1480&no=2377" target="_blank">美商高盛</a></td><td class="hidecell">205</td><td class="hidecell">1,707</td><td>-1,502</td><td>100.02</td><td><a href="/stock/brokertrace.aspx?bno=1360&no=2377" target="_blank">港商麥格理</a></td><td class="hidecell">1,195</td><td class="hidecell">301</td><td>894</td><td>100.71</td></tr><tr class="alt-row"><td><a href="/stock/brokertrace.aspx?bno=1440&no=2377" target="_blank">美林</a></td><td class="hidecell">844</td><td class="hidecell">2,157</td><td>-1,313</td><td>100.01</td><td><a href="/stock/brokertrace.aspx?bno=9600&no=2377" target="_blank">富邦</a></td><td class="hidecell">1,014</td><td class="hidecell">300</td><td>714</td><td>100.36</td></tr><tr><td><a href="/stock/brokertrace.aspx?bno=5850&no=2377" target="_blank">統一</a></td><td class="hidecell">329</td><td class="hidecell">1,159</td><td>-830</td><td>100.26</td><td><a href="/stock/brokertrace.aspx?bno=8440&no=2377" target="_blank">摩根大通</a></td><td class="hidecell">502</td><td class="hidecell">57</td><td>445</td><td>100.33</td></tr><tr class="alt-row"><td><a href="/stock/brokertrace.aspx?bno=1160&no=2377" target="_blank">日盛</a></td><td class="hidecell">93</td><td class="hidecell">798</td><td>-705</td><td>100.39</td><td><a href="/stock/brokertrace.aspx?bno=9636&no=2377" target="_blank">富邦-中壢</a></td><td class="hidecell">353</td><td class="hidecell">1</td><td>352</td><td>101.51</td></tr><tr><td><a href="/stock/brokertrace.aspx?bno=7000&no=2377" target="_blank">兆豐</a></td><td class="hidecell">2</td><td class="hidecell">700</td><td>-698</td><td>100.4</td><td><a href="/stock/brokertrace.aspx?bno=9100&no=2377" target="_blank">群益金鼎</a></td><td class="hidecell">248</td><td class="hidecell">82</td><td>166</td><td>99.97</td></tr><tr class="alt-row"><td><a href="/stock/brokertrace.aspx?bno=585c&no=2377" target="_blank">統一-仁愛</a></td><td class="hidecell"></td><td class="hidecell">140</td><td>-140</td><td>102.58</td><td><a href="/stock/brokertrace.aspx?bno=9692&no=2377" target="_blank">富邦-嘉義</a></td><td class="hidecell">173</td><td class="hidecell">11</td><td>162</td><td>99.74</td></tr><tr><td><a href="/stock/brokertrace.aspx?bno=989B&no=2377" target="_blank">元大-台中中港</a></td><td class="hidecell">3</td><td class="hidecell">70</td><td>-67</td><td>99.47</td><td><a href="/stock/brokertrace.aspx?bno=8560&no=2377" target="_blank">新光</a></td><td class="hidecell">248</td><td class="hidecell">114</td><td>134</td><td>100.35</td></tr><tr class="alt-row"><td><a href="/stock/brokertrace.aspx?bno=1650&no=2377" target="_blank">新加坡商瑞銀</a></td><td class="hidecell">61</td><td class="hidecell">123</td><td>-61</td><td>100.76</td><td><a href="/stock/brokertrace.aspx?bno=9651&no=2377" target="_blank">富邦-民生</a></td><td class="hidecell">104</td><td class="hidecell">1</td><td>103</td><td>99.41</td></tr><tr><td><a href="/stock/brokertrace.aspx?bno=9A9C&no=2377" target="_blank">永豐金-員林</a></td><td class="hidecell">1</td><td class="hidecell">56</td><td>-55</td><td>101.9</td><td><a href="/stock/brokertrace.aspx?bno=538W&no=2377" target="_blank">第一金-華江</a></td><td class="hidecell">103</td><td class="hidecell">3</td><td>100</td><td>99.77</td></tr><tr class="alt-row"><td><a href="/stock/brokertrace.aspx?bno=9287&no=2377" target="_blank">凱基-內湖</a></td><td class="hidecell"></td><td class="hidecell">50</td><td>-50</td><td>99.78</td><td><a href="/stock/brokertrace.aspx?bno=126L&no=2377" target="_blank">宏遠-台中</a></td><td class="hidecell">125</td><td class="hidecell">30</td><td>95</td><td>100.98</td></tr><tr><td><a href="/stock/brokertrace.aspx?bno=8770&no=2377" target="_blank">大鼎</a></td><td class="hidecell"></td><td class="hidecell">50</td><td>-50</td><td>103</td><td><a href="/stock/brokertrace.aspx?bno=9131&no=2377" target="_blank">群益金鼎-民權</a></td><td class="hidecell">103</td><td class="hidecell">24</td><td>79</td><td>100.87</td></tr><tr class="alt-row"><td><a href="/stock/brokertrace.aspx?bno=6910&no=2377" target="_blank">德信</a></td><td class="hidecell">2</td><td class="hidecell">51</td><td>-49</td><td>102.84</td><td><a href="/stock/brokertrace.aspx?bno=585U&no=2377" target="_blank">統一-南京</a></td><td class="hidecell">131</td><td class="hidecell">53</td><td>78</td><td>100.34</td></tr><tr><td><a href="/stock/brokertrace.aspx?bno=585M&no=2377" target="_blank">統一-士林</a></td><td class="hidecell">1</td><td class="hidecell">48</td><td>-47</td><td>100.84</td><td><a href="/stock/brokertrace.aspx?bno=1530&no=2377" target="_blank">港商德意志</a></td><td class="hidecell">77</td><td class="hidecell">4</td><td>73</td><td>100.36</td></tr><tr class="alt-row"><td><a href="/stock/brokertrace.aspx?bno=9800&no=2377" target="_blank">元大</a></td><td class="hidecell">216</td><td class="hidecell">257</td><td>-41</td><td>100.41</td><td><a href="/stock/brokertrace.aspx?bno=1590&no=2377" target="_blank">花旗環球</a></td><td class="hidecell">145</td><td class="hidecell">79</td><td>66</td><td>102.07</td></tr>
+    </table>
+    
+    
+
+    <div class="cfdate"></div>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        var jsonDatas = eval({
+  "Buy": [
+    {
+      "Index": 1,
+      "Number": "1470",
+      "Name": "台灣摩根士丹利",
+      "BSSum": "1,857",
+      "BuySum": "2,382",
+      "SellSum": "525",
+      "Price": "100.26"
+    },
+    {
+      "Index": 2,
+      "Number": "1360",
+      "Name": "港商麥格理",
+      "BSSum": "894",
+      "BuySum": "1,195",
+      "SellSum": "301",
+      "Price": "100.71"
+    },
+    {
+      "Index": 3,
+      "Number": "9600",
+      "Name": "富邦",
+      "BSSum": "714",
+      "BuySum": "1,014",
+      "SellSum": "300",
+      "Price": "100.36"
+    },
+    {
+      "Index": 4,
+      "Number": "8440",
+      "Name": "摩根大通",
+      "BSSum": "445",
+      "BuySum": "502",
+      "SellSum": "57",
+      "Price": "100.33"
+    },
+    {
+      "Index": 5,
+      "Number": "9636",
+      "Name": "富邦-中壢",
+      "BSSum": "352",
+      "BuySum": "353",
+      "SellSum": "1",
+      "Price": "101.51"
+    },
+    {
+      "Index": 6,
+      "Number": "9100",
+      "Name": "群益金鼎",
+      "BSSum": "166",
+      "BuySum": "248",
+      "SellSum": "82",
+      "Price": "99.97"
+    },
+    {
+      "Index": 7,
+      "Number": "9692",
+      "Name": "富邦-嘉義",
+      "BSSum": "162",
+      "BuySum": "173",
+      "SellSum": "11",
+      "Price": "99.74"
+    },
+    {
+      "Index": 8,
+      "Number": "8560",
+      "Name": "新光",
+      "BSSum": "134",
+      "BuySum": "248",
+      "SellSum": "114",
+      "Price": "100.35"
+    },
+    {
+      "Index": 9,
+      "Number": "9651",
+      "Name": "富邦-民生",
+      "BSSum": "103",
+      "BuySum": "104",
+      "SellSum": "1",
+      "Price": "99.41"
+    },
+    {
+      "Index": 10,
+      "Number": "538W",
+      "Name": "第一金-華江",
+      "BSSum": "100",
+      "BuySum": "103",
+      "SellSum": "3",
+      "Price": "99.77"
+    },
+    {
+      "Index": 11,
+      "Number": "126L",
+      "Name": "宏遠-台中",
+      "BSSum": "95",
+      "BuySum": "125",
+      "SellSum": "30",
+      "Price": "100.98"
+    },
+    {
+      "Index": 12,
+      "Number": "9131",
+      "Name": "群益金鼎-民權",
+      "BSSum": "79",
+      "BuySum": "103",
+      "SellSum": "24",
+      "Price": "100.87"
+    },
+    {
+      "Index": 13,
+      "Number": "585U",
+      "Name": "統一-南京",
+      "BSSum": "78",
+      "BuySum": "131",
+      "SellSum": "53",
+      "Price": "100.34"
+    },
+    {
+      "Index": 14,
+      "Number": "1530",
+      "Name": "港商德意志",
+      "BSSum": "73",
+      "BuySum": "77",
+      "SellSum": "4",
+      "Price": "100.36"
+    },
+    {
+      "Index": 15,
+      "Number": "1590",
+      "Name": "花旗環球",
+      "BSSum": "66",
+      "BuySum": "145",
+      "SellSum": "79",
+      "Price": "102.07"
+    }
+  ],
+  "Sell": [
+    {
+      "Index": 1,
+      "Number": "1520",
+      "Name": "瑞士信貸",
+      "BSSum": "-1,997",
+      "BuySum": "257",
+      "SellSum": "2,254",
+      "Price": "100.1"
+    },
+    {
+      "Index": 2,
+      "Number": "1480",
+      "Name": "美商高盛",
+      "BSSum": "-1,502",
+      "BuySum": "205",
+      "SellSum": "1,707",
+      "Price": "100.02"
+    },
+    {
+      "Index": 3,
+      "Number": "1440",
+      "Name": "美林",
+      "BSSum": "-1,313",
+      "BuySum": "844",
+      "SellSum": "2,157",
+      "Price": "100.01"
+    },
+    {
+      "Index": 4,
+      "Number": "5850",
+      "Name": "統一",
+      "BSSum": "-830",
+      "BuySum": "329",
+      "SellSum": "1,159",
+      "Price": "100.26"
+    },
+    {
+      "Index": 5,
+      "Number": "1160",
+      "Name": "日盛",
+      "BSSum": "-705",
+      "BuySum": "93",
+      "SellSum": "798",
+      "Price": "100.39"
+    },
+    {
+      "Index": 6,
+      "Number": "7000",
+      "Name": "兆豐",
+      "BSSum": "-698",
+      "BuySum": "2",
+      "SellSum": "700",
+      "Price": "100.4"
+    },
+    {
+      "Index": 7,
+      "Number": "585c",
+      "Name": "統一-仁愛",
+      "BSSum": "-140",
+      "BuySum": "",
+      "SellSum": "140",
+      "Price": "102.58"
+    },
+    {
+      "Index": 8,
+      "Number": "989B",
+      "Name": "元大-台中中港",
+      "BSSum": "-67",
+      "BuySum": "3",
+      "SellSum": "70",
+      "Price": "99.47"
+    },
+    {
+      "Index": 9,
+      "Number": "1650",
+      "Name": "新加坡商瑞銀",
+      "BSSum": "-61",
+      "BuySum": "61",
+      "SellSum": "123",
+      "Price": "100.76"
+    },
+    {
+      "Index": 10,
+      "Number": "9A9C",
+      "Name": "永豐金-員林",
+      "BSSum": "-55",
+      "BuySum": "1",
+      "SellSum": "56",
+      "Price": "101.9"
+    },
+    {
+      "Index": 11,
+      "Number": "9287",
+      "Name": "凱基-內湖",
+      "BSSum": "-50",
+      "BuySum": "",
+      "SellSum": "50",
+      "Price": "99.78"
+    },
+    {
+      "Index": 12,
+      "Number": "8770",
+      "Name": "大鼎",
+      "BSSum": "-50",
+      "BuySum": "",
+      "SellSum": "50",
+      "Price": "103"
+    },
+    {
+      "Index": 13,
+      "Number": "6910",
+      "Name": "德信",
+      "BSSum": "-49",
+      "BuySum": "2",
+      "SellSum": "51",
+      "Price": "102.84"
+    },
+    {
+      "Index": 14,
+      "Number": "585M",
+      "Name": "統一-士林",
+      "BSSum": "-47",
+      "BuySum": "1",
+      "SellSum": "48",
+      "Price": "100.84"
+    },
+    {
+      "Index": 15,
+      "Number": "9800",
+      "Name": "元大",
+      "BSSum": "-41",
+      "BuySum": "216",
+      "SellSum": "257",
+      "Price": "100.41"
+    }
+  ]
+});
+        var series1 = {data: []},
+            series2 = { data: [] },
+            categories1 = { data: [] },
+            categories2 = { data: [] };
+        $.each(jsonDatas, function (key, jArray) {
+            $.each(jArray, function (index, jObj) {       
+                    $.each(jObj, function (name, jData) {
+
+                        var series = { data: [] },
+                            categories = { data: [] };
+                        if (key == 'Buy') {
+                            series = series1;
+                            categories = categories1;
+                        }
+                        else {
+                            series = series2;
+                            categories = categories2;
+                        }
+                        if (name == 'Name') {
+                            series.name = key;
+                            categories.data.push(jData);
+                        } else if (name == 'BSSum') {
+                            //For Highchart
+                            series.data.push(parseInt(jData.replace(',', '')));
+                            //For Rgraph
+                            //series.data.push(parseInt(jData.replace(',', '').replace('-', '')));
+                        }
+                    });
+                });
+            });
+         
+        initalChart_BrokerBranch(series1, series2, categories1, categories2);
+        //loadData(series1, series2, categories1, categories2);
+
+        var maxDay = new Date();
+        var minDay = new Date(); minDay.setMonth(minDay.getMonth() - 12);
+        $('#CPHB1_Branch1_tbxStartDate').datepicker({ maxDate: maxDay, minDate: minDay, dateFormat: 'yy/mm/dd' });
+        $('#CPHB1_Branch1_tbxEndDate').datepicker({ maxDate: maxDay, minDate: minDay, dateFormat: 'yy/mm/dd' });
+    });
+   
+    function loadData(series1, series2, categories1, categories2) {
+        var tooltips = [], colors = [], leftTips = [], rightTips = [];
+        var count = series1.length;
+        //for (var i = 0; i < count; i += 1) { if (series1.data[i] == dataMaxOIBuy) colors.push(['#F05C00']); else colors.push(['#FFB485']); leftTips.push(dataOIBuyDiff[i]); }
+        //for (var i = 0; i < count; i += 1) { if (series2.data[i] == dataMaxOISell) colors.push(['#00B522']); else colors.push(['#7EDE90']); rightTips.push(dataOISellDiff[i]); }
+
+        var bipolar = new RGraph.Bipolar({
+            id: 'cvs_BrokerBranch',
+            left: series1.data,
+            right: series2.data,
+            options: {
+                title: { self: 'XXX', left: '買權OI (單位:口)', right: '賣權OI (單位:口)', size: '11', color: '#215e96' },
+                //gutter: { left: 90, top: 30, right: 65 },
+                margin: 4,
+                labels: { above: true, ingraph: ['123', '456'] },
+                yaxisLabels: ['IL89L', 'IL56I', 'ILH78', 'IL899H', 'IL78J', 'IL90P', 'IL56H', 'IL58H', 'IL99K', 'IL99J', 'IL654G'],
+                yaxisLabels: ['IL89L', 'IL56I', 'ILH78', 'IL899H', 'IL78J', 'IL90P', 'IL56H', 'IL58H', 'IL99K', 'IL99J', 'IL654G'],
+                //tooltips: {self: tooltips,event: 'onmousemove'},
+                colors: { sequential: true },
+                axis: { color: 'rgba(255,255,255,1)' }
+            }
+        }).draw();
+         
+        //var left = [5, 6, 8, 9, 12, 13, 4, 9];
+        //var right = [5, 8, 4, 11, 15, 26, 13, 16];
+
+        //var bipolar = new RGraph.Bipolar({
+        //    id: 'cvs_BrokerBranch',
+        //    left: left,
+        //    right: right,
+        //    options: {
+        //        colors: ['red'],
+        //        hmargin: 3,
+        //        labels: ['Barry', 'John', 'Fred', 'George', 'Rich', 'Larry', 'John', 'Mike'],
+        //        titleLeft: '2007',
+        //        titleRight: '2008',
+        //        gutterBottom: 45
+        //    }
+        //}).draw();
+     
+
+        //////options.series[0].data = series1.data;
+        //////options.series[1].data = series2.data;
+        ////options.series.push(series1);
+        ////options.series.push(series2);
+        //var offsetRatio = 0;
+        //if (count < 12) offsetRatio = 1.65; else offsetRatio = 1.75;
+        //var offsetX, offsetDiffX;
+        //var offsetY = (bipolar.coords[1][1] - bipolar.coords[0][1]) * offsetRatio;
+        //var index = 0;
+        //var x, y;
+        //var symbol, txtColor;
+        //var dataValue, dataDiff=0;
+        //for (index = 0; index < count; index += 1) {
+        //    dataValue = series1.data[index];
+        //    //dataDiff = dataOIBuyDiff[index];
+        //    if (Math.abs(dataValue) < 1000) offsetX = 75; else if (Math.abs(dataValue) < 10000) offsetX = 90; else offsetX = 98;
+        //    //if (Math.abs(dataDiff) < 1000) offsetDiffX = 0; else if (Math.abs(dataDiff) < 10000) offsetDiffX = 5; else offsetDiffX = 8;
+        //    x = bipolar.coords[index][0] - offsetX - offsetDiffX;
+        //    y = bipolar.coords[index][1] + offsetY;
+
+        //    if (dataDiff > 0) {
+        //        symbol = '+';
+        //        txtColor = 'red';
+        //    } else {
+        //        symbol = '';
+        //        txtColor = 'green';
+        //    }
+        //    var marker = new RGraph.Drawing.Marker2({
+        //        id: 'chart_BrokerBranch', x: x, y: y, text: '(' + symbol + dataDiff + ')',
+        //        options: {
+        //            strokestyle: 'transparent',
+        //            shadow: false,
+        //            text: { color: txtColor, size: 10 }
+        //        }
+        //    }).draw()
+        //}
+
+        //if (count < 12) offsetRatio = 1.60; else offsetRatio = 1.74;
+        //offsetY = (bipolar.coords[1][1] - bipolar.coords[0][1]) * offsetRatio;
+        //for (index = 0; index < count; index += 1) {
+        //    dataValue = series2.data[index];
+        //    //dataDiff = dataOISellDiff[index];
+
+        //    if (Math.abs(dataValue) < 1000) offsetX = 35; else if (Math.abs(dataValue) < 10000) offsetX = 45; else offsetX = 50;
+        //    //if (Math.abs(dataDiff) < 1000) offsetDiffX = 0; else if (Math.abs(dataDiff) < 10000) offsetDiffX = 0; else offsetDiffX = 0;
+
+        //    if (dataValue == 57388) offsetX = 98;
+
+        //    x = bipolar.coords[index + count][0] + bipolar.coords[index + count][2] + offsetX + offsetDiffX;
+        //    y = bipolar.coords[index + count][1] + offsetY;
+
+        //    if (dataDiff > 0) {
+        //        symbol = '+';
+        //        txtColor = 'red';
+        //    } else {
+        //        symbol = '';
+        //        txtColor = 'green';
+        //    }
+        //    var marker = new RGraph.Drawing.Marker2({
+        //        id: 'chart_BrokerBranch', x: x, y: y, text: '(' + symbol + dataDiff + ')',
+        //        options: {
+        //            strokestyle: 'rgba(255,255,255,0)',
+        //            shadow: false,
+        //            text: { color: txtColor, size: 10 }
+        //        }
+        //    }).draw()
+        //}
+    }
+
+
+    function initalChart_BrokerBranch(series1, series2, categories1, categories2) {
+        Highcharts.setOptions({
+            lang: {
+                thousandsSep: ','
+            }
+        }); 
+        //var chart = new Highcharts.chart({
+        var chart, options;
+        options = {
+            chart: {
+                renderTo: 'chart_BrokerBranch',
+                plotBorderWidth: 2,
+                alignTicks: false,
+                animation: false,
+                zoomType: '',
+                panning: false,
+                panKey: 'shift',
+                type: 'bar',
+                marginTop:0
+            },
+            legend: {
+                enabled: false
+            },
+            credits: {
+                enabled: false
+            },
+            scrollbar: {
+                enabled: false
+            },
+            rangeSelector: {
+                enabled: false
+            },
+            navigator: {
+                enabled: false
+            },
+            exporting: {
+                enabled: false
+            },
+            title:{
+                text:''
+            },
+            subtitle: {
+                enabled: false
+            },
+            xAxis: [{
+                labels: {
+                    enabled: false
+                }, tickLength: 0
+            }, { // mirror axis on right side
+                opposite: true,
+                labels: {
+                    enabled: false
+                }, tickLength: 0
+            }],
+            yAxis: [{
+                title: { text: '' },
+                gridLineWidth: 0
+            }],
+            plotOptions: {
+                bar: {
+                    dataLabels: {
+                        enabled: true,
+                        color:'black',
+                        formatter: function () {
+                            var categ;
+                            if (this.series.name == '買超') {
+                                categ = categories1;
+                            } else {
+                                categ = categories2;
+                            }
+                            return categ.data[this.x];
+                        },
+                        inside: false,
+                        padding:0,
+                        y: -1
+                    }
+                },
+                series: {
+                    stacking: 'normal'
+                }
+            },
+            tooltip: {
+                formatter: function () {
+                    //console.log(this.point);
+                    return  Highcharts.numberFormat(this.point.y, 0);
+                }
+            },
+            series: [{
+                name: '買超',
+                color: '#db6956',
+                data: series1.data
+            }, {
+                name: '賣超',
+                color: '#cddc39',
+                data: series2.data
+            }]
+        }
+        //options.series[0].data = series1.data;
+        //options.series[1].data = series2.data;
+        //options.series.push(series1);
+        //options.series.push(series2);
+        chart = new Highcharts.Chart(options);
+        setRange(chart, 0);
+    }
+</script>
+ 
+
+
+
+            </div>
+        </div>
+    </div>
+
+                <div class="mt10">
+                    
+<div class="grid news">
+    <div class="grid-item w100p mb10"><div class="grid-hdr handle"><div class="ctmark ctmark2"></div><div class="ctname"><b class="title">挖礦族群 首季營運兩樣情</b><span class="fromweb">UDN聯合新聞網</span><span class="time">－2時前</span></div></div><div class="grid-body"><div class="newsTag"><ul><li><a href="/stock/2377" target="_blank">微星</a></li><li><a href="/stock/2465" target="_blank">麗臺</a></li><li><a href="/stock/5386" target="_blank">青雲</a></li><li><a href="/stock/6222" target="_blank">上揚</a></li></ul></div><a href="https://udn.com/news/story/7253/3078106" target="_blank"><div class="newsText mt10">虛擬貨幣「挖礦」概念股營運出現兩樣情，二三線顯卡、板卡廠麗臺（2465）、青雲（5386）近期營運低於市場預期，導致今（10）日盤中股價雙雙打入跌停，惟一線大廠微星（2377）繳出單月營收年增三成佳績，顯示該族群股價動向正逐漸回歸營運基本面。虛擬貨幣「挖礦」概念股營運出現兩樣情，二三線顯卡、板卡廠麗臺（2465）、青雲（5386）近期營運低於市場預期，導致今<span class="detail">...詳全文</span><div></div></div></a></div></div><div class="grid-item w100p mb10"><div class="grid-hdr handle"><div class="ctmark ctmark2"></div><div class="ctname"><b class="title">各擁利多 微星儒鴻權證威風</b><span class="fromweb">中時電子報</span><span class="time">－12時前</span></div></div><div class="grid-body"><div class="newsTag"><ul><li><a href="/stock/2377" target="_blank">微星</a></li></ul></div><a href="http://www.chinatimes.com/newspapers/20180410000513-260206" target="_blank"><div class="newsText mt10">　隨著電競產業蓬勃發展，電競筆電龍頭微星（2377）新品盡出，以符合市場需求，並推升股價走揚，技術面<span class="detail">...詳全文</span><div></div></div></a></div></div><div class="grid-item w100p mb10"><div class="grid-hdr handle"><div class="ctmark ctmark2"></div><div class="ctname"><b class="title">微星+27% 三產品熱銷</b><span class="fromweb">UDN聯合新聞網</span><span class="time">－16時前</span></div></div><div class="grid-body"><div class="newsTag"><ul><li><a href="/stock/2377" target="_blank">微星</a></li><li><a href="/stock/6222" target="_blank">上揚</a></li></ul></div><a href="https://udn.com/news/story/7253/3076987" target="_blank"><div class="newsText mt10">微星（2377）昨（9）日公布3月營收為117.29億元，創三年多來新高，月增27.1%，年增33.4%。微星今年受惠挖礦、電競與主機板等三大主力產品熱銷帶動下，今年營運展望看好。微星（2377）昨（9）日公布3月營收為117.29億元，創三年多來新高，月增27.1%，年增33.4%。微星今年受惠挖礦、電競與主機板等三大主力產品熱銷帶動下，今年營運展望看好。<span class="detail">...詳全文</span><div></div></div></a></div></div>
+</div>
+
+
+
+                </div>
+            </div><div class="mp-main-right">
+                <div class="bRight mt10">
+                    <div class="mb10">
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var adCount = 2;//廣告總數
+        var adIndex = Math.floor((Math.random() * adCount) + 1);//隨機跳第幾個廣告
+        var selectIndex = 0;//指定第幾個廣告, 0為不指定
+
+        if (selectIndex > 0) {
+            adIndex = showAD300X250(selectIndex);
+        } else {
+            adIndex = showAD300X250(adIndex);
+            setInterval(function () { adIndex = showAD300X250(adIndex); }, 7000);
+        }
+
+        function showAD300X250(adIndex) {
+            for (i = 1; i <= adCount; i++) {
+                if (i != adIndex) {
+                    $('#ad_stock_rt_300x2501_ad' + i).hide();
+                }
+            }
+            $('#ad_stock_rt_300x2501_ad' + adIndex).show();
+
+            adIndex += 1;
+            if (adIndex > adCount) adIndex = 1;
+            return adIndex;
+        }
+    });
+</script>
+ 
+<div id="ad_stock_rt_300x2501_ad1" style="display:none;">
+<!-- histock_台股個股_300x250_右上v2 -->
+
+    
+<a href="https://histock.tw/course/lesson.aspx?id=133" target="_blank">
+    <img alt="(台中場免費講座) 4/14(六) Cash・外匯智能交易學院" src="https://i.imgur.com/4WuKMqh.jpg" style="width:300px;" />
+</a>
+</div>
+ 
+<div id="ad_stock_rt_300x2501_ad2" style="display:none;">
+<a href="https://histock.tw/course/lesson.aspx?id=133" target="_blank">
+    <img alt="(台中場免費講座) 4/14(六) Cash・外匯智能交易學院" src="https://i.imgur.com/4WuKMqh.jpg" style="width:300px;" />
+</a>
+
+    
+</div>
+
+ 
+ </div>
+                    
+<div id='RBlock_7' class="grid-item w280">
+    <div class="grid-hdr handle">
+        <img id="RBlock8_imgMark" class="ctmark" src="https://histock.tw/images/2017e/stock/mark5.png" />
+        <div class="ctname">微星   相關文章 </div>
+
+        <a id="RBlock8_hlLink" href="/blog" target="_blank"><div class="ctmore"></div></a>
+    </div>
+    
+<style>
+    ul.blogstock {list-style: none; width:100%;margin:0px; padding:5px 10px 5px 10px;font-size:12px; }
+    ul.blogstock li {border-bottom: 1px solid #e6e6e6; height:30px; line-height:30px;}
+    ul.blogstock li a {overflow: hidden;text-overflow: ellipsis;white-space:nowrap;display:block;vertical-align: bottom;text-decoration:none;}
+    ul.blogstock li a.blogtitle {width:75%; float:left;color: #56749a;text-align:left;}
+    ul.blogstock li a.blogmember {width:20%;margin-right: 12px; float:right;color:#757575; text-align:left;}
+    ul.blogstock li:last-child {border-bottom: 0px solid #ffffff;}
+</style>
+<div class="div-outline w280"><ul class="blogstock"><li><a title="李思儀的部落格" href="/blog/futures1" class="short blogmember" target="_blank"> - 李思儀</a><a title="按巴菲特理論 看這個數目…台股過熱了 謝金河:土狗年瞄準漲價股！" href="/futures1/105" class="short blogtitle" target="_blank">按巴菲特理論 看這個數目…台股過熱了 謝金河:土狗年瞄準漲價股！</a></li><li><a title="路易斯Lewis的部落格" href="/blog/lewis" class="short blogmember" target="_blank"> - 路易斯Lewis</a><a title="【盤後分享】0103 盤後功課" href="/lewis/107" class="short blogtitle" target="_blank">【盤後分享】0103 盤後功課</a></li><li><a title="路易斯Lewis的部落格" href="/blog/lewis" class="short blogmember" target="_blank"> - 路易斯Lewis</a><a title="【盤後分享】0102 盤後功課" href="/lewis/106" class="short blogtitle" target="_blank">【盤後分享】0102 盤後功課</a></li><li><a title="阿布波的部落格" href="/blog/38" class="short blogmember" target="_blank"> - 阿布波</a><a title="法人元旦佈局(個股、族群)" href="/38/2174" class="short blogtitle" target="_blank">法人元旦佈局(個股、族群)</a></li><li><a title="李思儀的部落格" href="/blog/futures1" class="short blogmember" target="_blank"> - 李思儀</a><a title="4大變數 台股本周壓力重/15檔高殖利率 籌碼強勢" href="/futures1/60" class="short blogtitle" target="_blank">4大變數 台股本周壓力重/15檔高殖利率 籌碼強勢</a></li><li><a title="路易斯Lewis的部落格" href="/blog/lewis" class="short blogmember" target="_blank"> - 路易斯Lewis</a><a title="【盤後分享】1017 盤後功課" href="/lewis/73" class="short blogtitle" target="_blank">【盤後分享】1017 盤後功課</a></li><li><a title="奔跑吧權證的部落格" href="/blog/runwarrants" class="short blogmember" target="_blank"> - 奔跑吧權證</a><a title="買權證不怕被吃豆腐？賺最多最重要~" href="/runwarrants/16" class="short blogtitle" target="_blank">買權證不怕被吃豆腐？賺最多最重要~</a></li><li><a title="呂佳霖的部落格" href="/blog/nincys" class="short blogmember" target="_blank"> - 呂佳霖</a><a title="ETF瘋跟上否" href="/nincys/2939" class="short blogtitle" target="_blank">ETF瘋跟上否</a></li><li><a title="呂佳霖的部落格" href="/blog/nincys" class="short blogmember" target="_blank"> - 呂佳霖</a><a title="小心這咖來亂" href="/nincys/2938" class="short blogtitle" target="_blank">小心這咖來亂</a></li></ul></div>
+</div>
+                    
+<div id='RBlock_8' class="grid-item w280">
+    <div class="grid-hdr handle">
+        <img id="RBlock9_imgMark" class="ctmark" src="https://histock.tw/images/2017e/stock/mark5.png" />
+        <div class="ctname">微星   相關影音 </div>
+
+        <a id="RBlock9_hlLink" href="/talk/alltalk.aspx" target="_blank"><div class="ctmore"></div></a>
+    </div>
+    <div class="div-outline w280"><ul class="blogstock"><li><a href="/school/sam.html" class="blogmember" target="_blank;"> - 何毅</a><a title="微星(2377) 月K線起漲" href="/question/detail.aspx?id=212120" class="blogtitle" target="_blank;">微星(2377) 月K線起漲</a></li><li><a href="/school/38.html" class="blogmember" target="_blank;"> - 阿布波</a><a title="微星(2377) 如何判斷停損停利訊號" href="/question/detail.aspx?id=101221" class="blogtitle" target="_blank;">微星(2377) 如何判斷停損停利訊號</a></li><li><a href="/school/20123.html" class="blogmember" target="_blank;"> - 期貨太極流一徐諒諒</a><a title="微星(2377) 續抱是否有希望獲利?" href="/question/detail.aspx?id=99226" class="blogtitle" target="_blank;">微星(2377) 續抱是否有希望獲利?</a></li><li><a href="/school/38.html" class="blogmember" target="_blank;"> - 阿布波</a><a title="微星(2377) 可以放空嗎?" href="/question/detail.aspx?id=98026" class="blogtitle" target="_blank;">微星(2377) 可以放空嗎?</a></li><li><a href="/school/sam.html" class="blogmember" target="_blank;"> - 何毅</a><a title="微星(2377) 停損停利該如何設?" href="/question/detail.aspx?id=97453" class="blogtitle" target="_blank;">微星(2377) 停損停利該如何設?</a></li><li><a href="/school/sam.html" class="blogmember" target="_blank;"> - 何毅</a><a title="微星(2377) 後勢" href="/question/detail.aspx?id=92392" class="blogtitle" target="_blank;">微星(2377) 後勢</a></li><li><a href="/school/20123.html" class="blogmember" target="_blank;"> - 期貨太極流一徐諒諒</a><a title="微星(2377) 還能追嗎?" href="/question/detail.aspx?id=85032" class="blogtitle" target="_blank;">微星(2377) 還能追嗎?</a></li></ul></div>
+</div>
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>
+ 
+        <div class="clear"></div>
+        
+
+<!--頁尾-->
+<div id="footer">
+    <div class="ft-map">
+        <div class="row">
+            <div class="span">
+                <h4>服務總覽</h4>
+                <ul class="foot-link">
+                    <li><a href="/index">即時國際指數</a></li>
+                    <li><a href="/search">智慧選股</a></li>
+                    <li><a href="/market">嗨聖杯</a></li>
+                    <li><a href="/tw">台股大盤</a></li>
+                    <li><a href="/blogger.aspx">部落格</a></li>
+                    <li><a href="/stock/2330">個股分析</a></li>
+                    <li><a href="/school">理財學院</a></li>
+                    <li><a href="/talk/alltalk.aspx">哈拉版</a></li>
+                    <li><a href="/question">嗨問答</a></li>
+                    <li><a href="/eclass.aspx">線上教學課程</a></li>
+                    <li><a href="/mall">購物儲值</a></li>
+                    <li><a href="/mysn">序號儲值</a></li>
+                    <li id="ftIsUseMobile"><a id="footer20171_btnIsUseMobile" href="javascript:__doPostBack(&#39;ctl00$footer20171$btnIsUseMobile&#39;,&#39;&#39;)">切換電腦版</a></li>
+                </ul>
+            </div>
+            <div class="span">
+                <h4>國際個股分類總覽</h4>
+                <ul class="foot-link"> 
+                    <li><a href="/global/marketclassall.aspx">分類</a></li>  
+                    <li><a href="/twstock" title="台灣股市股價/行情/報價查詢">台股股價</a></li>
+                    <li><a href="/usstock" title="美國股市股價/行情/報價查詢">美股股價</a></li>
+                    <li><a href="/szstock" title="大陸股市股價/行情/報價查詢">陸股股價</a></li>
+                    <li><a href="/hkstock" title="香港股市股價/行情/報價查詢">港股股價</a></li>
+                    <li><a href="/jpstock" title="日本股市股價/行情/報價查詢">日股股價</a></li>
+                    <li><a href="/krstock" title="韓國股市股價/行情/報價查詢">韓股股價</a></li>
+                </ul>
+            </div>
+            <div class="span">
+                <h4>即時國際指數</h4>
+                <ul class="foot-link">
+                    <li><a href="/global">國際股市指數</a></li>  
+                    <li><a href="/twindex.aspx">台股總覽</a></li>
+                    <li><a href="/globalchart.aspx?m=tw">台股分類走勢圖</a></li>
+                    <li><a href="/stock/MSCIs.aspx">MSCI指數</a></li>
+                    <li><a href="/globalfocus.aspx">重點股市即時走勢圖</a></li>
+                    <li><a href="/holiday.aspx">全球股市休市日</a></li>
+                </ul>
+                <h4>台股資訊</h4>
+                <ul class="foot-link">
+                    <li><a href="/tw">台股大盤</a></li>
+                    <li><a href="/stock/3008">台股排行</a></li>
+                    <li><a href="/stock/rank.aspx?t=dt">現股當沖</a></li>
+                    <li><a href="/stock/three.aspx">三大法人</a></li>
+                    <li><a href="/stock/three.aspx?m=mg">融資融券</a></li>
+                    <li><a href="/stock/indicator.aspx">騰落線</a></li>
+                    <li><a href="/stock/optionprice.aspx">臺指選擇權</a></li>
+                    <li><a href="/stock/public.aspx">抽籤申購</a></li>
+                    <li><a href="/stock/dividend.aspx">除權除息表</a></li>
+                </ul>
+            </div>
+            <div class="span">
+            <h4>智慧選股系統</h4>
+            <ul class="foot-link">
+            <li><a href="/search">智慧選股工具</a></li>
+            <li><a href="/app/table.aspx">即時優質選股</a></li>
+            <li><a href="/app/notice.aspx">進出場通知</a></li>
+            <li><a href="/app/profit.aspx">績效回溯分析</a></li>
+            </ul>
+            <h4>個股分析</h4>
+            <ul class="foot-link">
+            <li><a href="/stock/2330">台積電</a></li>
+            <li><a href="/stock/3008">大立光</a></li>
+            <li><a href="/stock/2317">鴻海</a></li>
+            <li><a href="/stock/0050">台灣50</a></li>
+            </ul>
+            </div>
+            <div class="span">
+                <h4>理財達人部落格</h4>
+                <ul class="foot-link">
+                    <li><a href="/blog/sam">何毅里長伯</a></li>
+                    <li><a href="/blog/purplekiller">紫殺</a></li>
+                    <li><a href="/blog/38">阿布波</a></li>
+                    <li><a href="/blog/Leoking">Leo柏凡</a></li>
+                    <li><a href="/blog/nincys">呂佳霖</a></li>
+                    <li><a href="/blog/maigyuba/">名諭爸</a>&nbsp;<span class="label-new">NEW</span></li>
+                    <li><a href="/blog/makemoney">小夫</a></li>
+                    <li><a href="/blog/austin">奧丁團隊</a></li>
+                    <li><a href="/blog/article.aspx?m=offical">嗨投資專欄</a></li>
+                    <li><a href="/blog/hifresh">嗨新奇</a></li>
+                </ul>
+            </div>
+            <div class="span2">
+                <h4>理財學院</h4>
+                <ul class="foot-link">
+                    <li><a href="/school/index.aspx?c=1">何毅的實戰控盤轉折術</a></li>
+                    <li><a href="/school/index.aspx?c=2">紫殺的天譴部隊</a></li>
+                    <li><a href="/school/index.aspx?c=4">俠客盟-多空戰技研究院</a></li>
+                    <li><a href="/school/index.aspx?c=7">箱波均控盤戰法</a></li>
+                    <li><a href="/school/index.aspx?c=12">名諭爸股票.權證.實戰夢想室</a></li>
+                    <li><a href="/school/index.aspx?c=14">外匯智能交易學院</a></li>
+                    
+                    
+                </ul>
+                <h4>網站資源</h4>
+                <ul class="foot-link">
+                    <li><a href="https://www.facebook.com/histock.fans">FaceBook官方粉絲團</a></li>
+                    <li><a href="https://plus.google.com/+HistockTw/posts">Google+官方粉絲團</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC7OFNL9vONhOqutrC5D9i9Q">YouTube頻道</a></li>
+                    <li><a href="/help.aspx">使用說明</a></li>
+                    <li><a href="/member/messages.aspx?m=post&no=1">建議與問題回報</a></li>
+                </ul>
+            </div>
+        </div><span class="clearfix"></span>
+    </div>
+    <div class="com-info">
+        <ul>
+            <li class="w-mod2"><a href="https://www.facebook.com/histock.fans">經營團隊：HiStock, Inc.</a></li>
+            <li class="w-mod2"><a href="/term.aspx" rel="nofollow">服務條款與隱私權政策</a></li>
+            <li class="flt-r">© 2013 HiStock, Inc. 嗨投資理財分享社群</li>
+        </ul>
+    </div>
+</div>
+<div class="ad-btm-fix">
+    
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+    googletag.cmd.push(function () {
+        googletag.defineSlot('/307474035/histock_全站上方_320x50', [320, 50], 'div-gpt-ad-1495786018561-0').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs();
+        googletag.enableServices();
+    });
+</script>
+
+
+<!-- /307474035/histock_全站上方_320x50 -->
+<div id='div-gpt-ad-1495786018561-0' style='height:50px; width:320px;margin: 0 auto;'>
+<script>
+    googletag.cmd.push(function () { googletag.display('div-gpt-ad-1495786018561-0'); });
+</script>
+</div>
+</div>
+<iframe src ="/autorefresh.aspx" height="0" width="0" style="display:none;"></iframe>
+<div id="divWebCss" style="display:none;"> </div>
+<div id="systemDay" style="display:none;">2018-04-10 16:53:20</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        loadWebCss();
+        checkRefreshPage();
+    });
+
+    //確認是否要重刷網頁
+    function checkRefreshPage() {
+        try{
+            var element = document.getElementById('systemDay');
+            var htmlDay = element.innerText || element.textContent;
+            var systemDay = new Date(htmlDay);
+            if (systemDay instanceof Date) {
+                var ONE_HOUR = 1000 * 60 * 60;  // 1小時的毫秒數
+                var today = new Date();
+
+                var systemDayUTC = DateTimezone(systemDay, 8);
+                var todayUTC = DateTimezone(today, 8);
+                var diffHours = Math.floor((todayUTC - systemDayUTC) / ONE_HOUR);
+
+                //var diffHours = Math.floor((today - systemDay) / ONE_HOUR);
+                //console.log('時間差(小時):' + diffHours);
+                if (diffHours > 24) { location.reload(); }
+            }
+        } catch (e) {
+        }
+    }
+
+    // 新增當地時區的時間物件
+    function DateTimezone(d, offset) {
+        //// 建立現在時間的物件
+        //d = new Date();
+
+        // 取得 UTC time
+        utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+
+        // 新增不同時區的日期資料
+        return new Date(utc + (3600000 * offset));
+    }
+
+    //載入手機版css
+    function loadWebCss() {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            var isUseDesktop = 'False';
+            if (isUseDesktop == 'True') {
+                $("#cssMobile").attr("href", "");
+            }
+        }
+        else {
+            $('#ftIsUseMobile').hide();
+            //$("#cssMobile").attr("href", "/styles/histock2017mobile.css");
+        }
+    }
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '903145456407456');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=903145456407456&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+    </form>
+</body>
+</html>
