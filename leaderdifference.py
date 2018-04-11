@@ -19,8 +19,8 @@ class LeaderDifference:
         else:          
             begin_date = begin.strftime('%Y%m%d')
             end_date = end.strftime('%Y%m%d')
-            url = 'https://histock.tw/stock/branch.aspx?no={}&from={}&to={}'.format(str(stock_id), begin_date, end_date)
-            print('url:{}'.format(url))
+            url = 'https://histock.tw/stock/branch.aspx?no={}&from={}&to={}'.format(str(stock_id), end_date, begin_date) #end date is earlier than begin date
+            #print('url:{}'.format(url))
             r = requests.get(url)
             r.encoding = 'utf-8'
             l = r.text
