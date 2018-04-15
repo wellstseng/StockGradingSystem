@@ -5,9 +5,9 @@ class Define:
     LIST_PATH_FMT = FILE_PATH + '/res/list{}.csv'
     TEST_HTML_PATH = FILE_PATH + '/res/test/stock_list.txt'
 
-    XLS_PATH = FILE_PATH + '/res/StockFilter.xlsx'
+    XLS_PATH = FILE_PATH + '/res/StockGradingSystem.xlsx'
 
-    STOCK_LIST_SHEET_NAME = '個股代號'
+    STOCK_LIST_SHEET_NAME = 'ID'
 
     @staticmethod
     def get_list_path(data_type):

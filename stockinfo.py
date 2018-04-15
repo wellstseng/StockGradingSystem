@@ -7,21 +7,24 @@ from datetime import timedelta
 from leaderdifference import LeaderDifference
 import pandas as pd
 import math 
+from tools.workbookhandler import WorkBookHandler
+from define import * 
 
 class StockInfoManager:  
     __leader_diff = LeaderDifference() 
     def __init__(self, stock_id, start_date, period):
         self.__stock = twstock.Stock(str(stock_id))
-        self.init_date(start_date, period)        
+        self.init_date(start_date, period)
+        #print("{}  c: {}".format(self.__stock.date , len(self.__stock.date)))
             
     def init_date(self, begin, period):
         try:            
             end = begin - timedelta(days=(period*2)+30) 
             if self.__stock.date[0] > end:
                 print('date less end')
-                self.__stock.fetch_from(end.year, end.month) 
-        except ValueError:
-            print("date format error '%Y/%m/%d'")
+                self.__stock.fetch_from(end.year, end.month)
+        except ValueError as e:
+            print("date format error '%Y/%m/%d'   msg:{}".format(str(e)))
     
     def get_date(self, begin, period):
         self.init_date(begin, period)
@@ -87,20 +90,57 @@ class StockInfoManager:
         
 
 def test():
-    start_date = datetime.strptime('2018/04/09', '%Y/%m/%d')
-    s = StockInfoManager('2353', start_date, 120)
-   
-    
-    
-    print('observe date:{}'.format(start_date.strftime('%Y/%m/%d')))
-    print('price:{}'.format(s.get_price(start_date)))
-    print('20ma:{}'.format(s.get_average(start_date, 20)))
-    print('60ma:{}'.format(s.get_average(start_date, 60)))
-    print('120ma:{}'.format(s.get_average(start_date, 120)))
-    print('1 day concentrate:{}'.format(s.get_concentrate(start_date, 1)))
-    print('20 day concentrate:{}'.format(s.get_concentrate(start_date, 20)))
-    print('60 day concentrate:{}'.format(s.get_concentrate(start_date, 60)))
-    print('120 day concentrate:{}'.format(s.get_concentrate(start_date, 120)))
+    start_date_str = '2018/04/10'
+    stock_id_str = '6111'
 
+    
+    start_date = datetime.strptime(start_date_str, '%Y/%m/%d')
+    s = StockInfoManager(stock_id_str, start_date, 120)
+   
+    price = s.get_price(start_date)    
+    ma20 = s.get_average(start_date, 20)
+    ma60 = s.get_average(start_date, 60)
+    ma120 = s.get_average(start_date, 120)
+    cd1 = s.get_concentrate(start_date, 1)
+    cd20 = s.get_concentrate(start_date, 20)
+    cd60 = s.get_concentrate(start_date, 60)
+    cd120 = s.get_concentrate(start_date, 120)
+    '''
+    print('observe date:{}'.format(start_date.strftime('%Y/%m/%d')))
+    print('price:{}'.format(price))
+    print('20ma:{}'.format(ma20))
+    print('60ma:{}'.format(ma60))
+    print('120ma:{}'.format(ma120))
+    print('1 day concentrate:{}'.format(cd1))
+    print('20 day concentrate:{}'.format(cd20))
+    print('60 day concentrate:{}'.format(cd60))
+    print('120 day concentrate:{}'.format(cd120))
+    print(' {}	{}	{}	{}	{}	{}	{}	{}'.format(price, ma20, ma60, ma120, cd1, cd20, cd60, cd120))
+    '''
+    wb = WorkBookHandler.load_workbook(Define.XLS_PATH)
+    ws = WorkBookHandler.get_sheet(wb, 'Main')
+    wb.active = wb.worksheets.index(ws)
+
+    
+    for cell in ws['B']:
+        if cell.value == None:
+            new_cell_index = int(cell.row)-1
+            break
+    
+    #add cell data
+    ws['B'][new_cell_index].value = stock_id_str    
+    ws['D'][new_cell_index].value = price
+    ws['E'][new_cell_index].value = ma20
+    ws['F'][new_cell_index].value = ma60
+    ws['G'][new_cell_index].value = ma120
+    ws['N'][new_cell_index].value = cd1
+    ws['P'][new_cell_index].value = cd20
+    ws['R'][new_cell_index].value = cd60
+    ws['T'][new_cell_index].value = cd120
+    
+    wb.save(Define.XLS_PATH)
+    wb.close()
+
+    
 if __name__ == '__main__':
-   test()
+    test()

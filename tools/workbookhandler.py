@@ -10,17 +10,29 @@ from define import *
 
 class WorkBookHandler:
     @staticmethod
-    def load_workbook(src):       
+    def load_workbook(src, data_only=False):       
         try:
             if not os.path.isfile(src):
                 print("File {} is not exist.".format(src))
                 return None
-            wb = openpyxl.load_workbook(src)
+            wb = openpyxl.load_workbook(src, data_only=data_only)
             wb.suject = src
             return  wb
         except IOError:
             print('File is opened by other process, close it.')
             return None
+
+    @staticmethod
+    def get_sheet(wb, sheet_name):  
+        if sheet_name not in wb.sheetnames:
+            return None
+        ws = wb[sheet_name]
+        return ws
+
+    @staticmethod
+    def get_sheet_index(wb, sheet_name):  
+        ws = WorkBookHandler.get_sheet(wb, sheet_name)
+        return wb.index(ws) if ws != None else None
 
     @staticmethod
     def remove_sheet(wb, sheet_name):   
@@ -41,7 +53,7 @@ class WorkBookHandler:
         else:
             print('{} not contains in the {}'.format(sheet_name, wb.subject))   
             return False     
-        
+    
     @staticmethod
     def create_sheet(wb, sheet_name, datas, start_col, start_row, end_col, end_row):
         print('wb: ' + str(wb))
