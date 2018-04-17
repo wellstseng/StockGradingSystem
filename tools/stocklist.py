@@ -58,4 +58,5 @@ class StockListHolder:
 if __name__ == '__main__':
     StockListHolder.get_list(MarketType.TSE)
     StockListHolder.get_list(MarketType.OTC)
+    
 
