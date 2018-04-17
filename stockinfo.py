@@ -90,8 +90,8 @@ class StockInfoManager:
         
 
 def test():
-    start_date_str = '2018/04/10'
-    stock_id_str = '6111'
+    start_date_str = '2017/05/12'
+    stock_id_str = '00655L'
 
     
     start_date = datetime.strptime(start_date_str, '%Y/%m/%d')
@@ -105,6 +105,7 @@ def test():
     cd20 = s.get_concentrate(start_date, 20)
     cd60 = s.get_concentrate(start_date, 60)
     cd120 = s.get_concentrate(start_date, 120)
+    
     '''
     print('observe date:{}'.format(start_date.strftime('%Y/%m/%d')))
     print('price:{}'.format(price))
@@ -117,30 +118,64 @@ def test():
     print('120 day concentrate:{}'.format(cd120))
     print(' {}	{}	{}	{}	{}	{}	{}	{}'.format(price, ma20, ma60, ma120, cd1, cd20, cd60, cd120))
     '''
+
+    
     wb = WorkBookHandler.load_workbook(Define.XLS_PATH)
     ws = WorkBookHandler.get_sheet(wb, 'Main')
     wb.active = wb.worksheets.index(ws)
-
     
+    new_cell_index = 0
     for cell in ws['B']:
-        if cell.value == None:
+        if cell.value == None or cell.value == "":
+            global new_cell_index
             new_cell_index = int(cell.row)-1
             break
-    
+   
     #add cell data
-    ws['B'][new_cell_index].value = stock_id_str    
+    new_cell_row = new_cell_index + 1
+    exit
+    
+    ws['A'][new_cell_index].value = None
+    ws['B'][new_cell_index].value = stock_id_str
+    ws['C'][new_cell_index].value = "=if(B{0}=\"\",\"\", VLOOKUP($B{0},ID!$A:$B,2,FALSE))".format(new_cell_row) 
     ws['D'][new_cell_index].value = price
     ws['E'][new_cell_index].value = ma20
     ws['F'][new_cell_index].value = ma60
     ws['G'][new_cell_index].value = ma120
+    ws['H'][new_cell_index].value ="=if(min(E{0},F{0}) =0,0,round(ABS(F{0}-E{0})/min(E{0},F{0})*100,2))".format(new_cell_row)
+    ws['I'][new_cell_index].value ="=VLOOKUP(H{0},Score!$E$11:$G$14,3,TRUE)".format(new_cell_row)
+    ws['J'][new_cell_index].value ="=if(min(G{0},F{0}) =0,0,round(ABS(F{0}-G{0})/min(G{0},F{0})*100,2))".format(new_cell_row)
+    ws['K'][new_cell_index].value ="=VLOOKUP(J{0},Score!$E$11:$G$14,3,TRUE)".format(new_cell_row)
+    ws['L'][new_cell_index].value ="=if(min(G{0},E{0}) =0,0,round(ABS(E{0}-G{0})/min(G{0},E{0})*100,2))".format(new_cell_row)
+    ws['M'][new_cell_index].value ="=VLOOKUP(L{0},Score!$E$11:$G$14,3,TRUE)".format(new_cell_row)
     ws['N'][new_cell_index].value = cd1
+    ws['O'][new_cell_index].value ="=if(N{0}<Score!$B$26,Score!$C$26,VLOOKUP(N{0},Score!$A$2:$C$6,3,TRUE))".format(new_cell_row)
     ws['P'][new_cell_index].value = cd20
+    ws['Q'][new_cell_index].value ="=if(P{0}<Score!$B$29,Score!$C$29,VLOOKUP(P{0},Score!$E$2:$G$6,3,TRUE))".format(new_cell_row)
     ws['R'][new_cell_index].value = cd60
+    ws['S'][new_cell_index].value ="=if(R{0}<Score!$B$27,Score!$C$27,VLOOKUP(R{0},Score!$E$2:$G$6,3,TRUE))".format(new_cell_row)
     ws['T'][new_cell_index].value = cd120
-    
+    ws['U'][new_cell_index].value ="=if(T{0}<Score!$B${0}, Score!$C${0},if(T{0}=\"\",\"\",VLOOKUP(T{0},Score!$E$20:$G$22,3,TRUE)))".format(new_cell_row)
+    ws['V'][new_cell_index].value =None
+    ws['W'][new_cell_index].value ="=if(V{0}>=Score!$B$32,Score!$C$32, VLOOKUP(V{0},Score!$I$2:$K$8,3,TRUE))".format(new_cell_row)
+    ws['X'][new_cell_index].value =None
+    ws['Y'][new_cell_index].value ="=if(X{0}>Score!$B$33, Score!$C$33,VLOOKUP(X{0},Score!$M$2:$O$6,3,TRUE))".format(new_cell_row)
+    ws['Z'][new_cell_index].value =None
+    ws['AA'][new_cell_index].value ="=if(Z{0}=\"O\", Score!$B$12, 0)".format(new_cell_row)
+    ws['AB'][new_cell_index].value =None
+    ws['AC'][new_cell_index].value ="=if(AB{0}=\"O\", Score!$B$11, 0)".format(new_cell_row)
+    ws['AD'][new_cell_index].value =None
+    ws['AE'][new_cell_index].value ="=if(AD{0}=\"\",\"\", if(AD{0}<>0, Score!$B$10*AD{0}, Score!$B$31))".format(new_cell_row)
+    ws['AF'][new_cell_index].value =None
+    ws['AG'][new_cell_index].value ="=AF{0}*Score!$B$15".format(new_cell_row)
+    ws['AH'][new_cell_index].value =None
+    ws['AI'][new_cell_index].value ="=AH{0}*Score!$C$13".format(new_cell_row)
+    ws['AJ'][new_cell_index].value =None
+    ws['AK'][new_cell_index].value ="=if(B{0}=\"\",\"\",if(AND(AH{0}>=Score!$B$13), ROUND((I{0}+K{0}+M{0}+O{0}+Q{0}+S{0}+U{0}+W{0}+Y{0}+AE{0}+AC{0}+AA{0}+AG{0}+AI{0}),0), 0))".format(new_cell_row)
+
     wb.save(Define.XLS_PATH)
     wb.close()
-
+    
     
 if __name__ == '__main__':
     test()

@@ -4,6 +4,7 @@ class Define:
     FILE_PATH = os.path.abspath(os.path.dirname(__file__)).replace('\\','/')
     LIST_PATH_FMT = FILE_PATH + '/res/list{}.csv'
     TEST_HTML_PATH = FILE_PATH + '/res/test/stock_list.txt'
+    SECRET_PATH = FILE_PATH + '/auth/client_secret.json'
 
     XLS_PATH = FILE_PATH + '/res/StockGradingSystem.xlsx'
 
