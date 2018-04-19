@@ -124,7 +124,7 @@ def test():
     ws = WorkBookHandler.get_sheet(wb, 'Main')
     wb.active = wb.worksheets.index(ws)
     
-    new_cell_index = 0
+    global new_cell_index
     for cell in ws['B']:
         if cell.value == None or cell.value == "":
             global new_cell_index
@@ -133,8 +133,7 @@ def test():
    
     #add cell data
     new_cell_row = new_cell_index + 1
-    exit
-    
+        
     ws['A'][new_cell_index].value = None
     ws['B'][new_cell_index].value = stock_id_str
     ws['C'][new_cell_index].value = "=if(B{0}=\"\",\"\", VLOOKUP($B{0},ID!$A:$B,2,FALSE))".format(new_cell_row) 
@@ -178,4 +177,5 @@ def test():
     
     
 if __name__ == '__main__':
-    test()
+    print(__name__)
+    #test()
