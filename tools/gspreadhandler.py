@@ -31,8 +31,8 @@ class GoogleSheetHandler:
 
 if __name__ == "__main__":
     
-    start_date_str = '2018/02/22'
-    stock_id_str = '2915'
+    start_date_str = '2018/03/21'
+    stock_id_str = '6533'
     
     start_date = datetime.strptime(start_date_str, '%Y/%m/%d')
     s = stockinfo.StockInfoManager(stock_id_str, start_date, 120)
@@ -48,7 +48,6 @@ if __name__ == "__main__":
     
     handler = GoogleSheetHandler('StockGradingSystem')
     sheet = handler.get_sheet('Main')
-    print('row count: {}'.format(sheet.row_count))
     new_cell_row = int(sheet.row_count) +1
 
     new_row_data = [
@@ -72,7 +71,7 @@ if __name__ == "__main__":
         cd60,
         '=if(R{0}<Score!$B$27,Score!$C$27,VLOOKUP(R{0},Score!$E$2:$G$6,3,TRUE))'.format(new_cell_row),
         cd120,
-        '=if(T{0}<Score!$B${0}, Score!$C${0},if(T{0}=\"\",\"\",VLOOKUP(T{0},Score!$E$20:$G$22,3,TRUE)))'.format(new_cell_row),
+        '=if(T{0}<Score!$B$28, Score!$C${0},if(T{0}=\"\",\"\",VLOOKUP(T{0},Score!$E$20:$G$22,3,TRUE)))'.format(new_cell_row),
         None,
         '=if(V{0}>=Score!$B$32,Score!$C$32, VLOOKUP(V{0},Score!$I$2:$K$8,3,TRUE))'.format(new_cell_row),
         None,

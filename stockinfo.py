@@ -11,8 +11,10 @@ from tools.workbookhandler import WorkBookHandler
 from define import * 
 
 class StockInfoManager:  
+    __stock_id = None
     __leader_diff = LeaderDifference() 
     def __init__(self, stock_id, start_date, period):
+        self.__stock_id = str(stock_id)
         self.__stock = twstock.Stock(str(stock_id))
         self.init_date(start_date, period)
         #print("{}  c: {}".format(self.__stock.date , len(self.__stock.date)))
@@ -21,7 +23,6 @@ class StockInfoManager:
         try:            
             end = begin - timedelta(days=(period*2)+30) 
             if self.__stock.date[0] > end:
-                print('date less end')
                 self.__stock.fetch_from(end.year, end.month)
         except ValueError as e:
             print("date format error '%Y/%m/%d'   msg:{}".format(str(e)))
@@ -87,7 +88,10 @@ class StockInfoManager:
 
         volume = math.floor(volume / 1000)
         return round(bs / volume * 100, 1) if volume > 0 else 0
-        
+    
+    
+
+
 
 def test():
     start_date_str = '2017/05/12'
