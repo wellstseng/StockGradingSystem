@@ -1,1 +1,4 @@
 *.pyc
+*.pyc
+auth/client_secret.json
+*.pyc
