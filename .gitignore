@@ -2,3 +2,5 @@
 *.pyc
 auth/client_secret.json
 *.pyc
+*.pyc
+__pycache__/define.cpython-35.pyc

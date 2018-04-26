@@ -31,8 +31,8 @@ class GoogleSheetHandler:
 
 if __name__ == "__main__":
     
-    start_date_str = '2018/03/21'
-    stock_id_str = '6533'
+    start_date_str = '2018/04/09'
+    stock_id_str = '5478'
     
     start_date = datetime.strptime(start_date_str, '%Y/%m/%d')
     s = stockinfo.StockInfoManager(stock_id_str, start_date, 120)
@@ -41,17 +41,19 @@ if __name__ == "__main__":
     ma20 = s.get_average(start_date, 20)
     ma60 = s.get_average(start_date, 60)
     ma120 = s.get_average(start_date, 120)
-    cd1 = s.get_concentrate(start_date, 1)
-    cd20 = s.get_concentrate(start_date, 20)
-    cd60 = s.get_concentrate(start_date, 60)
-    cd120 = s.get_concentrate(start_date, 120)
-    
+    leader1 =s.get_concentrate(start_date, 1)
+    leader20 = s.get_concentrate(start_date, 20)
+    leader60 = s.get_concentrate(start_date, 60)
+    leader120 = s.get_concentrate(start_date, 120)
+    rgz = s.get_rgzratio(start_date)[0]
+    daytrading = s.get_daytrade_ratio(start_date)
+
     handler = GoogleSheetHandler('StockGradingSystem')
     sheet = handler.get_sheet('Main')
     new_cell_row = int(sheet.row_count) +1
 
     new_row_data = [
-        None,
+        start_date_str,
         stock_id_str,
         '=if(B{0}="","", VLOOKUP(if(IsText($B{0}),$B{0}, Text($B{0},"0")),ID!$A:$B,2,FALSE))'.format(new_cell_row) ,
         price,
@@ -64,19 +66,19 @@ if __name__ == "__main__":
         '=VLOOKUP(J{0},Score!$E$11:$G$14,3,TRUE)'.format(new_cell_row),
         '=if(min(G{0},E{0}) =0,0,round(ABS(E{0}-G{0})/min(G{0},E{0})*100,2))'.format(new_cell_row),
         '=VLOOKUP(L{0},Score!$E$11:$G$14,3,TRUE)'.format(new_cell_row),
-        cd1,
+        leader1[0],
         '=if(N{0}<Score!$B$26,Score!$C$26,VLOOKUP(N{0},Score!$A$2:$C$6,3,TRUE))'.format(new_cell_row),
-        cd20,
+        leader20[0],
         '=if(P{0}<Score!$B$29,Score!$C$29,VLOOKUP(P{0},Score!$E$2:$G$6,3,TRUE))'.format(new_cell_row),
-        cd60,
+        leader60[0],
         '=if(R{0}<Score!$B$27,Score!$C$27,VLOOKUP(R{0},Score!$E$2:$G$6,3,TRUE))'.format(new_cell_row),
-        cd120,
+        leader120[0],
         '=if(T{0}<Score!$B$28, Score!$C$28,if(T{0}=\"\",\"\",VLOOKUP(T{0},Score!$E$20:$G$22,3,TRUE)))'.format(new_cell_row),
-        None,
+        daytrading,
         '=if(V{0}>=Score!$B$32,Score!$C$32, VLOOKUP(V{0},Score!$I$2:$K$8,3,TRUE))'.format(new_cell_row),
-        None,
+        rgz,
         '=if(X{0}>Score!$B$33, Score!$C$33,VLOOKUP(X{0},Score!$M$2:$O$6,3,TRUE))'.format(new_cell_row),
-        None,
+        "O" if leader1[1] > 0 else "X",
         '=if(Z{0}=\"O\", Score!$B$12, 0)'.format(new_cell_row),
         None,
         '=if(AB{0}=\"O\", Score!$B$11, 0)'.format(new_cell_row),
