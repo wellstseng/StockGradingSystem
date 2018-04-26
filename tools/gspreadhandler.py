@@ -71,7 +71,7 @@ if __name__ == "__main__":
         cd60,
         '=if(R{0}<Score!$B$27,Score!$C$27,VLOOKUP(R{0},Score!$E$2:$G$6,3,TRUE))'.format(new_cell_row),
         cd120,
-        '=if(T{0}<Score!$B$28, Score!$C${0},if(T{0}=\"\",\"\",VLOOKUP(T{0},Score!$E$20:$G$22,3,TRUE)))'.format(new_cell_row),
+        '=if(T{0}<Score!$B$28, Score!$C$28,if(T{0}=\"\",\"\",VLOOKUP(T{0},Score!$E$20:$G$22,3,TRUE)))'.format(new_cell_row),
         None,
         '=if(V{0}>=Score!$B$32,Score!$C$32, VLOOKUP(V{0},Score!$I$2:$K$8,3,TRUE))'.format(new_cell_row),
         None,
