@@ -7,9 +7,10 @@ import requests
 import csv
 import pandas as pd
 from define import *
-
+from fake_useragent import UserAgent
 
 class MarginTrading:
+    __ua = UserAgent()
     def get_data(self, data_type:int, stock_id:str, date:str):
         '''
         載入信用交易資料
@@ -70,7 +71,7 @@ class MarginTrading:
                 #格式化日期
                 fixed_date = date.replace('/', '')
                 #取得網路下載的字串
-                text = self.__load_text(Define.TSE_MARGIN_URL_FMT.format(fixed_date), Define.TSE_MARGIN_REQ_HEADERS) 
+                text = self.__load_text(Define.TSE_MARGIN_URL_FMT.format(fixed_date), {"User-Agent":self.__ua.random}) 
                 #標準化分析，刪除多餘的文字               
                 title_text = "\"股票代號\",\"股票名稱\",\"資買進\",\"資賣出\",\"資現償\",\"資前餘額\",\"資今餘\",\"資限額\",\"券買進\",\"券賣出\",\"券現償\",\"券前餘\",\"券今餘\",\"券限額\",\"資券互抵\",\"註記\",\n"
                 initialize_text = "\n".join([i.translate({ord(' '): None}) 
@@ -83,7 +84,7 @@ class MarginTrading:
                 #轉換西元為民國
                 roc_date = '/'.join([str(int(date.split('/')[0]) - 1911)] + date.split('/')[1:])
                 #取得網路下載的字串
-                text = self.__load_text(Define.OTC_MARGIN_URL_FMT.format(roc_date), Define.OTC_MARGIN_REQ_HEADERS)
+                text = self.__load_text(Define.OTC_MARGIN_URL_FMT.format(roc_date), {"User-Agent":self.__ua.random})
                 #標準化，移除多餘的文字                
                 initialize_text = "\n".join([i.translate({ord(' '): None}) 
                                 for i in text.split('\n') 
