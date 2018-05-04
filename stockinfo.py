@@ -7,14 +7,14 @@ from datetime import timedelta
 from leaderdifference import LeaderDifference
 from margintrading import MarginTrading
 import pandas as pd
-import math 
-from tools.workbookhandler import WorkBookHandler
+import math
 from define import * 
 
 class StockInfoManager:  
     __stock_id = None
     __leader_diff = LeaderDifference()
     __margin_trading = MarginTrading()
+    __leader_diff_cache = {}
     def __init__(self, stock_id, start_date, period):
         self.__stock_id = str(stock_id)
         self.__stock = twstock.Stock(str(stock_id))
