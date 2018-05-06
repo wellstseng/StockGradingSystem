@@ -31,8 +31,8 @@ class GoogleSheetHandler:
 
 if __name__ == "__main__":
     
-    start_date_str = '2018/04/09'
-    stock_id_str = '5478'
+    start_date_str = '2018/04/30'
+    stock_id_str = '2377'
     
     start_date = datetime.strptime(start_date_str, '%Y/%m/%d')
     s = stockinfo.StockInfoManager(stock_id_str, start_date, 120)
@@ -47,6 +47,7 @@ if __name__ == "__main__":
     leader120 = s.get_concentrate(start_date, 120)
     rgz = s.get_rgzratio(start_date)[0]
     daytrading = s.get_daytrade_ratio(start_date)
+    legal_person_trade = s.get_legal_person_trade(start_date)
 
     handler = GoogleSheetHandler('StockGradingSystem')
     sheet = handler.get_sheet('Main')
@@ -80,7 +81,7 @@ if __name__ == "__main__":
         '=if(X{0}>Score!$B$33, Score!$C$33,VLOOKUP(X{0},Score!$M$2:$O$6,3,TRUE))'.format(new_cell_row),
         "O" if leader1[1] > 0 else "X",
         '=if(Z{0}=\"O\", Score!$B$12, 0)'.format(new_cell_row),
-        None,
+        "O" if legal_person_trade > 0 else "X",
         '=if(AB{0}=\"O\", Score!$B$11, 0)'.format(new_cell_row),
         None,
         '=if(AD{0}=\"\",\"\", if(AD{0}<>0, Score!$B$10*AD{0}, Score!$B$31))'.format(new_cell_row),

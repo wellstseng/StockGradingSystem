@@ -5,10 +5,13 @@ class Define:
     FILE_PATH = os.path.abspath(os.path.dirname(__file__)).replace('\\','/')
     LIST_PATH_FMT = FILE_PATH + '/res/list{}.csv'
     TEST_HTML_PATH = FILE_PATH + '/res/test/stock_list.txt'
+    TEST_LEADER_TRADE_PATH = FILE_PATH + '/res/test/leader_trade.txt'
     SECRET_PATH = FILE_PATH + '/auth/client_secret.json'
     XLS_PATH = FILE_PATH + '/res/StockGradingSystem.xlsx'
     MARGIN_PATH_FMT = FILE_PATH + '/res/margin/{0}_M{1}.csv'
     DAYTRADING_PATH_FMT = FILE_PATH + '/res/daytrading/{0}_M{1}.csv'
+    BRANCH_LIST = FILE_PATH + '/res/branchList.csv'
+    LEGAL_PERSON_PATH_FMT = FILE_PATH + '/res/legalperson/{0}_M{1}.csv'
 
     TSE_MARGIN_URL_FMT = 'http://www.twse.com.tw/exchangeReport/MI_MARGN?response=csv&date={0}&selectType=ALL'
     TSE_MARGIN_REQ_HEADERS = {
@@ -60,7 +63,10 @@ class Define:
         "Upgrade-Insecure-Requests":"1"
     }
 
+    TSE_LEGAL_PERSON_TRADE_FMT = 'http://www.twse.com.tw/fund/T86?response=csv&date={}&selectType=ALL'
+    OTC_LEGAL_PERSON_TRADE_FMT ='http://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result.php?l=zh-tw&o=csv&se=EW&t=D&d={}&s=0,asc'
     STOCK_LIST_SHEET_NAME = 'ID'
+    
 
     @staticmethod
     def get_list_path(data_type):
@@ -84,6 +90,11 @@ class Define:
             return MarketType.OTC
         else:
             return MarketType.UNKNOWN
+
+    @staticmethod
+    def get_legal_person_file_path(market, date):
+        date = date.replace('/', '')
+        return Define.LEGAL_PERSON_PATH_FMT.format(date, market)
 
 class MarketType:
     UNKNOWN = '0'

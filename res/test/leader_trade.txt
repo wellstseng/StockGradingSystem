@@ -1,0 +1,1765 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="Content-Language" content="zh-tw"/>
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="keywords" content="微星 (2377)群益金鼎-西松券商分點個股進出資料, 成交佔比, 大量交易提示" />
+<meta property="og:title" content="微星 (2377)-群益金鼎-西松券商分點個股進出" />
+<meta name="description" property="og:description" content="微星 (2377)群益金鼎-西松買進均價, 賣出張數, 賣出均價, 買賣超, 成交佔比, 大量交易提示" />
+<meta name="application-name" content="HiStock嗨投資理財社群"/>
+<title>微星 (2377)-群益金鼎-西松券商分點個股進出 - HiStock嗨投資理財社群</title>
+<script id="jsJquery" type="text/javascript" src="/JScript/JQueryHeader/jquery.min.js?v20180431"></script>
+<script id="jsMenu" type="text/javascript" src="/JScript/jquery.mmenu.all.min.js?v20180431"></script>
+<script id="jsSuperSlide" type="text/javascript" src="/JScript/jquery.SuperSlide.2.1.1.js?v20180431"></script>
+<script id="jsHistock" type="text/javascript" src="/JScript/histock.min-0.01.js?v20180431"></script>
+<script id="jsHistock2017" type="text/javascript" src="/JScript/histock2017.js?v20180431"></script>
+<script id="jsFlipsnap" type="text/javascript" src="/JScript/flipsnap.js?v20180431"></script>
+<script id="jsJqueryUI" type="text/javascript" src="/JScript/JQueryHeader/jquery-ui.min.js?v20180431"></script>
+<script id="jsMigrate" type="text/javascript" src="/JScript/JQueryHeader/jquery-migrate.min.js?v20180431"></script>
+<link id="cssJqueryUI" rel="stylesheet" type="text/css" href="/JScript/JQueryHeader/jquery-ui.css?v20180431"/>
+<link id="cssFonts" rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Lato:300,400" />
+<link id="cssHistock2017e" rel="stylesheet" type="text/css" media="all" href="/styles/histock2017e.css?v20180431"/>
+<link id="cssMobile" rel="stylesheet" type="text/css" media="all" href="/styles/histock2017mobile.css?v20180431"/>
+<link id="cssMenu" rel="stylesheet" type="text/css" media="all" href="/styles/m-menu.css?v20180431"/>
+
+<link rel="canonical" href="https://histock.tw/stock/mainprofit.aspx?no=2377" />
+<link rel="publisher" href="https://plus.google.com/117304986276805831256" />
+<link rel="icon" href="/images/ico-927-1.png" />
+<script src="/jscript/jquery.ui.datepicker-zh-TW.js"></script>
+
+    <link type="text/css" media="all" href="/styles/stock2017.css?v20180427" rel="stylesheet" />
+    <link type="text/css" media="all" href="/styles/kchart.css" rel="stylesheet" />
+    <script type="text/javascript" src='/JScript/stock/2017/stock.js?v20180427'></script>
+    <script src="/JScript/highstock-1.3.7/highstock.js"></script>
+    <script type="text/javascript" src='/JScript/autocomplete/jquery.autocomplete.js'></script>
+
+    <style>
+        .grid .row-group {padding:10px;}
+    </style>
+<script>
+    function goToPage(key) {
+        var url, test = '',
+            m = getParameterByName("m"),
+            stockNo = getParameterByName("no");
+        //if (location.href.indexOf('test.') > -1 || location.href.indexOf('localhost') > -1) {
+        //    test = '2017'; //測試網站
+        //}
+
+        switch (key) {
+            case '三大法人': case '三大法人買賣超':
+                url = '/stock/chips' + test + '.aspx?no=' + stockNo;
+                break;
+            case '融資融券':
+                url = '/stock/chips' + test + '.aspx?no=' + stockNo + '&m=mg';
+                break;
+            case '八大官股': case '八大官股買賣超':
+                url = '/stock/broker.aspx?no=' + stockNo;
+                break;
+            case '籌碼集中度':
+                url = '/stock/large.aspx?no=' + stockNo;
+                break;
+            case '籌碼分析': case '進出籌碼分析':
+                url = '/stock/main.aspx?no=' + stockNo;
+                break;
+            case '券商分點買賣': case '券商分點買賣日報':
+                url = '/stock/branch.aspx?no=' + stockNo;
+                break;
+            case '券商分點績效':
+                url = '/stock/mainprofit.aspx?no=' + stockNo;
+                break;
+            case '股權分散表':
+                url = '/stock/equity.aspx?no=' + stockNo;
+                break;
+        }
+        window.location.href = url;
+    }
+    </script>
+</head>
+<body>
+    <form method="post" action="./brokertrace.aspx?bno=9136&amp;no=2377" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTQ0Nzg3NzgwNGQYAQUUY3RsMDAkQ1BIQjEkYnQxJGdCdXkPPCsADAEIAgFkxUzQrjcy/gi9N/F06IQvEXDyBFAS2XSAgEpLl4tEOPU=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2C87D8FF" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAUo/CVzNo0q3LBYrfgtB482NrLEukvZnuMjVK2U+p8fJ+0/rIcZJ5eGfkUHgisrzEr94ogPnvXNEQPoz/92LmeZKTLwO5pWTr/2BsMkLlFDB1djI6S9toe8ZDAdegeY0y7dRgCkNRIfaVPCsRbTyKmt" />
+</div>
+        
+
+<script type="text/javascript" src="/JScript/tabs.js?20180201"></script>
+
+<!--(電腦版)置頂導航按鈕列 開始-->
+<div class="topnav">
+    <nav class="navbar nav-width nav-bg-b">
+        <ul id="nav-main" class="nav navbar-nav">
+        <li class="nav-item navitem-rt w-mod"><span class="nav-spare"></span><a class="nav-link" title="聯繫客服" href="/member/messages.aspx?m=post&no=1" onmouseover="movepic('service','/images/2017e/service-h.png')" onmouseout="movepic('service','/images/2017e/service.png')"><img alt="聯繫客服" id="service" src="/images/2017e/service.png" style="width:18px;height:19px;" /></a></li>
+        <li class="nav-item navitem-rt w-mod"><span class="nav-spare"></span><a class="nav-link" title="自選股" href="/member/mystocks.aspx" onmouseover="movepic('mystock','/images/2017e/mystock-h.png')" onmouseout="movepic('mystock','/images/2017e/mystock.png')"><img alt="自選股" id="mystock" src="/images/2017e/mystock.png" style="width:22px;height:17px;" /></a></li>
+        <li class="nav-item navitem-rt w-mod"><span class="nav-spare"></span><a class="nav-link" title="站內信" href="/member/messages.aspx" onmouseover="movepic('mail','/images/2017e/mail-h.png')" onmouseout="movepic('mail','/images/2017e/mail.png')"><img alt="站內信" id="mail" src="/images/2017e/mail.png" style="width:22px;height:17px;" /></a></li>
+          
+        <li class="nav-item navitem-rt"><a id="state" class="nav-link" href="/signup">快速註冊</a></li>
+        <li class="nav-item navitem-rt"><a id="login" class="nav-link" href="/login"><span class="icon-login"></span>登入</a></li>
+ 
+        <li id="headTabMain" class="nav-item"><a class="nav-link nav-logo" href="/"><h3 title="HiStock嗨投資理財社群"></h3>首頁</a></li>
+        <li id="headTabGlobal" class="nav-item dpli"><a class="nav-link dpl" href="/index" title="最專業即時的國際股市指數報價">國際指數</a>
+            
+        </li>
+        <li id="headTabIndex" class="nav-item dpli" style="display:none;"><a class="nav-link dpl" href="/global/marketclassall.aspx" title="台灣/美國/大陸/香港/日本/韓國股市">分類</a></li>
+        <li id="headTabStock" class="nav-item dpli"><a class="nav-link dpl" href="/tw" title="台股大盤-加權指數">台股</a></li>
+        <li id="headTabSearch" class="nav-item dpli"><a class="nav-link dpl" href="/search" title="智慧選股">選股</a></li>
+        <li id="headTabMarket" class="nav-item dpli"><a class="nav-link dpl" href="/market" title="嗨聖杯-熱門選股工具">聖杯</a></li>
+        <li id="headTabBlog" class="nav-item dpli"><a class="nav-link dpl" href="/blog" title="部落格">部落格</a></li>
+        <li id="headTabTalk" class="nav-item dpli"><a class="nav-link dpl" href="/talk/alltalk.aspx" title="哈拉版">哈啦</a></li>
+        <li id="headTabQA" class="nav-item dpli"><a class="nav-link dpl" href="/question" title="嗨問答-盤勢分析與股票期貨">問答</a></li>
+        <li id="headTabSchool" class="nav-item dpli"><a class="nav-link dpl" href="/school" title="理財學院-投資理財教學">學院</a>
+            <ul class="sub" style="display:none;">
+				<li><a href="/school/index.aspx?c=1">何毅里長伯>>實戰控盤轉折術</a></li>
+				<li><a href="/school/index.aspx?c=2">紫殺>>天譴部隊</a></li>
+				<li><a href="/school/index.aspx?c=4">俠客盟>>多空戰技研究院</a></li>
+				
+				
+				
+                <li><a href="/school/index.aspx?c=7">呂佳霖>>箱波均控盤戰法</a></li>
+                <li><a href="/school/index.aspx?c=12">名諭爸>>股票權證實戰夢想室</a></li>
+                <li><a href="/school/index.aspx?c=14">Cash>>外匯智能交易學院</a></li>
+                <li><a href="/school/index.aspx?c=15">葛雷夫>>奔跑吧權證</a></li>
+                
+                
+			</ul>
+        </li>
+        <li id="headTabClass" class="nav-item dpli"><a class="nav-link dpl" href="/eclass.aspx" title="線上財經投資課程">課程</a></li>
+        <li id="headTabMall" class="nav-item dpli"><a class="nav-link dpl" href="/mall" title="商城購物">購物</a></li>
+        </ul>
+    </nav>
+<script id="jsID" type="text/javascript"> //驅動superslide
+    var ary = location.href.split("&");
+    jQuery("ul#nav-main").slide({ type: "menu", titCell: ".nav-item", targetCell: ".sub", effect: ary[1], delayTime: ary[2], triggerTime: ary[3], defaultPlay: ary[4], returnDefault: ary[5], easing: ary[6] });
+
+    $(function () {
+        setHeaderTab();
+    });
+</script>
+</div>
+<!--置頂導航按鈕列 結束-->
+
+
+<div class="mp-content">
+    <div class="hdr">
+        <div class="hdr-cnt">
+            <!--頁面內主頁籤 開始-->
+            
+<div class="hdr">
+    <div class="hdr-cnt">
+        <div class="link-blk">
+            <div class="rgn">
+                <input type="text" value="搜尋股票/文章" id="txtTopSearch1" onfocus="if (this.value == '搜尋股票/文章') this.value = ''" onblur="if(this.value=='')this.value='搜尋股票/文章'" autocomplete="off" />
+                <a class="btn-srch" href="#" onclick="tosearch('1'); return false;">
+                    <img src="/images/2017e/btn-search.png" /></a>
+                <ul style="margin-top:10px;">
+                <li style="margin-left: 15px;"><a href="/signup" title="免費註冊">
+                    <img alt="免費註冊" src="/images/2017e/register.png" width="35" height="35" /></a></li>
+                <li style="margin-left: 15px;"><a href="https://line.me/ti/p/%40hsk1574p" title="加入官方line@">
+                    <img alt="加入官方line@" src="/images/2017e/line@.png" width="35" height="35" /></a></li>
+                <li style="margin-left: 15px;"><a href="https://www.facebook.com/histock.fans" title="加入FB粉絲團">
+                    <img alt="加入FB粉絲團" src="/images/2017e/facebook.png" width="35" height="35" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="ad-panel" style="width: 728px; height: 90px; display: inline-block !important; margin-top: 0px; margin-left: 20px;">
+            <div>        
+                
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+<div id="logo2017_App1_ad_header_768x901_pnlAD1">
+	
+<!-- histock_全站Head_728x90v2 -->
+<ins class="adsbygoogle"
+     google_ad_region = "test"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9078187384251073"
+     data-ad-slot="8330578148"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+</div>
+
+ 
+            </div>
+        </div>
+        <div class="logo">
+            <a href="/" title="HiStock嗨投資首頁">
+                <img alt="嗨投資投資理財社群" src="/images/2017e/logoW.png" style="width: 180px; margin-top: 15px;"></a>
+            <script type="application/ld+json">
+                    { "@context" : "http://schema.org",
+                    "@type" : "Organization",
+                    "name" : "嗨投資 HiStock",
+                    "url" : "https://histock.tw",
+                    "logo": "https://histock.tw/images/131128500.png",
+                    "sameAs" : [ "https://www.facebook.com/histock.fans",
+                    "https://www.youtube.com/channel/UC7OFNL9vONhOqutrC5D9i9Q",
+                    "https://plus.google.com/+HistockTw"] 
+                    }
+            </script>
+        </div>
+    </div>
+</div>
+
+ <!--手機用導航按鈕列-->
+
+<script type="text/javascript">
+    $(function () {
+        var url = location.href.toLowerCase();
+        //隱藏國際股市第二層Tab下的锚點連結
+        if (url.indexOf('histock.tw/index') == -1 && url.indexOf('globals.aspx') == -1) {
+            if ($('#fixarea')) { $('#fixarea').hide(); }//手機用 頁面內次頁籤
+        } else {
+            //if ($('#fixarea')) { $('#fixarea').show(); }//手機用 頁面內次頁籤
+        }
+         
+        //loadMySchoolForMenu();
+    });
+</script>
+<style>
+    .mm-opened {display:block !important;}
+</style>
+<!--(手機版)手機用區塊 開始-->
+        <div class="m-hdr">
+            <div class="logo">
+
+                <!--手機用導航按鈕列 開始-->
+                <a class="m-sidetab" href="#menu"></a>
+                <nav id="menu" style="display:none;">
+				    <ul>
+					    <li><a href="/">首頁</a></li>
+                        <li><a href="/index">國際指數</a>
+                            <ul>
+							    <li><a href="/index">國際股市</a></li>
+                                <li><a href="/global/marketclassall.aspx">分類</a></li>
+                                <li><a href="/stock/etf.aspx">ETF</a></li>
+                                <li><a href="/stock/taiexproportion.aspx">加權指數成份股</a></li>
+                                <li><a href="/stock/mscitaiwan.aspx">摩台指成份股</a></li>
+                                <li><a href="/globalfocus.aspx">重點股市</a></li>
+                                <li><a href="/stock/mscis.aspx">MSCI</a></li>
+                                <li><a href="/rate">匯率</a></li>
+                                <li><a href="/holiday">股市休市</a></li>
+                                <li><a href="/calendar.aspx">財經日曆</a></li>
+						    </ul>
+                        </li>
+                        
+                        <li><a href="/tw">台股</a></li>
+                        <li><a href="/search">選股</a>
+                            <ul>
+							    <li><a href="/search">智慧選股</a></li>
+                                <li><a href="/app/notice.aspx">進出場通知</a></li>
+                                <li><a href="/app/searchnotice.aspx">飆股雷達</a></li>
+                                <li><a href="/app/table.aspx">嗨投資精選</a></li>
+                                <li><a href="/app/index.aspx">智慧指標</a></li>
+                                <li><a href="/app/profit.aspx">績效回溯分析</a></li>
+						    </ul>
+                        </li>
+                        <li><a href="/market">聖杯</a></li>
+                        <li><a href="/blog">部落格</a></li>
+                        <li><a href="/talk/alltalk.aspx">哈啦</a></li>
+                        <li><a href="/question">問答</a></li>
+					    <li><a href="/school">學院</a>
+						    <ul>
+							    <li><a href="/school/index.aspx?c=1">何毅里長伯</a></li>
+							    <li><a href="/school/index.aspx?c=2">紫殺</a></li>
+							    <li><a href="/school/index.aspx?c=4">阿布波</a></li>
+                                
+                                
+                                
+                                <li><a href="/school/index.aspx?c=7">呂佳霖</a></li>
+                                <li><a href="/school/index.aspx?c=12">名諭爸</a></li>
+                                <li><a href="/school/index.aspx?c=14">Cash</a></li>
+                                <li><a href="/school/index.aspx?c=15">葛雷夫</a></li>
+                                
+                                
+						    </ul>
+					    </li>
+                        <li><a href="/eclass.aspx">課程</a>
+                        <li><a href="/mall">購物</a>
+					
+                        <li class="clr2"><a id="state2" href="/login">登入</a></li>
+                        <li class="clr2"><a id="login2" href="/signup">免費註冊</a></li>
+                        <li class="clr2"><a href="https://line.me/ti/p/%40hsk1574p">加入Line@</a></li>
+                        <li class="clr2"><a id="logo2017_App1_menu1_btnIsUseMobile" href="javascript:__doPostBack(&#39;ctl00$logo2017_App1$menu1$btnIsUseMobile&#39;,&#39;&#39;)">切換電腦版</a></li>
+				    </ul>
+			    </nav>
+                <!--手機用導航按鈕列 結束-->
+
+                <!--手機用logo--><div class="m-logo"><a href="/" title="HiStock嗨投資首頁"><img class="mm-logo" alt="嗨投資投資理財社群" src="/images/2017e/logo.png"></a></div>
+                
+                <!--手機用搜尋列-->
+                <div class="m-rgn">
+                    <input type="text" value="搜尋股票/文章" id="txtTopSearch2" onfocus="if (this.value == '搜尋股票/文章') this.value = ''" onblur="if(this.value=='')this.value='搜尋股票/文章'" autocomplete="off" />
+                <a class="btn-srch" href="#" onclick="tosearch('2'); return false;"><img src="/images/2017e/btn-search.png" /></a>
+                </div>
+            </div>
+        </div>
+
+        <!--手機用 頁面內次頁籤-->
+        <div class="m-kw" id="fixarea">
+            <div class="flipsnap" style="transition-property: transform; transition-timing-function: cubic-bezier(0, 0, 0.25, 1); transition-duration: 350ms; transform: translate3d(0px, 0px, 0px);">
+				<div class="item"><a href="#id1">重點即時</a></div>
+				<div class="item"><a href="#id2">美洲即時</a></div>
+				<div class="item"><a href="#id3">歐洲即時</a></div>
+                <div class="item"><a href="#id4">亞洲即時</a></div>
+                <div class="item"><a href="#id5">風險指數</a></div>
+                <div class="item"><a href="#id6">台灣企業ADR</a></div>
+                <div class="item"><a href="#id7">台灣期貨次月</a></div>
+                <div class="item"><a href="#id10">台灣指數</a></div>
+                <div class="item"><a href="#id11">匯率</a></div>
+                <div class="item"><a href="#id12">波羅的海航運</a></div>
+                <div class="item"><a href="#id13">MSCI</a></div>
+                <div class="item"><a href="#id8">國際期貨</a></div>
+                <div class="item"><a href="#id9">能源</a></div>
+                <div class="item"><a href="#id14">農產品</a></div>
+                <div class="item"><a href="#id15">貴金屬</a></div>
+                <span class="clearfix"></span>
+			</div>
+        </div>
+        <!--手機用區塊 結束-->
+<script type="text/javascript">
+    $("#txtTopSearch2").keyup(function (event) {
+        if (event.keyCode == 13) {
+            tosearch('2');
+        }
+    });
+</script>
+
+ 
+<!--關鍵字廣告 開始-->
+<div id="tbadword">
+    <ul class="keywords">
+        <li><a id="topRotatorAd1" href="#" target="_blank">&nbsp;</a></li>
+        <li><a id="topRotatorAd2" href="#" target="_blank">&nbsp;</a></li>
+        <li><a id="topRotatorAd3" href="#" target="_blank">&nbsp;</a></li>
+        <li><a id="topRotatorAd4" href="#" target="_blank">&nbsp;</a></li>
+    </ul><span class="clearfix"></span>
+</div>
+<!--關鍵字廣告 結束-->
+
+<div id="dvglobalad" style="display:none;">
+    <div style="width:100%;text-align:center;margin-top:20px;">
+        <a id="adslink" href="/" class="globalADlink" target="_blank"></a>
+    </div>
+</div>
+
+<div class="no-show">
+    <span id="logo2017_App1_kwAD1_liveyoutubeid"></span>
+    <span id="logo2017_App1_kwAD1_liveurl"></span>
+    <span id="logo2017_App1_kwAD1_livetimenum"></span>
+    <span id="logo2017_App1_kwAD1_liveteacher"></span>
+    <span id="logo2017_App1_kwAD1_stockyoutubeid"></span>
+    <span id="logo2017_App1_kwAD1_stockurl"></span>
+    <span id="logo2017_App1_kwAD1_stocktimenum"></span>
+    <span id="logo2017_App1_kwAD1_stockteacher"></span>
+</div>
+
+<script type="text/javascript" src="/JScript/liveedm.js?v20180506"></script>
+ 
+<script type="text/javascript">
+    $("#txtTopSearch1").keyup(function (event) {
+        if (event.keyCode == 13) {
+            tosearch('1');
+        }
+    });
+
+    function tosearch(index) {
+        var txt = document.getElementById('txtTopSearch' + index).value;
+        if (txt.indexOf('搜尋文章/股票') == -1) {
+            var url = '/searchresults.aspx?q=' + txt.toString();
+            window.location.replace(url);
+        }
+    }
+</script>
+
+        </div>
+
+
+    </div>
+<!--頁面上方共同區塊 結束-->
+         <!--頁面內主頁籤 開始-->
+        
+
+
+<meta name="viewport" content="" />
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        setStockTab2();
+
+        //移除mobile css
+        try {
+            $("#cssMobile").attr("href", "");
+        } catch (e) { console.log(e); }
+        try {
+            document.getElementsByTagName('meta')['viewport'].content = '';
+        } catch (e) { console.log(e); }
+    });
+</script>
+
+<span class="clearfix"></span>
+<div class="hdr tabbk">
+    <div class="hdr-cnt">
+        <div class="sub-nav">
+            <nav class="navbar nav-width">
+                <ul class="nav navbar-nav sectabs">
+                    <li class="nav-item"><a class="btn-s" href="/tw">大盤</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/stock/2330">個股</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/twstock">分類</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/stock/warrant.aspx">股票(權證/期貨)</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/futures/mainfutures.aspx">期貨選擇權</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/stock/dividend.aspx">股東會股利</a></li>
+                    <li class="nav-item"><a class="btn-s" href="/stock/public.aspx">股票申購</a></li>
+                </ul>
+            </nav>
+            <span class="clearfix"></span>
+        </div>
+    </div>
+</div>
+
+
+    <!--網頁主要內容區域 開始-->
+    <div class="main mainBG pb10">
+        <div class="index-main">
+            <div class="mp-main">
+                <div class="mp-main-cnt">
+                    <div class="guide">
+                        <p class="school-guide">台股 » 個股 » <a href="/stock/2377">微星</a> » 籌碼相關 » <a href="/stock/mainprofit.aspx?no=2377">券商分點績效</a> » <b>券商分點個股進出</b></p>
+                    </div>
+
+                    
+
+
+<div class="sbk info h55">
+    <div class="info-left">
+        <div>
+            <h3 style="font-size: 22px; font-weight: 200; color: #000000; display: inline-block;">
+                微星</h3>
+            <span style="font-size: 16px; color: #757575;">(2377)</span>
+            <div><span style="font-size: 16px; color: #607d8b;">可現股當沖</span></div>
+        </div>
+    </div>
+    <div class="info-right ftR">
+        <div>
+            <ul class="priceinfo">
+                <li class="deal"><b>股價</b><br />
+                    <span class="fwbig">
+                        <span id="Price1_lbTPrice2"><span class="clr-rd">97.4</span></span></span></li>
+                <li class="change"><b>漲跌</b><br />
+                    <span class="fwbig price-up">
+                        <span id="Price1_lbTChange2"><span class="clr-rd">▲0.4</span></span></span></li>
+                <li class="rise"><b>漲幅</b><br />
+                    <span class="fwbig">
+                        <span id="Price1_lbTPercent2"><span class="clr-rd" style="font-size:13px;">+0.41%</span></span></span></li>
+                <li class="volume"><b>成交量</b><br />
+                    <span class="fwbig">
+                        <span id="Price1_lbTVolume2"><span class="p13">6,417</span>張</span>張</span></li>
+                <li class="sectors"><b>產業</b><br />
+                    <span class="fwsmall">
+                        <span id="Price1_lbStockClass2">上市 電腦週邊類股</span><span id="Price1_lbClassChangeRatio2"><span class="price-down">▼0.18%</span></span></span></li>
+                <li class="track">
+                        <div style="margin-top:-12px">
+
+
+    <p style="margin-top:10px;"><span style="color: #f57c00;">206</span>人加入追蹤</p>
+    <p style="margin-top:0px;"><a id="addStock2" class="addstock">立即追蹤</a></p>
+
+<script type="text/javascript">
+    $(function () {
+        $("#addStock1").button().click(function () {
+            addMyStock();
+        });
+        $("#addStock2").button().click(function () {
+            addMyStock();
+        });
+    });
+    function addMyStock() {
+        var $this = $(this);
+        var horizontalPadding = 25;
+        var verticalPadding = 0;
+        var no = '';
+        if ('2377' == '') { no = '0000'; }
+            else { no = '2377'; }
+
+            $('<iframe src="/stock/add.aspx?no=' + no + '" />').dialog({
+                autoOpen: true,
+                width: 635,
+                height: 200,
+                modal: true,
+                resizable: false,
+                autoResize: false,
+                overlay: {
+                    opacity: 0.5,
+                    background: "black"
+                },
+                title: "我的追蹤",
+                close: function (event, ui) {
+                    window.location.href = window.location.href;
+                    window.location.reload;
+                }
+            }).width(635 - horizontalPadding).height(300 - verticalPadding);
+    }
+</script></div>
+                </li>
+                <li class="track">
+                    <p class="txtR">本地時間:<span id="Price1_lbLocalTime2">14:35</span></p>
+                    <input name="ctl00$Price1$tbxStock2" type="text" value="個股查詢" id="Price1_tbxStock2" class="fdstocktxt2" onfocus="if (this.value == &#39;個股查詢&#39;) this.value = &#39;&#39;" onblur="if(this.value==&#39;&#39;)this.value=&#39;個股查詢&#39;" /><a id="Price1_btnGo2" class="fdstockbtn2" href="javascript:__doPostBack(&#39;ctl00$Price1$btnGo2&#39;,&#39;&#39;)">&nbsp;</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        setupFindStock($("#Price1_tbxStock2"), 'ctl00$Price1$btnGo2', '');
+    });
+ </script>
+
+ 
+                </div>
+            </div>
+        </div>
+
+        <div class="index-main">
+            <div class="mp-main-left">
+        
+    <ul class="tab-three mt10 mb10">
+    <li id="tab_a1" onclick='goToPage("三大法人")'><a title="三大法人">三大法人</a></li>
+    <li id="tab_a2" onclick='goToPage("融資融券")'><a title="融資融券">融資融券</a></li>
+    <li id="tab_a3" onclick='goToPage("八大官股")'><a title="八大官股">八大官股</a></li>
+    <li id="tab_a4" onclick='goToPage("籌碼集中度")'><a title="籌碼集中度">籌碼集中度</a></li>
+    <li id="tab_a5" onclick='goToPage("籌碼分析")'><a title="籌碼分析">籌碼分析</a></li>
+    <li id="tab_a6" onclick='goToPage("券商分點買賣")'><a title="券商分點買賣">券商分點買賣</a></li>
+    <li id="tab_a7" onclick='goToPage("券商分點績效")' class="act"><a title="券商分點績效">券商分點績效</a></li>
+    <li id="tab_a8" onclick='goToPage("股權分散表")'><a title="股權分散表">股權分散表</a></li>
+</ul>
+
+<div class="grid-item w100p">
+    <div class="grid-hdr handle">
+        <div class="ctmark ctmark1"></div>
+        <div class="ctname">微星 (2377)籌碼相關－群益金鼎-西松 券商分點個股進出</div>
+    </div>
+    <div class="grid-body">
+        <div class="description">
+            <h5>券商分點績效/獲利分析</h5>
+            <p>透過統計各券商分點在長期買賣某個股的操作績效，來找出真正獲利的贏家所在券商分點，進而追蹤此贏家所操作的股票與軌跡。</p>
+            <p class="link">
+                股票投資新手教室：<a title="股票投資新手教室：主力進出籌碼分析圖，一秒知道是否上對大戶列車" href="/histock1688/14">一秒知道是否上對大戶列車</a>
+            </p>
+        </div>
+
+        <div id="jChart1" style="WIDTH: 780px;HEIGHT:668px;"></div>
+        <div id="info1" style="position:absolute;z-index:1;margin-top:-635px;text-align:center;font-size:15px;margin-left:20px;"></div>
+        <div id="info2" style="position:absolute;z-index:1;margin-top:-335px;text-align:center;font-size:15px;margin-left:15px;"></div>
+        <div id="info3" style="position:absolute;z-index:1;margin-top:-235px;text-align:center;font-size:15px;margin-left:10px;"></div>
+<script>
+    $(document).ready(function () {
+        loadSeriesData1(true);
+    });
+
+    var options, chart;
+    function initalChart1(chartName) {
+
+        options = {
+            chart: {
+                renderTo: chartName,
+                plotBorderWidth: 2,
+                alignTicks: false,
+                animation: false,
+                plotBorderColor: '#2D2D2D',
+                panning: false
+            },
+            credits: {
+                enabled: false
+            },
+            legend: {
+                enabled: false
+            },
+            scrollbar: {
+                enabled: false
+            },
+            rangeSelector: {
+                buttons: [{ type: "day", count: 60, text: "60d" }, { type: "day", count: 180, text: "90d" }, { type: "all", text: "All" }],
+                selected: 0,
+                enabled: true,
+                inputEnabled: false
+            },
+            navigator: {
+                enabled: true
+            },
+            exporting: {
+                enabled: false
+            },
+            title: {
+                text: '券商分點個股進出',
+                verticalAlign: 'top',
+                y: 13
+            },
+            subtitle: {
+                text: '嗨投資 histock.tw',
+                verticalAlign: 'top',
+                align: 'right',
+                x: -10,
+                y: 15
+            },
+            plotOptions: {
+                candlestick: {
+                    color: '#005500',
+                    lineColor: '#005500',
+                    upColor: '#D52B00',
+                    upLineColor: '#D52B00'
+                },
+                column: {
+                    color: '#FF9900'
+                },
+                line: {
+                    lineWidth: 1,
+                    marker: { states: { hover: { enabled: false } } }
+                }
+            },
+            tooltip: {
+                pointFormat: '',
+                crosshairs: [{
+                    width: 1,
+                    color: '#aaaaaa',
+                    dashStyle: 'LongDash'
+                }],
+                split: false,
+                formatter: function () {
+                    try {
+                        var percent = Highcharts.numberFormat(this.points[5].y, 2);
+                        var symbol = '';
+                        var closeCss = '';
+                        if (percent > 0) { symbol = '▲'; closeCss = 'clr-rd'; }
+                        if (percent < 0) { symbol = '▼'; closeCss = 'clr-gr'; }
+
+                        var p = this.points[6];
+                        var decimal = 2;
+                        if (p.point.low > 999) decimal = 0;
+                        var info1 = '<table class="charttable1" cellpadding="0" cellspacing="0"><tr><td>' + Highcharts.dateFormat('%Y/%m/%d', this.x) +
+                                '</td><td class="name" style="width:35px;">開盤</td><td style="width:60px;">' + Highcharts.numberFormat(p.point.open, decimal) +
+                                '</td><td class="name" style="width:35px;">最高</td><td style="width:60px;">' + Highcharts.numberFormat(p.point.high, decimal) +
+                                '</td><td class="name" style="width:35px;">最低</td><td style="width:60px;">' + Highcharts.numberFormat(p.point.low, decimal) +
+                                '</td><td class="name" style="width:35px;">收盤</td><td style="width:60px;">' + Highcharts.numberFormat(p.point.close, decimal) +
+                                '</td><td class="d5" style="width:35px;">5日</td><td style="width:60px;">' + Highcharts.numberFormat(this.points[1].y, 1) +
+                                '</td><td class="d10" style="width:35px;">10日</td><td style="width:60px;">' + Highcharts.numberFormat(this.points[2].y, 1) +
+                                '</td><td class="d20" style="width:35px;">20日</td><td style="width:60px;">' + Highcharts.numberFormat(this.points[3].y, 1) +
+                                '</td></tr></table>';
+                        $('#info1').html(info1);
+
+                        var info2 = '<table class="charttable1" cellpadding="0" cellspacing="0"><tr>' +
+                                '<td class="volume title" style="width:70px;">成交量</td><td class="value" style="width:70px;">' + Highcharts.numberFormat(this.points[7].y, 0) +
+                                '</td><td class="k9 title" style="width:70px;">MV5</td><td class="k9 value" style="width:70px;">' + Highcharts.numberFormat(this.points[8].y, 0) +
+                                '</td><td class="d9 title" style="width:70px;">MV20</td><td class="d9 value" style="width:70px;">' + Highcharts.numberFormat(this.points[9].y, 0) +
+                                '</td></tr></table>';
+                        $('#info2').html(info2);
+
+                        var BS = '--';
+                        var cssBS = '';
+                        if (this.points[10] && this.points[10].y) {
+                            BS = Highcharts.numberFormat(this.points[10].y, 0);
+
+                            if (this.points[10].y > 0) {
+                                cssBS = 'clr-rd';
+                            } else if (this.points[10].y < 0) {
+                                cssBS = 'clr-gr';
+                            }
+                        }
+                        var info3 = '<table class="charttable1" cellpadding="0" cellspacing="0"><tr>' +
+                                '<td class="volume title" style="width:70px;">買賣超</td><td class="value ' + cssBS + '" style="width:70px;">' + BS +
+                                '</td></tr></table>';
+                        $('#info3').html(info3);
+                        return false;
+                    } catch (e) {
+                        var p = '';
+                        if (this.point) {
+                            console.log(this.point);
+                            p += '<b style="color:#000;">' + Highcharts.dateFormat('%Y/%m/%d', this.x) + '</b><br/>' + this.point.text;
+                        }
+                        return p;
+                    }
+                }
+            },
+            xAxis: {
+                tickPixelInterval: 150,
+                type: 'datetime',
+                width: 750,
+                labels: {
+                    formatter: function () {
+                        return Highcharts.dateFormat('%m/%d', this.value);
+                    }
+                }
+            },
+            yAxis: [{
+                height: 300,
+                gridLineWidth: 1
+            }, {
+                top: 335,
+                height: 100,
+                gridLineWidth: 1,
+                labels: { enabled: false },
+                title: { margin: -65, text: '', rotation: 0, align: 'high', y: 15, x: -25 }
+            }, {
+                top: 435,
+                height: 150,
+                gridLineWidth: 1,
+                labels: { enabled: false },
+                title: { margin: -65, text: '', rotation: 0, align: 'high', y: 15, x: -25 }
+            }, {
+                top: 535,
+                height: 0,
+                gridLineWidth: 0,
+                labels: { enabled: false },
+                title: { margin: -65, text: '', rotation: 0, align: 'high', y: 15, x: -25 }
+            }],
+            series: [{
+                name: '收盤價', color: '#ffffff', dataGrouping: { enabled: false }
+            }, {
+                name: '5MA', color: 'red'
+            }, {
+                name: '10MA', color: 'blue'
+            }, {
+                name: '20MA', color: 'green'
+            }, {
+                name: '60MA',
+                yAxis: 3
+            }, {
+                name: 'Percent',
+                yAxis: 3
+            }, {
+                type: 'candlestick',
+                name: '日K',
+                id: 'a'
+            }, {
+                type: 'column',
+                name: '成交量',
+                yAxis: 1
+            }, {
+                name: 'MV5', color: 'blue',
+                yAxis: 1
+            }, {
+                name: 'MV20', color: 'red',
+                yAxis: 1
+            }, {
+                name: '買賣超', type: 'column', color: 'red', negativeColor: 'green', dataGrouping: { enabled: false }, yAxis: 2
+            }, {
+                type: 'flags',
+                onSeries: 'a',
+                y: 50,
+                shape: 'squarepin', zIndex: -1
+            }]
+        }
+    }
+
+    function loadSeriesData1(isNew) {
+        var chartName = 'jChart1';
+        initalChart1(chartName);
+
+        $.ajax({
+            url: '/stock/chip/chartdata.aspx', type: 'get', dataType: "json",
+            data: { days: "270", m: 'dailyk,close,percent,volume,mean5,mean10,mean20,mean60,mean120,mean240,mean5volume,mean20volume', no: '2377', bno: '9136' },
+            complete: function () { $('#dayKLoadingIMG').hide(); },
+            error: function (err) {
+                console.log(err);
+            },
+            success: function (data1) {
+                //console.log(eval(data1['Percent']));
+                options.series[0].data = eval(data1['Close']);
+                options.series[1].data = eval(data1['Mean5']);
+                options.series[2].data = eval(data1['Mean10']);
+                options.series[3].data = eval(data1['Mean20']);
+                options.series[4].data = eval(data1['Mean60']);
+                options.series[5].data = eval(data1['Percent']);
+                options.series[6].data = eval(data1['DailyK']);
+                options.series[7].data = eval(data1['Volume']);
+                options.series[8].data = eval(data1['Mean5Volume']);
+                options.series[9].data = eval(data1['Mean20Volume']);
+                options.series[10].data = eval(data1['BS']);
+                options.series[11].data = eval(data1['Flag']);
+                chart = new Highcharts.StockChart(options);
+            }
+        });
+    }
+
+    </script>
+    </div>
+
+    <div class="grid-body">
+        <h3 class="seoh3">群益金鼎-西松 券商分點個股進出</h3>
+        <div>
+	<table class="tbTable tb-stock tbChip" cellspacing="2" id="CPHB1_bt1_gBuy">
+		<tr>
+			<th class="alt w85 w1" scope="col">日期</th><th class="alt w67 w1" scope="col">買進張數</th><th class="alt w67 w1" scope="col">買進均價</th><th class="alt w67 w1" scope="col">賣出張數</th><th class="alt w67 w1" scope="col">賣出均價</th><th class="alt w67 w1" scope="col">收盤價</th><th class="alt w67 w1" scope="col">買賣超</th><th class="alt2 w67 w1" scope="col">成交量</th><th class="alt w67 w1" scope="col">成交佔比</th><th class="alt w120 w1" scope="col"> 
+        
+        <b>大量交易提示</b>
+    </th>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/05/04</td><td>268</td><td>97.60</td><td>10</td><td>97.88</td><td>97.40</td><td>258</td><td>6,417</td><td>4.02 %</td><td> 
+        大買/鉅額交易
+    </td>
+		</tr><tr align="center">
+			<td>2018/05/03</td><td>104</td><td>97.98</td><td>4</td><td>96.93</td><td>97.00</td><td>100</td><td>10,021</td><td>1.00 %</td><td> 
+        大買/
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/04/27</td><td>6</td><td>91.75</td><td>5</td><td>91.92</td><td>93.60</td><td>1</td><td>4,933</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/04/26</td><td>0</td><td>0.00</td><td>3</td><td>89.97</td><td>90.20</td><td>-3</td><td>9,183</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/04/25</td><td>2</td><td>89.30</td><td>6</td><td>89.20</td><td>88.90</td><td>-4</td><td>7,422</td><td>-0.05 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/04/24</td><td>1</td><td>93.80</td><td>0</td><td>0.00</td><td>92.00</td><td>1</td><td>6,091</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/04/23</td><td>4</td><td>95.40</td><td>3</td><td>95.97</td><td>96.00</td><td>1</td><td>3,632</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/04/18</td><td>1</td><td>94.00</td><td>0</td><td>0.00</td><td>94.00</td><td>1</td><td>6,325</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/04/16</td><td>1</td><td>97.40</td><td>1</td><td>95.80</td><td>95.80</td><td>0</td><td>8,082</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/04/13</td><td>2</td><td>102.00</td><td>15</td><td>101.90</td><td>100.50</td><td>-13</td><td>6,474</td><td>-0.20 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/04/12</td><td>3</td><td>102.00</td><td>4</td><td>100.63</td><td>100.50</td><td>-1</td><td>3,901</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/04/11</td><td>11</td><td>101.08</td><td>1</td><td>100.50</td><td>100.50</td><td>10</td><td>9,895</td><td>0.10 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/04/10</td><td>2</td><td>99.35</td><td>4</td><td>99.45</td><td>98.60</td><td>-2</td><td>10,250</td><td>-0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/04/09</td><td>2</td><td>101.75</td><td>3</td><td>100.77</td><td>99.30</td><td>-1</td><td>14,761</td><td>-0.01 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/04/03</td><td>0</td><td>0.00</td><td>3</td><td>100.83</td><td>101.50</td><td>-3</td><td>9,386</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/04/02</td><td>3</td><td>101.30</td><td>5</td><td>101.22</td><td>101.50</td><td>-2</td><td>31,383</td><td>-0.01 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/03/30</td><td>1</td><td>95.50</td><td>0</td><td>0.00</td><td>95.60</td><td>1</td><td>15,678</td><td>0.01 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/03/29</td><td>7</td><td>99.03</td><td>2</td><td>98.00</td><td>97.70</td><td>5</td><td>8,267</td><td>0.06 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/03/28</td><td>4</td><td>97.40</td><td>0</td><td>0.00</td><td>97.80</td><td>4</td><td>10,231</td><td>0.04 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/03/27</td><td>5</td><td>97.90</td><td>11</td><td>99.45</td><td>98.50</td><td>-6</td><td>17,633</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/03/26</td><td>8</td><td>97.18</td><td>5</td><td>95.26</td><td>97.30</td><td>3</td><td>15,715</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/03/23</td><td>4</td><td>90.23</td><td>2</td><td>90.80</td><td>90.10</td><td>2</td><td>7,937</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/03/22</td><td>22</td><td>94.33</td><td>6</td><td>94.20</td><td>94.50</td><td>16</td><td>11,450</td><td>0.14 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/03/21</td><td>86</td><td>91.96</td><td>2</td><td>92.85</td><td>92.80</td><td>84</td><td>13,196</td><td>0.64 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/03/19</td><td>2</td><td>89.35</td><td>1</td><td>90.30</td><td>89.50</td><td>1</td><td>4,417</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/03/16</td><td>2</td><td>90.70</td><td>2</td><td>91.20</td><td>90.50</td><td>0</td><td>5,491</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/03/15</td><td>0</td><td>0.00</td><td>35</td><td>91.04</td><td>90.80</td><td>-35</td><td>6,382</td><td>-0.55 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/03/13</td><td>2</td><td>90.20</td><td>2</td><td>91.40</td><td>89.30</td><td>0</td><td>6,659</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/03/12</td><td>82</td><td>89.82</td><td>0</td><td>0.00</td><td>90.00</td><td>82</td><td>9,121</td><td>0.90 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/03/09</td><td>0</td><td>0.00</td><td>3</td><td>89.53</td><td>90.10</td><td>-3</td><td>5,380</td><td>-0.06 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/03/08</td><td>19</td><td>92.20</td><td>19</td><td>92.77</td><td>90.10</td><td>0</td><td>17,231</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/03/07</td><td>73</td><td>90.07</td><td>13</td><td>90.03</td><td>90.90</td><td>60</td><td>22,850</td><td>0.26 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/03/06</td><td>110</td><td>87.02</td><td>0</td><td>0.00</td><td>87.20</td><td>110</td><td>4,778</td><td>2.30 %</td><td> 
+        大買/鉅額交易
+    </td>
+		</tr><tr align="center">
+			<td>2018/03/02</td><td>29</td><td>87.42</td><td>3</td><td>88.07</td><td>87.10</td><td>26</td><td>8,202</td><td>0.32 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/03/01</td><td>3</td><td>86.50</td><td>6</td><td>86.78</td><td>89.90</td><td>-3</td><td>14,578</td><td>-0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/02/27</td><td>0</td><td>0.00</td><td>3</td><td>86.70</td><td>85.50</td><td>-3</td><td>8,251</td><td>-0.04 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/02/26</td><td>3</td><td>87.73</td><td>0</td><td>0.00</td><td>87.50</td><td>3</td><td>8,689</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/02/23</td><td>7</td><td>86.36</td><td>5</td><td>86.26</td><td>86.00</td><td>2</td><td>7,987</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/02/22</td><td>5</td><td>86.50</td><td>7</td><td>87.86</td><td>85.00</td><td>-2</td><td>13,621</td><td>-0.01 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/02/21</td><td>7</td><td>88.99</td><td>7</td><td>89.67</td><td>89.20</td><td>0</td><td>14,684</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/02/12</td><td>9</td><td>85.78</td><td>9</td><td>86.16</td><td>85.40</td><td>0</td><td>7,979</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/02/09</td><td>5</td><td>85.80</td><td>0</td><td>0.00</td><td>85.40</td><td>5</td><td>17,735</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/02/07</td><td>6</td><td>89.17</td><td>8</td><td>88.13</td><td>87.40</td><td>-2</td><td>16,832</td><td>-0.01 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/02/06</td><td>24</td><td>83.85</td><td>20</td><td>83.13</td><td>83.90</td><td>4</td><td>17,764</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/02/05</td><td>8</td><td>89.59</td><td>3</td><td>88.63</td><td>89.90</td><td>5</td><td>14,098</td><td>0.04 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/02/02</td><td>5</td><td>94.82</td><td>7</td><td>95.64</td><td>94.60</td><td>-2</td><td>6,924</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/02/01</td><td>7</td><td>97.46</td><td>3</td><td>96.60</td><td>94.70</td><td>4</td><td>13,135</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/01/31</td><td>9</td><td>96.70</td><td>5</td><td>95.38</td><td>96.30</td><td>4</td><td>11,555</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/01/30</td><td>48</td><td>102.23</td><td>35</td><td>104.22</td><td>96.70</td><td>13</td><td>25,859</td><td>0.05 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/01/29</td><td>8</td><td>100.50</td><td>7</td><td>101.87</td><td>104.50</td><td>1</td><td>19,896</td><td>0.01 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/01/26</td><td>0</td><td>0.00</td><td>1</td><td>95.00</td><td>95.40</td><td>-1</td><td>8,116</td><td>-0.01 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/01/25</td><td>5</td><td>94.40</td><td>3</td><td>93.67</td><td>93.40</td><td>2</td><td>9,854</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/01/24</td><td>12</td><td>94.34</td><td>14</td><td>94.80</td><td>92.40</td><td>-2</td><td>22,499</td><td>-0.01 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/01/22</td><td>0</td><td>0.00</td><td>224</td><td>88.58</td><td>89.80</td><td>-224</td><td>7,119</td><td>-3.15 %</td><td> 
+        大賣/鉅額交易
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/01/18</td><td>5</td><td>91.58</td><td>3</td><td>92.40</td><td>89.90</td><td>2</td><td>14,343</td><td>0.01 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/01/17</td><td>8</td><td>92.68</td><td>8</td><td>93.31</td><td>92.30</td><td>0</td><td>15,919</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/01/16</td><td>0</td><td>0.00</td><td>2</td><td>90.80</td><td>89.90</td><td>-2</td><td>11,382</td><td>-0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/01/12</td><td>13</td><td>88.33</td><td>4</td><td>87.98</td><td>87.60</td><td>9</td><td>7,435</td><td>0.12 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/01/11</td><td>2</td><td>89.50</td><td>7</td><td>88.77</td><td>89.60</td><td>-5</td><td>14,121</td><td>-0.04 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/01/10</td><td>0</td><td>0.00</td><td>2</td><td>85.30</td><td>85.10</td><td>-2</td><td>6,996</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/01/09</td><td>1</td><td>88.50</td><td>0</td><td>0.00</td><td>88.10</td><td>1</td><td>5,433</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/01/08</td><td>3</td><td>89.13</td><td>11</td><td>88.19</td><td>88.70</td><td>-8</td><td>10,593</td><td>-0.08 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/01/05</td><td>8</td><td>87.83</td><td>0</td><td>0.00</td><td>88.60</td><td>8</td><td>12,668</td><td>0.06 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/01/04</td><td>1</td><td>86.30</td><td>0</td><td>0.00</td><td>86.20</td><td>1</td><td>15,618</td><td>0.01 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2018/01/03</td><td>32</td><td>83.34</td><td>23</td><td>85.17</td><td>85.00</td><td>9</td><td>28,355</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2018/01/02</td><td>159</td><td>78.57</td><td>10</td><td>79.05</td><td>79.90</td><td>149</td><td>14,191</td><td>1.05 %</td><td> 
+        大買/鉅額交易
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/12/29</td><td>1</td><td>76.60</td><td>24.5</td><td>78.15</td><td>76.60</td><td>-23</td><td>17,128</td><td>-0.14 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/12/28</td><td>6</td><td>74.77</td><td>1</td><td>75.60</td><td>75.60</td><td>5</td><td>4,119</td><td>0.12 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/12/27</td><td>0</td><td>0.00</td><td>4</td><td>74.38</td><td>74.70</td><td>-4</td><td>2,629</td><td>-0.15 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/12/26</td><td>1</td><td>73.00</td><td>0</td><td>0.00</td><td>73.00</td><td>1</td><td>2,293</td><td>0.04 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/12/25</td><td>0</td><td>0.00</td><td>1</td><td>75.50</td><td>75.00</td><td>-1</td><td>2,800</td><td>-0.04 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/12/20</td><td>0</td><td>0.00</td><td>1</td><td>74.80</td><td>75.00</td><td>-1</td><td>3,072</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/12/19</td><td>0</td><td>0.00</td><td>1</td><td>74.30</td><td>74.30</td><td>-1</td><td>4,786</td><td>-0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/12/14</td><td>1</td><td>74.30</td><td>0</td><td>0.00</td><td>73.60</td><td>1</td><td>4,164</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/12/13</td><td>0</td><td>0.00</td><td>1</td><td>74.90</td><td>74.50</td><td>-1</td><td>4,030</td><td>-0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/12/11</td><td>0</td><td>0.00</td><td>1</td><td>72.40</td><td>74.00</td><td>-1</td><td>4,835</td><td>-0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/12/08</td><td>0</td><td>0.00</td><td>1</td><td>69.50</td><td>72.20</td><td>-1</td><td>6,664</td><td>-0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/12/04</td><td>1</td><td>69.60</td><td>0</td><td>0.00</td><td>69.80</td><td>1</td><td>3,791</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/12/01</td><td>2</td><td>71.90</td><td>0</td><td>0.00</td><td>70.90</td><td>2</td><td>6,053</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/11/29</td><td>6</td><td>74.40</td><td>3</td><td>74.80</td><td>74.00</td><td>3</td><td>3,645</td><td>0.08 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/11/24</td><td>2</td><td>75.65</td><td>1</td><td>76.10</td><td>74.90</td><td>1</td><td>6,287</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/11/23</td><td>1</td><td>74.80</td><td>1</td><td>75.40</td><td>75.20</td><td>0</td><td>8,090</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/11/22</td><td>2</td><td>73.70</td><td>1</td><td>74.50</td><td>73.40</td><td>1</td><td>6,572</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/11/21</td><td>0</td><td>0.00</td><td>2</td><td>75.40</td><td>74.60</td><td>-2</td><td>7,896</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/11/16</td><td>2</td><td>73.70</td><td>0</td><td>0.00</td><td>74.00</td><td>2</td><td>5,043</td><td>0.04 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/11/13</td><td>0</td><td>0.00</td><td>10</td><td>73.50</td><td>74.80</td><td>-10</td><td>9,973</td><td>-0.10 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/11/10</td><td>3</td><td>77.53</td><td>0</td><td>0.00</td><td>77.50</td><td>3</td><td>12,587</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/11/09</td><td>8</td><td>77.53</td><td>16</td><td>77.66</td><td>77.50</td><td>-8</td><td>28,245</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/11/08</td><td>4</td><td>75.15</td><td>1</td><td>74.50</td><td>75.10</td><td>3</td><td>9,593</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/11/06</td><td>2</td><td>74.20</td><td>1.2</td><td>73.47</td><td>74.10</td><td>0</td><td>4,854</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/10/31</td><td>1</td><td>72.00</td><td>0</td><td>0.00</td><td>73.50</td><td>1</td><td>5,309</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/10/27</td><td>1</td><td>73.00</td><td>0</td><td>0.00</td><td>71.50</td><td>1</td><td>4,689</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/10/26</td><td>0</td><td>0.00</td><td>5</td><td>73.88</td><td>73.60</td><td>-5</td><td>3,575</td><td>-0.14 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/10/25</td><td>4</td><td>74.25</td><td>8</td><td>74.23</td><td>73.10</td><td>-4</td><td>5,899</td><td>-0.07 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/10/24</td><td>1</td><td>75.50</td><td>1</td><td>76.00</td><td>74.10</td><td>0</td><td>10,622</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/10/23</td><td>6</td><td>74.17</td><td>5</td><td>73.70</td><td>73.80</td><td>1</td><td>8,432</td><td>0.01 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/10/20</td><td>24</td><td>74.85</td><td>12</td><td>75.07</td><td>74.50</td><td>12</td><td>20,718</td><td>0.06 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/10/19</td><td>3</td><td>72.47</td><td>1</td><td>72.70</td><td>72.40</td><td>2</td><td>8,334</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/10/18</td><td>2</td><td>72.75</td><td>9</td><td>70.60</td><td>71.40</td><td>-7</td><td>12,412</td><td>-0.06 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/10/17</td><td>154</td><td>71.58</td><td>17</td><td>71.62</td><td>71.30</td><td>137</td><td>22,828</td><td>0.60 %</td><td> 
+        大買/鉅額交易
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/10/16</td><td>17</td><td>66.99</td><td>13</td><td>67.95</td><td>68.70</td><td>4</td><td>17,863</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/10/12</td><td>2.1</td><td>64.69</td><td>0</td><td>0.00</td><td>64.40</td><td>2</td><td>4,013</td><td>0.05 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/10/05</td><td>0</td><td>0.00</td><td>6</td><td>65.45</td><td>65.80</td><td>-6</td><td>2,827</td><td>-0.21 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/10/02</td><td>2</td><td>65.75</td><td>19</td><td>65.79</td><td>65.80</td><td>-17</td><td>3,254</td><td>-0.52 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/09/30</td><td>1</td><td>65.20</td><td>0</td><td>0.00</td><td>65.60</td><td>1</td><td>1,089</td><td>0.09 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/09/29</td><td>0</td><td>0.00</td><td>1</td><td>66.90</td><td>65.20</td><td>-1</td><td>7,065</td><td>-0.01 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/09/28</td><td>1</td><td>66.60</td><td>5</td><td>66.28</td><td>66.40</td><td>-4</td><td>13,675</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/09/26</td><td>2</td><td>61.45</td><td>0</td><td>0.00</td><td>61.20</td><td>2</td><td>3,639</td><td>0.05 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/09/25</td><td>0</td><td>62.40</td><td>0</td><td>0.00</td><td>62.30</td><td>0</td><td>4,099</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/09/22</td><td>2</td><td>64.40</td><td>1</td><td>64.70</td><td>64.10</td><td>1</td><td>4,435</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/09/20</td><td>1</td><td>65.10</td><td>0</td><td>0.00</td><td>65.60</td><td>1</td><td>3,625</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/09/19</td><td>1</td><td>65.70</td><td>0</td><td>0.00</td><td>65.70</td><td>1</td><td>3,361</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/09/18</td><td>0</td><td>0.00</td><td>1</td><td>67.00</td><td>67.00</td><td>-1</td><td>1,916</td><td>-0.05 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/09/15</td><td>2</td><td>66.15</td><td>0</td><td>0.00</td><td>66.20</td><td>2</td><td>3,170</td><td>0.06 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/09/14</td><td>0</td><td>0.00</td><td>1</td><td>67.20</td><td>66.50</td><td>-1</td><td>2,240</td><td>-0.04 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/09/13</td><td>1</td><td>67.30</td><td>0</td><td>0.00</td><td>67.00</td><td>1</td><td>2,465</td><td>0.04 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/09/11</td><td>0</td><td>0.00</td><td>3</td><td>66.60</td><td>67.00</td><td>-3</td><td>3,677</td><td>-0.08 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/09/07</td><td>1</td><td>66.50</td><td>0</td><td>0.00</td><td>66.70</td><td>1</td><td>3,456</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/09/06</td><td>0</td><td>0.00</td><td>3</td><td>65.40</td><td>65.60</td><td>-3</td><td>7,298</td><td>-0.04 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/09/05</td><td>0</td><td>0.00</td><td>171</td><td>67.18</td><td>66.80</td><td>-171</td><td>7,851</td><td>-2.18 %</td><td> 
+        大賣/鉅額交易
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/08/28</td><td>2</td><td>68.15</td><td>0</td><td>0.00</td><td>68.20</td><td>2</td><td>4,365</td><td>0.05 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/08/25</td><td>1</td><td>69.20</td><td>0</td><td>0.00</td><td>68.80</td><td>1</td><td>3,764</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/08/24</td><td>1</td><td>68.80</td><td>0</td><td>0.00</td><td>68.90</td><td>1</td><td>2,795</td><td>0.04 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/08/22</td><td>1</td><td>69.40</td><td>0</td><td>0.00</td><td>68.90</td><td>1</td><td>4,977</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/08/21</td><td>1</td><td>68.20</td><td>0</td><td>0.00</td><td>68.20</td><td>1</td><td>3,860</td><td>0.03 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/08/18</td><td>0</td><td>69.60</td><td>0</td><td>0.00</td><td>69.30</td><td>0</td><td>5,560</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/08/15</td><td>1</td><td>74.70</td><td>0</td><td>0.00</td><td>74.90</td><td>1</td><td>15,491</td><td>0.01 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/08/14</td><td>1</td><td>75.80</td><td>0.5</td><td>75.60</td><td>75.60</td><td>0</td><td>9,429</td><td>0.01 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/08/10</td><td>0</td><td>0.00</td><td>78</td><td>77.30</td><td>76.90</td><td>-78</td><td>6,963</td><td>-1.12 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/08/08</td><td>1</td><td>80.70</td><td>0</td><td>0.00</td><td>80.70</td><td>1</td><td>7,474</td><td>0.01 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/08/07</td><td>5</td><td>80.04</td><td>0</td><td>0.00</td><td>80.30</td><td>5</td><td>5,493</td><td>0.09 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/08/02</td><td>0</td><td>0.00</td><td>1</td><td>79.80</td><td>79.50</td><td>-1</td><td>3,634</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/08/01</td><td>1</td><td>79.70</td><td>0</td><td>0.00</td><td>79.90</td><td>1</td><td>4,688</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/07/27</td><td>0</td><td>0.00</td><td>1</td><td>79.10</td><td>79.20</td><td>-1</td><td>4,354</td><td>-0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/07/25</td><td>4</td><td>80.23</td><td>1</td><td>80.50</td><td>79.70</td><td>3</td><td>14,122</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/07/18</td><td>0</td><td>0.00</td><td>10</td><td>76.00</td><td>76.10</td><td>-10</td><td>5,510</td><td>-0.18 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/07/17</td><td>10</td><td>76.20</td><td>2</td><td>76.00</td><td>76.00</td><td>8</td><td>8,573</td><td>0.09 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/07/14</td><td>0.1</td><td>77.30</td><td>0</td><td>0.00</td><td>77.40</td><td>0</td><td>10,039</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/07/13</td><td>0.1</td><td>77.10</td><td>33</td><td>77.10</td><td>77.30</td><td>-32</td><td>10,578</td><td>-0.31 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/07/12</td><td>6</td><td>76.77</td><td>16</td><td>77.49</td><td>76.20</td><td>-10</td><td>13,743</td><td>-0.07 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/07/11</td><td>49</td><td>75.33</td><td>8</td><td>75.11</td><td>76.20</td><td>41</td><td>23,580</td><td>0.17 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/07/06</td><td>1</td><td>71.50</td><td>0</td><td>0.00</td><td>71.80</td><td>1</td><td>6,447</td><td>0.02 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/07/05</td><td>1</td><td>71.50</td><td>0</td><td>0.00</td><td>71.50</td><td>1</td><td>7,024</td><td>0.01 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/07/04</td><td>0</td><td>0.00</td><td>103</td><td>70.69</td><td>70.20</td><td>-103</td><td>5,092</td><td>-2.02 %</td><td> 
+        大賣/鉅額交易
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/06/26</td><td>0</td><td>0.00</td><td>1</td><td>71.80</td><td>72.40</td><td>-1</td><td>9,816</td><td>-0.01 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/06/23</td><td>0</td><td>0.00</td><td>1</td><td>70.90</td><td>70.90</td><td>-1</td><td>3,914</td><td>-0.03 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/06/07</td><td>0</td><td>0.00</td><td>1</td><td>70.70</td><td>70.40</td><td>-1</td><td>7,182</td><td>-0.01 %</td><td> 
+        
+    </td>
+		</tr><tr align="center">
+			<td>2017/06/05</td><td>0</td><td>0.00</td><td>5</td><td>71.20</td><td>71.00</td><td>-5</td><td>5,546</td><td>-0.09 %</td><td> 
+        
+    </td>
+		</tr><tr class="alt-row" align="center">
+			<td>2017/06/03</td><td>20</td><td>70.20</td><td>20</td><td>70.70</td><td>70.80</td><td>0</td><td>1,343</td><td>0.00 %</td><td> 
+        
+    </td>
+		</tr>
+	</table>
+</div>
+    </div>
+    
+</div>
+ 
+
+
+
+
+                <div>
+                    
+<div class="grid news">
+    <div class="grid-item w100p mb10"><div class="grid-hdr handle"><div class="ctmark ctmark2"></div><div class="ctname"><b class="title">禾伸堂、微星、聯發科 盤中認購權證熱</b><span class="fromweb">UDN聯合新聞網</span><span class="time">－1天前</span></div></div><div class="grid-body"><div class="newsTag"><ul><li><a href="/stock/0000" target="_blank">加權指數</a></li><li><a href="/stock/1459" target="_blank">聯發</a></li><li><a href="/stock/2377" target="_blank">微星</a></li><li><a href="/stock/2454" target="_blank">聯發科</a></li><li><a href="/stock/3026" target="_blank">禾伸堂</a></li><li><a href="/stock/6204" target="_blank">艾華</a></li><li><a href="/stock/6222" target="_blank">上揚</a></li></ul></div><a href="https://udn.com/news/story/7255/3123045" target="_blank"><div class="newsText mt10">中美持續貿易磋商，加上美國將於美國時間4日公布4月非農就業報告，市場觀望氣氛濃厚，昨夜美股三大指數漲跌不一，外資近期持...中美持續貿易磋商，加上美國將於美國時間4日公布4月非農就業報告，市場觀望氣氛濃厚，昨夜美股三大指數漲跌不一，外資近期持續賣超台股，盤勢偏空，今（4）日加權指數開盤小漲，開在10,516.45點，早盤維持平盤整理。中美貿易戰持續延燒，金融<span class="detail">...詳全文</span><div></div></div></a></div></div><div class="grid-item w100p mb10"><div class="grid-hdr handle"><div class="ctmark ctmark2"></div><div class="ctname"><b class="title">【統一證券晨訊】年線得而復失 謹慎觀望為佳</b><span class="fromweb">YAHOO!奇摩 新聞</span><span class="time">－1天前</span></div></div><div class="grid-body"><div class="newsTag"><ul><li><a href="/stock/1102" target="_blank">亞泥</a></li><li><a href="/stock/1303" target="_blank">南亞</a></li><li><a href="/stock/1459" target="_blank">聯發</a></li><li><a href="/stock/1605" target="_blank">華新</a></li><li><a href="/stock/1609" target="_blank">大亞</a></li><li><a href="/stock/2208" target="_blank">台船</a></li><li><a href="/stock/2317" target="_blank">鴻海</a></li><li><a href="/stock/2323" target="_blank">中環</a></li><li><a href="/stock/2330" target="_blank">台積電</a></li><li><a href="/stock/2337" target="_blank">旺宏</a></li><li><a href="/stock/2344" target="_blank">華邦電</a></li><li><a href="/stock/2353" target="_blank">宏碁</a></li><li><a href="/stock/2377" target="_blank">微星</a></li><li><a href="/stock/2408" target="_blank">南亞科</a></li><li><a href="/stock/2409" target="_blank">友達</a></li><li><a href="/stock/2454" target="_blank">聯發科</a></li><li><a href="/stock/2492" target="_blank">華新科</a></li><li><a href="/stock/2881" target="_blank">富邦金</a></li><li><a href="/stock/2882" target="_blank">國泰金</a></li><li><a href="/stock/2883" target="_blank">開發金</a></li><li><a href="/stock/2885" target="_blank">元大金</a></li><li><a href="/stock/2888" target="_blank">新光金</a></li><li><a href="/stock/3026" target="_blank">禾伸堂</a></li><li><a href="/stock/3708" target="_blank">上緯投控</a></li><li><a href="/stock/5314" target="_blank">世紀</a></li><li><a href="/stock/6141" target="_blank">柏承</a></li><li><a href="/stock/6153" target="_blank">嘉聯益</a></li><li><a href="/stock/6182" target="_blank">合晶</a></li><li><a href="/stock/9958" target="_blank">世紀鋼</a></li></ul></div><a href="https://tw.stock.yahoo.com/news_content/url/d/a/20180504/統-證券晨訊-年線得而復失-謹慎觀望為佳-003247882.html" target="_blank"><div class="newsText mt10">日期：2018年 5月 4日※盤勢分析年線得而復失、謹慎觀望為佳◎昨日盤勢受到美股三大指數及台積電ADR走弱拖累，昨日台股以下跌40點至10578點開出後，盤面賣壓沉重，權值股包括台積電、鴻海、國泰金、富邦金、聯發科等弱勢震盪，使指數一度重挫至最低10509點，年線關卡得而復失，終場再以黑K棒作收。觀察盤面變化，電子、傳產、金融均收黑，分別下跌1.05%、0<span class="detail">...詳全文</span><div></div></div></a></div></div><div class="grid-item w100p mb10"><div class="grid-hdr handle"><div class="ctmark ctmark2"></div><div class="ctname"><b class="title">微星嘉聯益業績夯 法人加持</b><span class="fromweb">中時電子報</span><span class="time">－1天前</span></div></div><div class="grid-body"><div class="newsTag"><ul><li><a href="/stock/2377" target="_blank">微星</a></li><li><a href="/stock/6153" target="_blank">嘉聯益</a></li></ul></div><a href="http://www.chinatimes.com/newspapers/20180504002085-260206" target="_blank"><div class="newsText mt10">　微星（2377）、嘉聯益（6153）兩檔法人買超加持股，周四（3日）帶量大漲行情，微星爆出萬張成交<span class="detail">...詳全文</span><div></div></div></a></div></div>
+</div>
+
+
+
+                </div>
+            </div><div class="mp-main-right">
+                <div class="bRight mt10">
+                    <div class="mb10">
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var adCount = 2;//廣告總數
+        var adIndex = Math.floor((Math.random() * adCount) + 1);//隨機跳第幾個廣告
+        var selectIndex = 0;//指定第幾個廣告, 0為不指定
+
+        //selectIndex = 2;//指定顯示第幾個廣告
+        if (selectIndex > 0) {
+            adIndex = showAD300X250(selectIndex);
+        } else {
+            adIndex = showAD300X250(adIndex);
+            setInterval(function () { adIndex = showAD300X250(adIndex); }, 7000);
+        }
+
+        function showAD300X250(adIndex) {
+            for (i = 1; i <= adCount; i++) {
+                if (i != adIndex) {
+                    $('#ad_stock_rt_300x2501_ad' + i).hide();
+                }
+            }
+            $('#ad_stock_rt_300x2501_ad' + adIndex).show();
+
+            adIndex += 1;
+            if (adIndex > adCount) adIndex = 1;
+            return adIndex;
+        }
+    });
+</script>
+ 
+<div id="ad_stock_rt_300x2501_ad1" style="display:none;">
+<!-- histock_台股個股_300x250_右上v2 -->
+
+ 
+ <a href="https://histock.tw/course/lesson.aspx?id=137" target="_blank">
+    <img alt="(台北) 5/5(六) Cash・外匯智能交易學院" src="https://i.imgur.com/gxiJUkF.jpg" style="width:300px;" />
+</a>
+</div>
+ 
+<div id="ad_stock_rt_300x2501_ad2" style="display:none;">
+ <a href="https://histock.tw/course/lesson.aspx?id=137" target="_blank">
+    <img alt="(台北) 5/5(六) Cash・外匯智能交易學院" src="https://i.imgur.com/gxiJUkF.jpg" style="width:300px;" />
+</a>
+
+    
+</div>
+
+ 
+ </div>
+                    
+<div id='RBlock_7' class="grid-item w280">
+    <div class="grid-hdr handle">
+        <img id="RBlock8_imgMark" class="ctmark" src="https://histock.tw/images/2017e/stock/mark5.png" />
+        <div class="ctname">微星   相關文章 </div>
+
+        <a id="RBlock8_hlLink" href="/blog" target="_blank"><div class="ctmore"></div></a>
+    </div>
+    
+<style>
+    ul.blogstock {list-style: none; width:100%;margin:0px; padding:5px 10px 5px 10px;font-size:12px; }
+    ul.blogstock li {border-bottom: 1px solid #e6e6e6; height:30px; line-height:30px;}
+    ul.blogstock li a {overflow: hidden;text-overflow: ellipsis;white-space:nowrap;display:block;vertical-align: bottom;text-decoration:none;}
+    ul.blogstock li a.blogtitle {width:75%; float:left;color: #56749a;text-align:left;}
+    ul.blogstock li a.blogmember {width:20%;margin-right: 12px; float:right;color:#757575; text-align:left;}
+    ul.blogstock li:last-child {border-bottom: 0px solid #ffffff;}
+</style>
+<div class="div-outline w280"><ul class="blogstock"><li><a title="李思儀的部落格" href="/blog/futures1" class="short blogmember" target="_blank"> - 李思儀</a><a title="按巴菲特理論 看這個數目…台股過熱了 謝金河:土狗年瞄準漲價股！" href="/futures1/105" class="short blogtitle" target="_blank">按巴菲特理論 看這個數目…台股過熱了 謝金河:土狗年瞄準漲價股！</a></li><li><a title="路易斯Lewis的部落格" href="/blog/lewis" class="short blogmember" target="_blank"> - 路易斯Lewis</a><a title="【盤後分享】0103 盤後功課" href="/lewis/107" class="short blogtitle" target="_blank">【盤後分享】0103 盤後功課</a></li><li><a title="路易斯Lewis的部落格" href="/blog/lewis" class="short blogmember" target="_blank"> - 路易斯Lewis</a><a title="【盤後分享】0102 盤後功課" href="/lewis/106" class="short blogtitle" target="_blank">【盤後分享】0102 盤後功課</a></li><li><a title="阿布波的部落格" href="/blog/38" class="short blogmember" target="_blank"> - 阿布波</a><a title="法人元旦佈局(個股、族群)" href="/38/2174" class="short blogtitle" target="_blank">法人元旦佈局(個股、族群)</a></li><li><a title="李思儀的部落格" href="/blog/futures1" class="short blogmember" target="_blank"> - 李思儀</a><a title="4大變數 台股本周壓力重/15檔高殖利率 籌碼強勢" href="/futures1/60" class="short blogtitle" target="_blank">4大變數 台股本周壓力重/15檔高殖利率 籌碼強勢</a></li><li><a title="路易斯Lewis的部落格" href="/blog/lewis" class="short blogmember" target="_blank"> - 路易斯Lewis</a><a title="【盤後分享】1017 盤後功課" href="/lewis/73" class="short blogtitle" target="_blank">【盤後分享】1017 盤後功課</a></li><li><a title="葛雷夫的部落格" href="/blog/runwarrants" class="short blogmember" target="_blank"> - 葛雷夫</a><a title="買權證不怕被吃豆腐？賺最多最重要~" href="/runwarrants/16" class="short blogtitle" target="_blank">買權證不怕被吃豆腐？賺最多最重要~</a></li><li><a title="呂佳霖的部落格" href="/blog/nincys" class="short blogmember" target="_blank"> - 呂佳霖</a><a title="ETF瘋跟上否" href="/nincys/2939" class="short blogtitle" target="_blank">ETF瘋跟上否</a></li><li><a title="呂佳霖的部落格" href="/blog/nincys" class="short blogmember" target="_blank"> - 呂佳霖</a><a title="小心這咖來亂" href="/nincys/2938" class="short blogtitle" target="_blank">小心這咖來亂</a></li></ul></div>
+</div>
+                    
+<div id='RBlock_8' class="grid-item w280">
+    <div class="grid-hdr handle">
+        <img id="RBlock9_imgMark" class="ctmark" src="https://histock.tw/images/2017e/stock/mark5.png" />
+        <div class="ctname">微星   相關影音 </div>
+
+        <a id="RBlock9_hlLink" href="/talk/alltalk.aspx" target="_blank"><div class="ctmore"></div></a>
+    </div>
+    <div class="div-outline w280"><ul class="blogstock"><li><a href="/school/sam.html" class="blogmember" target="_blank;"> - 何毅</a><a title="微星(2377) 月K線起漲" href="/question/detail.aspx?id=212120" class="blogtitle" target="_blank;">微星(2377) 月K線起漲</a></li><li><a href="/school/38.html" class="blogmember" target="_blank;"> - 阿布波</a><a title="微星(2377) 如何判斷停損停利訊號" href="/question/detail.aspx?id=101221" class="blogtitle" target="_blank;">微星(2377) 如何判斷停損停利訊號</a></li><li><a href="/school/20123.html" class="blogmember" target="_blank;"> - 期貨太極流一徐諒諒</a><a title="微星(2377) 續抱是否有希望獲利?" href="/question/detail.aspx?id=99226" class="blogtitle" target="_blank;">微星(2377) 續抱是否有希望獲利?</a></li><li><a href="/school/38.html" class="blogmember" target="_blank;"> - 阿布波</a><a title="微星(2377) 可以放空嗎?" href="/question/detail.aspx?id=98026" class="blogtitle" target="_blank;">微星(2377) 可以放空嗎?</a></li><li><a href="/school/sam.html" class="blogmember" target="_blank;"> - 何毅</a><a title="微星(2377) 停損停利該如何設?" href="/question/detail.aspx?id=97453" class="blogtitle" target="_blank;">微星(2377) 停損停利該如何設?</a></li><li><a href="/school/sam.html" class="blogmember" target="_blank;"> - 何毅</a><a title="微星(2377) 後勢" href="/question/detail.aspx?id=92392" class="blogtitle" target="_blank;">微星(2377) 後勢</a></li><li><a href="/school/20123.html" class="blogmember" target="_blank;"> - 期貨太極流一徐諒諒</a><a title="微星(2377) 還能追嗎?" href="/question/detail.aspx?id=85032" class="blogtitle" target="_blank;">微星(2377) 還能追嗎?</a></li></ul></div>
+</div>
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>
+ 
+        <div class="clear"></div>
+        
+
+<!--頁尾-->
+<div id="footer">
+    <div class="ft-map">
+        <div class="row">
+            <div class="span">
+                <h4>服務總覽</h4>
+                <ul class="foot-link">
+                    <li><a href="/index">即時國際指數</a></li>
+                    <li><a href="/search">智慧選股</a></li>
+                    <li><a href="/market">嗨聖杯</a></li>
+                    <li><a href="/tw">台股大盤</a></li>
+                    <li><a href="/blogger.aspx">部落格</a></li>
+                    <li><a href="/stock/2330">個股分析</a></li>
+                    <li><a href="/school">理財學院</a></li>
+                    <li><a href="/talk/alltalk.aspx">哈拉版</a></li>
+                    <li><a href="/question">嗨問答</a></li>
+                    <li><a href="/eclass.aspx">線上教學課程</a></li>
+                    <li><a href="/mall">購物儲值</a></li>
+                    <li><a href="/mysn">序號儲值</a></li>
+                    <li id="ftIsUseMobile"><a id="footer20171_btnIsUseMobile" href="javascript:__doPostBack(&#39;ctl00$footer20171$btnIsUseMobile&#39;,&#39;&#39;)">切換電腦版</a></li>
+                </ul>
+            </div>
+            <div class="span">
+                <h4>國際個股分類總覽</h4>
+                <ul class="foot-link"> 
+                    <li><a href="/global/marketclassall.aspx">分類</a></li>  
+                    <li><a href="/twstock" title="台灣股市股價/行情/報價查詢">台股股價</a></li>
+                    <li><a href="/usstock" title="美國股市股價/行情/報價查詢">美股股價</a></li>
+                    <li><a href="/szstock" title="大陸股市股價/行情/報價查詢">陸股股價</a></li>
+                    <li><a href="/hkstock" title="香港股市股價/行情/報價查詢">港股股價</a></li>
+                    <li><a href="/jpstock" title="日本股市股價/行情/報價查詢">日股股價</a></li>
+                    <li><a href="/krstock" title="韓國股市股價/行情/報價查詢">韓股股價</a></li>
+                </ul>
+            </div>
+            <div class="span">
+                <h4>即時國際指數</h4>
+                <ul class="foot-link">
+                    <li><a href="/global">國際股市指數</a></li>  
+                    <li><a href="/twindex.aspx">台股總覽</a></li>
+                    <li><a href="/globalchart.aspx?m=tw">台股分類走勢圖</a></li>
+                    <li><a href="/stock/MSCIs.aspx">MSCI指數</a></li>
+                    <li><a href="/globalfocus.aspx">重點股市即時走勢圖</a></li>
+                    <li><a href="/holiday.aspx">全球股市休市日</a></li>
+                </ul>
+                <h4>台股資訊</h4>
+                <ul class="foot-link">
+                    <li><a href="/tw">台股大盤</a></li>
+                    <li><a href="/stock/3008">台股排行</a></li>
+                    <li><a href="/stock/rank.aspx?t=dt">現股當沖</a></li>
+                    <li><a href="/stock/three.aspx">三大法人</a></li>
+                    <li><a href="/stock/three.aspx?m=mg">融資融券</a></li>
+                    <li><a href="/stock/indicator.aspx">騰落線</a></li>
+                    <li><a href="/stock/optionprice.aspx">臺指選擇權</a></li>
+                    <li><a href="/stock/public.aspx">抽籤申購</a></li>
+                    <li><a href="/stock/dividend.aspx">除權除息表</a></li>
+                </ul>
+            </div>
+            <div class="span">
+            <h4>智慧選股系統</h4>
+            <ul class="foot-link">
+            <li><a href="/search">智慧選股工具</a></li>
+            <li><a href="/app/table.aspx">即時優質選股</a></li>
+            <li><a href="/app/notice.aspx">進出場通知</a></li>
+            <li><a href="/app/profit.aspx">績效回溯分析</a></li>
+            </ul>
+            <h4>個股分析</h4>
+            <ul class="foot-link">
+            <li><a href="/stock/2330">台積電</a></li>
+            <li><a href="/stock/3008">大立光</a></li>
+            <li><a href="/stock/2317">鴻海</a></li>
+            <li><a href="/stock/0050">台灣50</a></li>
+            </ul>
+            </div>
+            <div class="span">
+                <h4>理財達人部落格</h4>
+                <ul class="foot-link">
+                    <li><a href="/blog/sam">何毅里長伯</a></li>
+                    <li><a href="/blog/purplekiller">紫殺</a></li>
+                    <li><a href="/blog/38">阿布波</a></li>
+                    <li><a href="/blog/Leoking">Leo柏凡</a></li>
+                    <li><a href="/blog/nincys">呂佳霖</a></li>
+                    <li><a href="/blog/maigyuba/">名諭爸</a></li>
+                    <li><a href="/blog/makemoney">小夫</a></li>
+                    <li><a href="/blog/austin">奧丁團隊</a></li>
+                    <li><a href="/blog/article.aspx?m=offical">嗨投資專欄</a></li>
+                    <li><a href="/blog/hifresh">嗨新奇</a></li>
+                </ul>
+            </div>
+            <div class="span2">
+                <h4>理財學院</h4>
+                <ul class="foot-link">
+                    <li><a href="/school/index.aspx?c=1">何毅的實戰控盤轉折術</a></li>
+                    <li><a href="/school/index.aspx?c=2">紫殺的天譴部隊</a></li>
+                    <li><a href="/school/index.aspx?c=4">俠客盟-多空戰技研究院</a></li>
+                    <li><a href="/school/index.aspx?c=7">箱波均控盤戰法</a></li>
+                    <li><a href="/school/index.aspx?c=12">名諭爸股票.權證.實戰夢想室</a></li>
+                    <li><a href="/school/index.aspx?c=14">外匯智能交易學院</a></li>
+                    <li><a href="/school/index.aspx?c=15">奔跑吧權證</a></li>
+                    
+                    
+                </ul>
+                <h4>網站資源</h4>
+                <ul class="foot-link">
+                    <li><a href="https://www.facebook.com/histock.fans">FaceBook官方粉絲團</a></li>
+                    <li><a href="https://plus.google.com/+HistockTw/posts">Google+官方粉絲團</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC7OFNL9vONhOqutrC5D9i9Q">YouTube頻道</a></li>
+                    <li><a href="/help.aspx">使用說明</a></li>
+                    <li><a href="/member/messages.aspx?m=post&no=1">建議與問題回報</a></li>
+                </ul>
+            </div>
+        </div><span class="clearfix"></span>
+    </div>
+    <div class="com-info">
+        <ul>
+            <li class="w-mod2"><a href="https://www.facebook.com/histock.fans">經營團隊：HiStock, Inc.</a></li>
+            <li class="w-mod2"><a href="/term.aspx" rel="nofollow">服務條款與隱私權政策</a></li>
+            <li class="flt-r">© 2013 HiStock, Inc. 嗨投資理財分享社群</li>
+        </ul>
+    </div>
+</div>
+<div class="ad-btm-fix">
+    
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+    googletag.cmd.push(function () {
+        googletag.defineSlot('/307474035/histock_全站上方_320x50', [320, 50], 'div-gpt-ad-1495786018561-0').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs();
+        googletag.enableServices();
+    });
+</script>
+
+
+<!-- /307474035/histock_全站上方_320x50 -->
+<div id='div-gpt-ad-1495786018561-0' style='height:50px; width:320px;margin: 0 auto;'>
+<script>
+    googletag.cmd.push(function () { googletag.display('div-gpt-ad-1495786018561-0'); });
+</script>
+</div>
+</div>
+<iframe src ="/autorefresh.aspx" height="0" width="0" style="display:none;"></iframe>
+<div id="divWebCss" style="display:none;"> </div>
+<div id="systemDay" style="display:none;">2018-05-06 01:41:18</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        loadWebCss();
+        checkRefreshPage();
+    });
+
+    //確認是否要重刷網頁
+    function checkRefreshPage() {
+        try{
+            var element = document.getElementById('systemDay');
+            var htmlDay = element.innerText || element.textContent;
+            var systemDay = new Date(htmlDay);
+            if (systemDay instanceof Date) {
+                var ONE_HOUR = 1000 * 60 * 60;  // 1小時的毫秒數
+                var today = new Date();
+
+                var systemDayUTC = DateTimezone(systemDay, 8);
+                var todayUTC = DateTimezone(today, 8);
+                var diffHours = Math.floor((todayUTC - systemDayUTC) / ONE_HOUR);
+
+                //var diffHours = Math.floor((today - systemDay) / ONE_HOUR);
+                //console.log('時間差(小時):' + diffHours);
+                if (diffHours > 24) { location.reload(); }
+            }
+        } catch (e) {
+        }
+    }
+
+    // 新增當地時區的時間物件
+    function DateTimezone(d, offset) {
+        //// 建立現在時間的物件
+        //d = new Date();
+
+        // 取得 UTC time
+        utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+
+        // 新增不同時區的日期資料
+        return new Date(utc + (3600000 * offset));
+    }
+
+    //載入手機版css
+    function loadWebCss() {
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            var isUseDesktop = 'False';
+            if (isUseDesktop == 'True') {
+                $("#cssMobile").attr("href", "");
+            }
+        }
+        else {
+            $('#ftIsUseMobile').hide();
+            //$("#cssMobile").attr("href", "/styles/histock2017mobile.css");
+        }
+    }
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '903145456407456');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=903145456407456&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+    </form>
+</body>
+</html>

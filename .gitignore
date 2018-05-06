@@ -6,3 +6,7 @@ auth/client_secret.json
 __pycache__/define.cpython-35.pyc
 *.pyc
 *.pyc
+*.pyc
+*.pyc
+*.pyc
+*.ipynb

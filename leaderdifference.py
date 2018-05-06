@@ -8,8 +8,11 @@ import re
 import json
 import requests
 import datetime
+from fake_useragent import FakeUserAgent
 
 class LeaderDifference:
+    __ua = FakeUserAgent()
+
     def get_data(self, stock_id, begin, end, test=False):
         if test == True:
             print('Test mode')
@@ -21,9 +24,10 @@ class LeaderDifference:
             end_date = end.strftime('%Y%m%d')
             url = 'https://histock.tw/stock/branch.aspx?no={}&from={}&to={}'.format(str(stock_id), end_date, begin_date) #end date is earlier than begin date
             #print('url:{}'.format(url))
-            r = requests.get(url)
+            r = requests.get(url, headers= {'User-Agent':self.__ua.random})
             r.encoding = 'utf-8'
             l = r.text
+
         soup = BeautifulSoup(l, 'html.parser')
         pattern = re.compile(r'var jsonDatas', re.MULTILINE | re.DOTALL)
         script = soup.find("script", text=pattern)
@@ -39,4 +43,4 @@ class LeaderDifference:
 
 if __name__=='__main__':
     o = LeaderDifference()
-    print(o.get_data('2353', datetime.datetime(2018, 1, 3), datetime.datetime(2018, 4, 9), True))
+    print(o.get_data('2353', datetime.datetime(2018, 4, 30), datetime.datetime(2018, 3, 9), False))

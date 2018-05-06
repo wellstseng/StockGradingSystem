@@ -6,6 +6,7 @@ from datetime import datetime
 from datetime import timedelta
 from leaderdifference import LeaderDifference
 from margintrading import MarginTrading
+from leagalpersontrade import LegalPersonTrading
 import pandas as pd
 import math
 from define import * 
@@ -14,6 +15,7 @@ class StockInfoManager:
     __stock_id = None
     __leader_diff = LeaderDifference()
     __margin_trading = MarginTrading()
+    __legal_person = LegalPersonTrading()
     __leader_diff_cache = {}
     def __init__(self, stock_id, start_date, period):
         self.__stock_id = str(stock_id)
@@ -33,6 +35,8 @@ class StockInfoManager:
         self.init_date(begin, period)
         i = self.__stock.date.index(begin)
         return self.__stock.date[i-period+1]
+
+    def get_legal_person_trade(self, date):
 
     def get_leader_difference(self, begin_date, end_date):
         o = self.__leader_diff.get_data(self.__stock.sid, begin_date, end_date)
