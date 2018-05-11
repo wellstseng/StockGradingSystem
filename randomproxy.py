@@ -2,27 +2,35 @@ from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 import random
-
+import json
+import re
 ua = UserAgent() # From here we generate a random user agent
 proxies = [] # Will contain proxies [ip, port]
 
-# Main function
+
 def get_randome_proxies():
   # Retrieve latest proxies
-  proxies_req = Request('https://www.sslproxies.org/')
+  proxies_req = Request('http://www.gatherproxy.com/proxylist/country/?c=Taiwan')
   proxies_req.add_header('User-Agent', ua.random)
   proxies_doc = urlopen(proxies_req).read().decode('utf8')
 
   soup = BeautifulSoup(proxies_doc, 'html.parser')
-  proxies_table = soup.find(id='proxylisttable')
-
-  # Save proxies in the array
-  for row in proxies_table.tbody.find_all('tr'):
+  proxies_table = soup.find('table', id='tblproxy')
+  proxies_s = proxies_table.find_all('script', type="text/javascript");
+  
+  for row in proxies_s:
+    test = row.string
+    b = test.find('insertPrx(')+10
+    e = test.find('});')+1
+    t = test[b:e]
+    j = json.loads(t)
+    
     proxies.append({
-      'ip':   row.find_all('td')[0].string,
-      'port': row.find_all('td')[1].string
+      'ip' : j["PROXY_IP"],
+      'port' : int('0x{}'.format(j["PROXY_PORT"]),16),
     })
-
+    
+  
   return proxies
 
 def test(proxies):
@@ -51,7 +59,11 @@ def test(proxies):
 
 # Retrieve a random index proxy (we need the index to delete it if not working)
 def random_proxy():
+  if len(proxies) == 0:
+        return -1
   return random.randint(0, len(proxies) - 1)
 
+get_randome_proxies()
+
 if __name__ == '__main__':
-  print(get_randome_proxies())
+  get_randome_proxies()

@@ -7,6 +7,7 @@ from io import open
 from define import Define
 from bs4 import BeautifulSoup
 import pandas as pd
+import time
 ua = FakeUserAgent()
 
 class LeaderTrade():
@@ -17,6 +18,7 @@ class LeaderTrade():
             text = f.read()
             f.close()
         else:
+            time.sleep(3)
             r = requests.get('https://histock.tw/stock/brokertrace.aspx?bno={0}&no={1}'.format(branch_id, stock_id), 
                                 headers = {"User-Agent":ua.random})
             r.encoding = 'utf8'

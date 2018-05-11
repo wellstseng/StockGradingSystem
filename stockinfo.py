@@ -37,9 +37,12 @@ class StockInfoManager:
         return self.__stock.date[i-period+1]
 
     def get_legal_person_trade(self, date):
+        return self.__legal_person.get_legal_person_trade(self.__stock_id, date)
 
     def get_leader_difference(self, begin_date, end_date):
         o = self.__leader_diff.get_data(self.__stock.sid, begin_date, end_date)
+        if o == None:
+            return None
         data = {}       
         train = pd.DataFrame.from_dict(o['Buy'])
         train['BSSum'] = train['BSSum'].str.replace(',', '')
@@ -80,6 +83,9 @@ class StockInfoManager:
     def get_concentrate(self, start_date, days):
         end_date = self.get_date(start_date, days)
         leader_diff = self.get_leader_difference(start_date, end_date)
+        if leader_diff == None:
+            return None, None, None, None, None
+
         b = leader_diff['Buy']['BSSum'].sum() 
         s = leader_diff['Sell']['BSSum'].sum()
         bs = b + s
@@ -104,6 +110,9 @@ class StockInfoManager:
       
         amount , a, b = self.__margin_trading.get_daytrade(self.__stock_id, d)
         
+        if amount == None:
+            return None
+
         i_date = self.get_date_index(date)
         volume =int(self.__stock.capacity[i_date]/1000)
         if volume == 0:

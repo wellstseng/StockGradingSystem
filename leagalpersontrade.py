@@ -11,6 +11,7 @@ from define import *
 from fake_useragent import UserAgent
 from util import Util
 from datetime import datetime
+import time
 class LegalPersonTrading:
     __ua = UserAgent()
     
@@ -36,7 +37,7 @@ class LegalPersonTrading:
 
         #檢查是否需從網路下載資料表
         file_path = self.check_load_legal_person_data(market, date)
-        df =pd.read_csv(file_path, encoding='utf-8', header=0, index_col=0)  
+        df =pd.read_csv(file_path, encoding='utf8', header=0, index_col=0)  
         
         return market, df        
     
@@ -91,6 +92,7 @@ class LegalPersonTrading:
         '''
         使用request下載CSV字串
         '''       
+        time.sleep(3)
         r = requests.post(url, headers = headers)
         r.encoding = encode        
         return r.text

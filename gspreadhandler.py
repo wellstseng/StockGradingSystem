@@ -31,8 +31,8 @@ class GoogleSheetHandler:
 
 if __name__ == "__main__":
     
-    start_date_str = '2018/04/30'
-    stock_id_str = '2377'
+    start_date_str = '2018/05/08'
+    stock_id_str = '3221'
     
     start_date = datetime.strptime(start_date_str, '%Y/%m/%d')
     s = stockinfo.StockInfoManager(stock_id_str, start_date, 120)
@@ -79,9 +79,9 @@ if __name__ == "__main__":
         '=if(V{0}>=Score!$B$32,Score!$C$32, VLOOKUP(V{0},Score!$I$2:$K$8,3,TRUE))'.format(new_cell_row),
         rgz,
         '=if(X{0}>Score!$B$33, Score!$C$33,VLOOKUP(X{0},Score!$M$2:$O$6,3,TRUE))'.format(new_cell_row),
-        "O" if leader1[1] > 0 else "X",
+        None if leader1[0] == None else "O" if leader1[1] > 0 else "X",
         '=if(Z{0}=\"O\", Score!$B$12, 0)'.format(new_cell_row),
-        "O" if legal_person_trade > 0 else "X",
+        None if legal_person_trade == None else "O" if legal_person_trade > 0 else "X",
         '=if(AB{0}=\"O\", Score!$B$11, 0)'.format(new_cell_row),
         None,
         '=if(AD{0}=\"\",\"\", if(AD{0}<>0, Score!$B$10*AD{0}, Score!$B$31))'.format(new_cell_row),

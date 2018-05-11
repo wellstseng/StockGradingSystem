@@ -8,7 +8,7 @@ import csv
 import pandas as pd
 from define import *
 from fake_useragent import UserAgent
-
+import time
 class MarginTrading:
     __ua = UserAgent()
     def get_data(self, data_type:int, stock_id:str, date:str):
@@ -35,23 +35,30 @@ class MarginTrading:
         _, daytrading_df = self.get_data(MarginTradingType.DAYTRADING, stock_id, date)
         if market == MarketType.UNKNOWN:
             return None
+        if not stock_id in margin_df.index.values or not stock_id in daytrading_df.index.values:
+            return (None, None, None)
         short_selling = int(margin_df.at[stock_id, '資券互抵' if market == MarketType.TSE else '資券相抵(張)'])
         day_trading = int(int(daytrading_df.at[stock_id, '當日沖銷交易成交股數'].replace(',',''))/1000) #換算張
 
         return short_selling+day_trading, short_selling, day_trading
 
     def get_rgzratio(self, stock_id:str, date:str):
-        #print(margin_data.at[stock_id, '資券相抵(張)'])
-        market, df = self.get_data(MarginTradingType.MARGIN, stock_id, date)
-        if market == MarketType.UNKNOWN:
-            return None
+        try:
+            #print(margin_data.at[stock_id, '資券相抵(張)'])
+            market, df = self.get_data(MarginTradingType.MARGIN, stock_id, date)
+            if market == MarketType.UNKNOWN:
+                return (None, None, None)
 
-        securities = int(df.at[stock_id, '券今餘' if market == MarketType.TSE else '券餘額'].replace(',',''))
-        financing = int(df.at[stock_id, '資今餘' if market == MarketType.TSE else '資餘額'].replace(',',''))
+            if not stock_id in df.index.values:
+                return (None, None, None)
+            securities = int(df.at[stock_id, '券今餘' if market == MarketType.TSE else '券餘額'].replace(',',''))
+            financing = int(df.at[stock_id, '資今餘' if market == MarketType.TSE else '資餘額'].replace(',',''))
 
-        if financing == 0:
-            return 0
-        return round(securities/financing*100, 2), securities, financing
+            if financing == 0:
+                return (0,securities, financing);
+            return round(securities/financing*100, 2), securities, financing
+        except:
+            return (None, None, None);
 
     def check_load_margin_data(self, market:str, date:str):        
         '''
@@ -148,6 +155,7 @@ class MarginTrading:
         '''
         使用request下載CSV字串
         '''       
+        time.sleep(3)
         r = requests.post(url, headers = headers)
         r.encoding = 'big5'        
         return r.text
@@ -164,5 +172,5 @@ class MarginTrading:
 
 if __name__ == '__main__':
     t = MarginTrading()
-    print(t.get_daytrade('3546', '2018/04/25'))
+    print(t.get_daytrade('8093', '2018/05/07'))
     #t.check_load_daytrading_data(MarketType.OTC, '2018/04/25')
